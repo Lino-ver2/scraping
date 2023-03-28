@@ -1,0 +1,1004 @@
+,task,script,url
+0,Action Recognition,"Action Recognition is a computer vision task that involves recognizing human actions in videos or images. The goal is to classify and categorize the actions being performed in the video or image into a predefined set of action classes.
+In the video domain, it is an open question whether training an action classification network on a sufficiently large dataset, will give a similar boost in performance when applied to a different temporal task or dataset. The challenges of building video datasets has meant that most popular benchmarks for action recognition are small, having on the order of 10k videos.
+Please note some benchmarks may be located in the Action Classification or Video Classification tasks, e.g. Kinetics-400.",https://paperswithcode.com/task/action-recognition-in-videos
+1,Temporal Action Localization,Temporal Action Localization aims to detect activities in the video stream and output beginning and end timestamps. It is closely related to Temporal Action Proposal Generation.,https://paperswithcode.com/task/action-recognition
+2,Object Detection,"Object Detection is a computer vision task in which the goal is to detect and locate objects of interest in an image or video. The task involves identifying the position and boundaries of objects in an image, and classifying the objects into different categories.
+The state-of-the-art methods can be categorized into two main types: one-stage methods and two stage-methods:
+One-stage methods prioritize inference speed, and example models include YOLO, SSD and RetinaNet.
+Two-stage methods prioritize detection accuracy, and example models include Faster R-CNN, Mask R-CNN and Cascade R-CNN.
+The most popular benchmark is the MSCOCO dataset. Models are typically evaluated according to a Mean Average Precision metric.
+( Image credit: Detectron )",https://paperswithcode.com/task/object-detection
+3,Object Tracking,"Object tracking is the task of taking an initial set of object detections, creating a unique ID for each of the initial detections, and then tracking each of the objects as they move around frames in a video, maintaining the ID assignment. State-of-the-art methods involve fusing data from RGB and event-based cameras to produce more reliable object tracking. CNN-based models using only RGB images as input are also effective. The most popular benchmark is OTB. There are several evaluation metrics specific to object tracking, including HOTA, MOTA, IDF1, and Track-mAP.
+( Image credit: Towards-Realtime-MOT )",https://paperswithcode.com/task/object-tracking
+4,Video Understanding,"A crucial task of Video Understanding is to recognise and localise (in space and time) different actions or events appearing in the video.
+Source: Action Detection from a Robot-Car Perspective",https://paperswithcode.com/task/video-understanding
+5,Pose Estimation,"Pose Estimation is a computer vision task where the goal is to detect the position and orientation of a person or an object. Usually, this is done by predicting the location of specific keypoints like hands, head, elbows, etc. in case of Human Pose Estimation.
+A common benchmark for this task is MPII Human Pose
+( Image credit: Real-time 2D Multi-Person Pose Estimation on CPU: Lightweight OpenPose )",https://paperswithcode.com/task/pose-estimation
+6,Video Question Answering,"Video Question Answering (VideoQA) aims to answer natural language questions according to the given videos. Given a video and a question in natural language, the model produces accurate answers according to the content of the video.",https://paperswithcode.com/task/video-question-answering
+7,Video Retrieval,"The objective of video retrieval is as follows: given a text query and a pool of candidate videos, select the video which corresponds to the text query. Typically, the videos are returned as a ranked list of candidates and scored via document retrieval metrics.",https://paperswithcode.com/task/video-retrieval
+8,Multi-Object Tracking,"Multi-Object Tracking is a task in computer vision that involves detecting and tracking multiple objects within a video sequence. The goal is to identify and locate objects of interest in each frame and then associate them across frames to keep track of their movements over time. This task is challenging due to factors such as occlusion, motion blur, and changes in object appearance, and is typically solved using algorithms that integrate object detection and data association techniques.",https://paperswithcode.com/task/multi-object-tracking
+9,Video Captioning,"Video Captioning is a task of automatic captioning a video by understanding the action and event in the video which can help in the retrieval of the video efficiently through text.
+Source: NITS-VC System for VATEX Video Captioning Challenge 2020",https://paperswithcode.com/task/video-captioning
+10,Action Classification,Image source: The Kinetics Human Action Video Dataset,https://paperswithcode.com/task/action-classification
+11,Action Detection,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/action-detection
+12,Semantic Segmentation,"Semantic Segmentation is a computer vision task in which the goal is to categorize each pixel in an image into a class or object. The goal is to produce a dense pixel-wise segmentation map of an image, where each pixel is assigned to a specific class or object. Some example benchmarks for this task are Cityscapes, PASCAL VOC and ADE20K. Models are usually evaluated with the Mean Intersection-Over-Union (Mean IoU) and Pixel Accuracy metrics.
+( Image credit: CSAILVision )",https://paperswithcode.com/task/semantic-segmentation
+13,Question Answering,"Question Answering is the task of answering questions (typically reading comprehension questions), but abstaining when presented with a question that cannot be answered based on the provided context.
+Question answering can be segmented into domain-specific tasks like community question answering and knowledge-base question answering. Popular benchmark datasets for evaluation question answering systems include SQuAD, HotPotQA, bAbI, TriviaQA, WikiQA, and many others. Models for question answering are typically evaluated on metrics like EM and F1. Some recent top performing models are T5 and XLNet.
+( Image credit: SQuAD )",https://paperswithcode.com/task/question-answering
+14,Visual Question Answering (VQA),"Visual Question Answering (VQA) is a task in computer vision that involves answering questions about an image. The goal of VQA is to teach machines to understand the content of an image and answer questions about it in natural language.
+Image Source: visualqa.org",https://paperswithcode.com/task/visual-question-answering
+15,Action Recognition In Videos,"Action Recognition in Videos is a task in computer vision and pattern recognition where the goal is to identify and categorize human actions performed in a video sequence. The task involves analyzing the spatiotemporal dynamics of the actions and mapping them to a predefined set of action classes, such as running, jumping, or swimming.",https://paperswithcode.com/task/action-recognition-in-videos-2
+16,Activity Recognition,"Human Activity Recognition is the problem of identifying events performed by humans given a video input. It is formulated as a binary (or multiclass) classification problem of outputting activity class labels. Activity Recognition is an important problem with many societal applications including smart surveillance, video search/retrieval, intelligent robots, and other monitoring systems.
+Source: Learning Latent Sub-events in Activity Videos Using Temporal Attention Filters",https://paperswithcode.com/task/activity-recognition
+17,Video Prediction,"Video Prediction is the task of predicting future frames given past video frames.
+Gif credit: MAGVIT
+Source: Photo-Realistic Video Prediction on Natural Videos of Largely Changing Frames",https://paperswithcode.com/task/video-prediction
+18,Visual Object Tracking,"Visual Object Tracking is an important research topic in computer vision, image understanding and pattern recognition. Given the initial state (centre location and scale) of a target in the first frame of a video sequence, the aim of Visual Object Tracking is to automatically obtain the states of the object in the subsequent video frames.
+Source: Learning Adaptive Discriminative Correlation Filters via Temporal Consistency Preserving Spatial Feature Selection for Robust Visual Object Tracking",https://paperswithcode.com/task/visual-object-tracking
+19,Skeleton Based Action Recognition,"Skeleton-based Action Recognition is a computer vision task that involves recognizing human actions from a sequence of 3D skeletal joint data captured from sensors such as Microsoft Kinect, Intel RealSense, and wearable devices. The goal of skeleton-based action recognition is to develop algorithms that can understand and classify human actions from skeleton data, which can be used in various applications such as human-computer interaction, sports analysis, and surveillance.
+( Image credit: View Adaptive Neural Networks for High Performance Skeleton-based Human Action Recognition )",https://paperswithcode.com/task/skeleton-based-action-recognition
+20,Speech Recognition,,https://paperswithcode.com/methods/category/speech-recognition
+21,Video Classification,"Video Classification is the task of producing a label that is relevant to the video given its frames. A good video level classifier is one that not only provides accurate frame labels, but also best describes the entire video given the features and the annotations of the various frames in the video. For example, a video might contain a tree in some frame, but the label that is central to the video might be something else (e.g., “hiking”). The granularity of the labels that are needed to describe the frames and the video depends on the task. Typical tasks include assigning one or more global labels to the video, and assigning one or more labels for each frame inside the video.
+Source: Efficient Large Scale Video Classification",https://paperswithcode.com/task/video-classification
+22,Video Object Segmentation,"Video object segmentation is a binary labeling problem aiming to separate foreground object(s) from the background region of a video.
+For leaderboards please refer to the different subtasks.",https://paperswithcode.com/task/video-object-segmentation
+23,Visual Tracking,"Visual Tracking is an essential and actively researched problem in the field of computer vision with various real-world applications such as robotic services, smart surveillance systems, autonomous driving, and human-computer interaction. It refers to the automatic estimation of the trajectory of an arbitrary target object, usually specified by a bounding box in the first frame, as it moves around in subsequent video frames.
+Source: Learning Reinforced Attentional Representation for End-to-End Visual Tracking",https://paperswithcode.com/task/visual-tracking
+24,DeepFake Detection,"DeepFake Detection is the task of detecting fake videos or images that have been generated using deep learning techniques. Deepfakes are created by using machine learning algorithms to manipulate or replace parts of an original video or image, such as the face of a person. The goal of deepfake detection is to identify such manipulations and distinguish them from real videos or images.
+Description source: DeepFakes: a New Threat to Face Recognition? Assessment and Detection
+Image source: DeepFakes: a New Threat to Face Recognition? Assessment and Detection",https://paperswithcode.com/task/deepfake-detection
+25,Person Re-Identification,"Person Re-Identification is a computer vision task in which the goal is to match a person's identity across different cameras or locations in a video or image sequence. It involves detecting and tracking a person and then using features such as appearance, body shape, and clothing to match their identity in different frames. The goal is to associate the same person across multiple non-overlapping camera views in a robust and efficient manner.",https://paperswithcode.com/task/person-re-identification
+26,Facial Expression Recognition (FER),"Facial Expression Recognition (FER) is a computer vision task aimed at identifying and categorizing emotional expressions depicted on a human face. The goal is to automate the process of determining emotions in real-time, by analyzing the various features of a face such as eyebrows, eyes, mouth, and other features, and mapping them to a set of emotions such as anger, fear, surprise, sadness and happiness.
+( Image credit: DeXpression )",https://paperswithcode.com/task/facial-expression-recognition
+27,3D Human Pose Estimation,"3D Human Pose Estimation is a computer vision task that involves estimating the 3D positions and orientations of body joints and bones from 2D images or videos. The goal is to reconstruct the 3D pose of a person in real-time, which can be used in a variety of applications, such as virtual reality, human-computer interaction, and motion analysis.",https://paperswithcode.com/task/3d-human-pose-estimation
+28,Action Segmentation,"Action Segmentation is a challenging problem in high-level video understanding. In its simplest form, Action Segmentation aims to segment a temporally untrimmed video by time and label each segmented part with one of pre-defined action labels. The results of Action Segmentation can be further used as input to various applications, such as video-to-text and action localization.
+Source: TricorNet: A Hybrid Temporal Convolutional and Recurrent Network for Video Action Segmentation",https://paperswithcode.com/task/action-segmentation
+29,Sign Language Recognition,"Sign Language Recognition is a computer vision and natural language processing task that involves automatically recognizing and translating sign language gestures into written or spoken language. The goal of sign language recognition is to develop algorithms that can understand and interpret sign language, enabling people who use sign language as their primary mode of communication to communicate more easily with non-signers.
+( Image credit: Word-level Deep Sign Language Recognition from Video: A New Large-scale Dataset and Methods Comparison )",https://paperswithcode.com/task/sign-language-recognition
+30,Trajectory Prediction,"Trajectory Prediction is the problem of predicting the short-term (1-3 seconds) and long-term (3-5 seconds) spatial coordinates of various road-agents such as cars, buses, pedestrians, rickshaws, and animals, etc. These road-agents have different dynamic behaviors that may correspond to aggressive or conservative driving styles.
+Source: Forecasting Trajectory and Behavior of Road-Agents Using Spectral Clustering in Graph-LSTMs",https://paperswithcode.com/task/trajectory-prediction
+31,Autonomous Driving,"Autonomous driving is the task of driving a vehicle without human conduction.
+Many of the state-of-the-art results can be found at more general task pages such as 3D Object Detection and Semantic Segmentation.
+(Image credit: Exploring the Limitations of Behavior Cloning for Autonomous Driving)",https://paperswithcode.com/task/autonomous-driving
+32,Human-Object Interaction Detection,"Human-Object Interaction (HOI) detection is a task of identifying ""a set of interactions"" in an image, which involves the i) localization of the subject (i.e., humans) and target (i.e., objects) of interaction, and ii) the classification of the interaction labels.",https://paperswithcode.com/task/human-object-interaction-detection
+33,Video Summarization,"Video Summarization aims to generate a short synopsis that summarizes the video content by selecting its most informative and important parts. The produced summary is usually composed of a set of representative video frames (a.k.a. video key-frames), or video fragments (a.k.a. video key-fragments) that have been stitched in chronological order to form a shorter video. The former type of a video summary is known as video storyboard, and the latter type is known as video skim.
+Source: Video Summarization Using Deep Neural Networks: A Survey
+Image credit: iJRASET",https://paperswithcode.com/task/video-summarization
+34,Zero-Shot Learning,"Zero-shot learning (ZSL) is a model's ability to detect classes never seen during training. The condition is that the classes are not known during supervised learning.
+Earlier work in zero-shot learning use attributes in a two-step approach to infer unknown classes. In the computer vision context, more recent advances learn mappings from image feature space to semantic space. Other approaches learn non-linear multimodal embeddings. In the modern NLP context, language models can be evaluated on downstream tasks without fine tuning.
+Benchmark datasets for zero-shot learning include aPY, AwA, and CUB, among others.
+( Image credit: Prototypical Networks for Few shot Learning in PyTorch )
+Further readings:
+Zero-Shot Learning -- A Comprehensive Evaluation of the Good, the Bad and the Ugly
+Zero-Shot Learning in Modern NLP
+Zero-Shot Learning for Text Classification",https://paperswithcode.com/task/zero-shot-learning
+35,Activity Detection,Detecting activities in extended videos.,https://paperswithcode.com/task/activity-detection
+36,Anomaly Detection,"Anomaly Detection is a binary classification identifying unusual or unexpected patterns in a dataset, which deviate significantly from the majority of the data. The goal of anomaly detection is to identify such anomalies, which could represent errors, fraud, or other types of unusual events, and flag them for further investigation.
+[Image source]: GAN-based Anomaly Detection in Imbalance Problems",https://paperswithcode.com/task/anomaly-detection
+37,Instance Segmentation,"Instance Segmentation is a computer vision task that involves identifying and separating individual objects within an image, including detecting the boundaries of each object and assigning a unique label to each object. The goal of instance segmentation is to produce a pixel-wise segmentation map of the image, where each pixel is assigned to a specific object instance.
+Image Credit: Deep Occlusion-Aware Instance Segmentation with Overlapping BiLayers, CVPR'21",https://paperswithcode.com/task/instance-segmentation
+38,Multiple Object Tracking,"Multiple Object Tracking is the problem of automatically identifying multiple objects in a video and representing them as a set of trajectories with high accuracy.
+Source: SOT for MOT",https://paperswithcode.com/task/multiple-object-tracking
+39,Optical Flow Estimation,"Optical Flow Estimation is a computer vision task that involves computing the motion of objects in an image or a video sequence. The goal of optical flow estimation is to determine the movement of pixels or features in the image, which can be used for various applications such as object tracking, motion analysis, and video compression.
+Approaches for optical flow estimation include correlation-based, block-matching, feature tracking, energy-based, and more recently gradient-based.
+Further readings:
+Optical Flow Estimation
+Performance of Optical Flow Techniques
+Definition source: Devon: Deformable Volume Network for Learning Optical Flow
+Image credit: Optical Flow Estimation",https://paperswithcode.com/task/optical-flow-estimation
+40,Video Generation,( Various Video Generation Tasks. Gif credit: MaGViT ),https://paperswithcode.com/task/video-generation
+41,Video Segmentation,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/video-segmentation
+42,3D Action Recognition,Image: Rahmani et al,https://paperswithcode.com/task/3d-human-action-recognition
+43,Ad-hoc video search,"The Ad-hoc search task ended a 3 year cycle from 2016-2018 with a goal to model the end user search use-case, who is searching (using textual sentence queries) for segments of video containing persons, objects, activities, locations, etc. and combinations of the former. While the Internet Archive (IACC.3) dataset was adopted between 2016 to 2018, starting in 2019 a new data collection based on Vimeo Creative Commons (V3C) will be adopted to support the task for at least 3 more years.
+Given the test collection (V3C1 or IACC.3), master shot boundary reference, and set of Ad-hoc queries (approx. 30 queries) released by NIST, return for each query a list of at most 1000 shot IDs from the test collection ranked according to their likelihood of containing the target query.",https://paperswithcode.com/task/ad-hoc-video-search
+44,Audio Classification,"Audio Classification is a machine learning task that involves identifying and tagging audio signals into different classes or categories. The goal of audio classification is to enable machines to automatically recognize and distinguish between different types of audio, such as music, speech, and environmental sounds.",https://paperswithcode.com/task/audio-classification
+45,Depth Estimation,"Depth Estimation is the task of measuring the distance of each pixel relative to the camera. Depth is extracted from either monocular (single) or stereo (multiple views of a scene) images. Traditional methods use multi-view geometry to find the relationship between the images. Newer methods can directly estimate depth by minimizing the regression loss, or by learning to generate a novel view from a sequence. The most popular benchmarks are KITTI and NYUv2. Models are typically evaluated according to a RMS metric.
+Source: DIODE: A Dense Indoor and Outdoor DEpth Dataset",https://paperswithcode.com/task/depth-estimation
+46,Face Anti-Spoofing,"Facial anti-spoofing is the task of preventing false facial verification by using a photo, video, mask or a different substitute for an authorized person’s face. Some examples of attacks:
+Print attack: The attacker uses someone’s photo. The image is printed or displayed on a digital device.
+Replay/video attack: A more sophisticated way to trick the system, which usually requires a looped video of a victim’s face. This approach ensures behaviour and facial movements to look more ‘natural’ compared to holding someone’s photo.
+3D mask attack: During this type of attack, a mask is used as the tool of choice for spoofing. It’s an even more sophisticated attack than playing a face video. In addition to natural facial movements, it enables ways to deceive some extra layers of protection such as depth sensors.
+( Image credit: Learning Generalizable and Identity-Discriminative Representations for Face Anti-Spoofing )",https://paperswithcode.com/task/face-anti-spoofing
+47,Face Recognition,"Facial Recognition is the task of making a positive identification of a face in a photo or video image against a pre-existing database of faces. It begins with detection - distinguishing human faces from other objects in the image - and then works on identification of those detected faces.
+The state of the art tables for this task are contained mainly in the consistent parts of the task : the face verification and face identification tasks.
+( Image credit: Face Verification )",https://paperswithcode.com/task/face-recognition
+48,Multi-Task Learning,"Multi-task learning aims to learn multiple different tasks simultaneously while maximizing performance on one or all of the tasks.
+( Image credit: Cross-stitch Networks for Multi-task Learning )",https://paperswithcode.com/task/multi-task-learning
+49,Self-Supervised Learning,Self-Supervised Learning refers to a category of methods where we learn representations in a self-supervised way (i.e without labels). These methods generally involve a pretext task that is solved to learn a good representation and a loss function to learn with. Below you can find a continuously updating list of self-supervised methods.,https://paperswithcode.com/methods/category/self-supervised-learning
+50,Semi-Supervised Video Object Segmentation,The semi-supervised scenario assumes the user inputs a full mask of the object(s) of interest in the first frame of a video sequence. Methods have to produce the segmentation mask for that object(s) in the subsequent frames.,https://paperswithcode.com/task/semi-supervised-video-object-segmentation
+51,Sign Language Translation,"Given a video containing sign language, the task is to predict the translation into (written) spoken language.
+Image credit: How2Sign",https://paperswithcode.com/task/sign-language-translation
+52,Unsupervised Video Object Segmentation,The unsupervised scenario assumes that the user does not interact with the algorithm to obtain the segmentation masks. Methods should provide a set of object candidates with no overlapping pixels that span through the whole video sequence. This set of objects should contain at least the objects that capture human attention when watching the whole video sequence i.e objects that are more likely to be followed by human gaze.,https://paperswithcode.com/task/unsupervised-video-object-segmentation
+53,Video Object Detection,"Video object detection is the task of detecting objects from a video as opposed to images.
+( Image credit: Learning Motion Priors for Efficient Video Object Detection )",https://paperswithcode.com/task/video-object-detection
+54,Video Object Tracking,Video Object Detection aims to detect targets in videos using both spatial and temporal information. It's usually deeply integrated with tasks such as Object Detection and Object Tracking.,https://paperswithcode.com/task/video-object-tracking
+55,Video Quality Assessment,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/video-quality-assessment
+56,3D Object Detection,"3D Object Detection is a task in computer vision where the goal is to identify and locate objects in a 3D environment based on their shape, location, and orientation. It involves detecting the presence of objects and determining their location in the 3D space in real-time. This task is crucial for applications such as autonomous vehicles, robotics, and augmented reality.
+( Image credit: AVOD )",https://paperswithcode.com/task/3d-object-detection
+57,3D Pose Estimation,"Image credit: GSNet: Joint Vehicle Pose and Shape Reconstruction with Geometrical and Scene-aware Supervision , ECCV'20",https://paperswithcode.com/task/3d-pose-estimation
+58,Action Quality Assessment,Assessing/analyzing/quantifying how well an action was performed.,https://paperswithcode.com/task/action-quality-assessment
+59,Emotion Recognition,"Emotion Recognition is an important area of research to enable effective human-computer interaction. Human emotions can be detected using speech signal, facial expressions, body language, and electroencephalography (EEG). Source: Using Deep Autoencoders for Facial Expression Recognition",https://paperswithcode.com/task/emotion-recognition
+60,Face Detection,"Face Detection is a computer vision task that involves automatically identifying and locating human faces within digital images or videos. It is a fundamental technology that underpins many applications such as face recognition, face tracking, and facial analysis.
+( Image credit: insightface )",https://paperswithcode.com/task/face-detection
+61,Face Swapping,"Face swapping refers to the task of swapping faces between images or in an video, while maintaining the rest of the body and environment context.
+( Image credit: Swapped Face Detection using Deep Learning and Subjective Assessment )",https://paperswithcode.com/task/face-swapping
+62,Hand Gesture Recognition,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/hand-gesture-recognition
+63,Hand Pose Estimation,"Hand pose estimation is the task of finding the joints of the hand from an image or set of video frames.
+( Image credit: Pose-REN )",https://paperswithcode.com/task/hand-pose-estimation
+64,Lipreading,"Lipreading is a process of extracting speech by watching lip movements of a speaker in the absence of sound. Humans lipread all the time without even noticing. It is a big part in communication albeit not as dominant as audio. It is a very helpful skill to learn especially for those who are hard of hearing.
+Deep Lipreading is the process of extracting speech from a video of a silent talking face using deep neural networks. It is also known by few other names: Visual Speech Recognition (VSR), Machine Lipreading, Automatic Lipreading etc.
+The primary methodology involves two stages: i) Extracting visual and temporal features from a sequence of image frames from a silent talking video ii) Processing the sequence of features into units of speech e.g. characters, words, phrases etc. We can find several implementations of this methodology either done in two separate stages or trained end-to-end in one go.",https://paperswithcode.com/task/lipreading
+65,Multimodal Activity Recognition,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/multimodal-activity-recognition
+66,Scene Understanding,"Scene Understanding is something that to understand a scene. For instance, iPhone has function that help eye disabled person to take a photo by discribing what the camera sees. This is an example of Scene Understanding.",https://paperswithcode.com/task/scene-understanding
+67,Video Instance Segmentation,"The goal of video instance segmentation is simultaneous detection, segmentation and tracking of instances in videos. In words, it is the first time that the image instance segmentation problem is extended to the video domain.
+To facilitate research on this new task, a large-scale benchmark called YouTube-VIS, which consists of 2,883 high-resolution YouTube videos, a 40-category label set and 131k high-quality instance masks is built.",https://paperswithcode.com/task/video-instance-segmentation
+68,Zero-Shot Video Retrieval,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/zero-shot-video-retrieval
+69,2D Semantic Segmentation,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/2d-semantic-segmentation
+70,2D object detection,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/2d-object-detection
+71,3D Reconstruction,,https://paperswithcode.com/methods/category/3d-reconstruction
+72,Decision Making,"Decision Making is a complex task that involves analyzing data (of different level of abstraction) from disparate sources and with different levels of certainty, merging the information by weighing in on some data source more than other, and arriving at a conclusion by exploring all possible alternatives.
+Source: Complex Events Recognition under Uncertainty in a Sensor Network",https://paperswithcode.com/task/decision-making
+73,Dense Video Captioning,"Most natural videos contain numerous events. For example, in a video of a “man playing a piano”, the video might also contain “another man dancing” or “a crowd clapping”. The task of dense video captioning involves both detecting and describing events in a video.",https://paperswithcode.com/task/dense-video-captioning
+74,Face Verification,"Face Verification is a machine learning task in computer vision that involves determining whether two facial images belong to the same person or not. The task involves extracting features from the facial images, such as the shape and texture of the face, and then using these features to compare and verify the similarity between the images.
+( Image credit: Pose-Robust Face Recognition via Deep Residual Equivariant Mapping )",https://paperswithcode.com/task/face-verification
+75,Human action generation,"Yan et al. (2019) CSGN:
+""When the dancer is stepping, jumping and spinning on the stage, attentions of all audiences are attracted by the streamof the fluent and graceful movements. Building a model that is capable of dancing is as fascinating a task as appreciating the performance itself. In this paper, we aim to generate long-duration human actions represented as skeleton sequences, e.g. those that cover the entirety of a dance, with hundreds of moves and countless possible combinations.""
+( Image credit: Convolutional Sequence Generation for Skeleton-Based Action Synthesis )",https://paperswithcode.com/task/human-action-generation
+76,Object Localization,"Object Localization is the task of locating an instance of a particular object category in an image, typically by specifying a tightly cropped bounding box centered on the instance. An object proposal specifies a candidate bounding box, and an object proposal is said to be a correct localization if it sufficiently overlaps a human-labeled “ground-truth” bounding box for the given object. In the literature, the “Object Localization” task is to locate one instance of an object category, whereas “object detection” focuses on locating all instances of a category in a given image.
+Source: Fast On-Line Kernel Density Estimation for Active Object Localization",https://paperswithcode.com/task/object-localization
+77,Object Recognition,"Object recognition is a computer vision technique for detecting + classifying objects in images or videos. Since this is a combined task of object detection plus image classification, the state-of-the-art tables are recorded for each component task here and here.
+( Image credit: Tensorflow Object Detection API )",https://paperswithcode.com/task/object-recognition
+78,Online Multi-Object Tracking,"The goal of Online Multi-Object Tracking is to estimate the spatio-temporal trajectories of multiple objects in an online video stream (i.e., the video is provided frame-by-frame), which is a fundamental problem for numerous real-time applications, such as video surveillance, autonomous driving, and robot navigation.
+Source: A Hybrid Data Association Framework for Robust Online Multi-Object Tracking",https://paperswithcode.com/task/online-multi-object-tracking
+79,Spatio-Temporal Action Localization,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/spatio-temporal-action-localization
+80,Speaker Recognition,"Speaker Recognition is the process of identifying or confirming the identity of a person given his speech segments.
+Source: Margin Matters: Towards More Discriminative Deep Neural Network Embeddings for Speaker Recognition",https://paperswithcode.com/task/speaker-recognition
+81,Unsupervised Domain Adaptation,"Unsupervised Domain Adaptation is a learning framework to transfer knowledge learned from source domains with a large number of annotated training examples to target domains with unlabeled data only.
+Source: Domain-Specific Batch Normalization for Unsupervised Domain Adaptation",https://paperswithcode.com/task/unsupervised-domain-adaptation
+82,Video Frame Interpolation,,https://paperswithcode.com/methods/category/video-frame-interpolation
+83,Video Inpainting,"The goal of Video Inpainting is to fill in missing regions of a given video sequence with contents that are both spatially and temporally coherent. Video Inpainting, also known as video completion, has many real-world applications such as undesired object removal and video restoration.
+Source: Deep Flow-Guided Video Inpainting",https://paperswithcode.com/task/video-inpainting
+84,Video Recognition,"Video Recognition is a process of obtaining, processing, and analysing data that it receives from a visual source, specifically video.",https://paperswithcode.com/task/video-recognition
+85,Video Super-Resolution,"Video Super-Resolution is a computer vision task that aims to increase the resolution of a video sequence, typically from lower to higher resolutions. The goal is to generate high-resolution video frames from low-resolution input, improving the overall quality of the video.
+( Image credit: Detail-revealing Deep Video Super-Resolution )",https://paperswithcode.com/task/video-super-resolution
+86,Zero-Shot Action Recognition,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/zero-shot-action-recognition
+87,2D Human Pose Estimation,"What is Human Pose Estimation? Human pose estimation is the process of estimating the configuration of the body (pose) from a single, typically monocular, image. Background. Human pose estimation is one of the key problems in computer vision that has been studied for well over 15 years. The reason for its importance is the abundance of applications that can benefit from such a technology. For example, human pose estimation allows for higher-level reasoning in the context of human-computer interaction and activity recognition; it is also one of the basic building blocks for marker-less motion capture (MoCap) technology. MoCap technology is useful for applications ranging from character animation to clinical analysis of gait pathologies.",https://paperswithcode.com/task/2d-human-pose-estimation
+88,3D Hand Pose Estimation,Image: Zimmerman et l,https://paperswithcode.com/task/3d-hand-pose-estimation
+89,3D Object Tracking,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/3d-object-tracking
+90,Action Anticipation,"Next action anticipation is defined as observing 1, ... , T frames and predicting the action that happens after a gap of T_a seconds. It is important to note that a new action starts after T_a seconds that is not seen in the observed frames. Here T_a=1 second.",https://paperswithcode.com/task/action-anticipation
+91,Action Triplet Recognition,"Recognising action as a triplet of subject verb and object. Example HOI = Human Object Interaction, Surgical IVT = Instrument Verb Target, etc.",https://paperswithcode.com/task/action-triplet-recognition
+92,Action Understanding,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/action-understanding
+93,Anomaly Detection In Surveillance Videos,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/anomaly-detection-in-surveillance-videos
+94,Audio-Visual Speech Recognition,Audio-visual speech recognition is the task of transcribing a paired audio and visual stream into text.,https://paperswithcode.com/task/audio-visual-speech-recognition
+95,Crowd Counting,"Crowd Counting is a task to count people in image. It is mainly used in real-life for automated public monitoring such as surveillance and traffic control. Different from object detection, Crowd Counting aims at recognizing arbitrarily sized targets in various situations including sparse and cluttering scenes at the same time.
+Source: Deep Density-aware Count Regressor",https://paperswithcode.com/task/crowd-counting
+96,Deblurring,"Deblurring is a computer vision task that involves removing the blurring artifacts from images or videos to restore the original, sharp content. Blurring can be caused by various factors such as camera shake, fast motion, and out-of-focus objects, and can result in a loss of detail and quality in the captured images. The goal of deblurring is to produce a clear, high-quality image that accurately represents the original scene.
+( Image credit: Deblurring Face Images using Uncertainty Guided Multi-Stream Semantic Networks )",https://paperswithcode.com/task/deblurring
+97,Disentanglement,"This is an approach to solve a diverse set of tasks in a data efficient manner by disentangling (or isolating ) the underlying structure of the main problem into disjoint parts of its representations. This disentanglement can be done by focussing on the ""transformation"" properties of the world(main problem)",https://paperswithcode.com/task/disentanglement
+98,Domain Adaptation,,https://paperswithcode.com/methods/category/domain-adaptation
+99,Emotion Classification,"Emotion classification, or emotion categorization, is the task of recognising emotions to classify them into the corresponding category. Given an input, classify it as 'neutral or no emotion' or as one, or more, of several given emotions that best represent the mental state of the subject's facial expression, words, and so on. Some example benchmarks include ROCStories, Many Faces of Anger (MFA), and GoEmotions. Models can be evaluated using metrics such as the Concordance Correlation Coefficient (CCC) and the Mean Squared Error (MSE).",https://paperswithcode.com/task/emotion-classification
+100,Emotion Recognition in Conversation,"Given the transcript of a conversation along with speaker information of each constituent utterance, the ERC task aims to identify the emotion of each utterance from several pre-defined emotions. Formally, given the input sequence of N number of utterances [(u1, p1), (u2, p2), . . . , (uN , pN )], where each utterance ui = [ui,1, ui,2, . . . , ui,T ] consists of T words ui,j and spoken by party pi, the task is to predict the emotion label ei of each utterance ui. .",https://paperswithcode.com/task/emotion-recognition-in-conversation
+101,Gesture Recognition,"Gesture Recognition is an active field of research with applications such as automatic recognition of sign language, interaction of humans and robots or for new ways of controlling video games.
+Source: Gesture Recognition in RGB Videos Using Human Body Keypoints and Dynamic Time Warping",https://paperswithcode.com/task/gesture-recognition
+102,Human Detection,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/human-detection
+103,Image Classification,"Image Classification is a fundamental task that attempts to comprehend an entire image as a whole. The goal is to classify the image by assigning it to a specific label. Typically, Image Classification refers to images in which only one object appears and is analyzed. In contrast, object detection involves both classification and localization tasks, and is used to analyze more realistic cases in which multiple objects may exist in an image.
+Source: Metamorphic Testing for Object Detection Systems",https://paperswithcode.com/task/image-classification
+104,Image Generation,"Image Generation (synthesis) is the task of generating new images from an existing dataset.
+Unconditional generation refers to generating samples unconditionally from the dataset, i.e.
+p
+(
+y
+)
+Conditional image generation (subtask) refers to generating samples conditionally from the dataset, based on a label, i.e.
+p
+(
+y
+|
+x
+)
+.
+In this section, you can find state-of-the-art leaderboards for unconditional generation. For conditional generation, and other types of image generations, refer to the subtasks.
+( Image credit: StyleGAN )",https://paperswithcode.com/task/image-generation
+105,Interactive Video Object Segmentation,"The interactive scenario assumes the user gives iterative refinement inputs to the algorithm, in our case in the form of a scribble, to segment the objects of interest. Methods have to produce a segmentation mask for that object in all the frames of a video sequence taking into account all the user interactions.",https://paperswithcode.com/task/interactive-video-object-segmentation
+106,Lane Detection,"Lane Detection is a computer vision task that involves identifying the boundaries of driving lanes in a video or image of a road scene. The goal is to accurately locate and track the lane markings in real-time, even in challenging conditions such as poor lighting, glare, or complex road layouts.
+Lane detection is an important component of advanced driver assistance systems (ADAS) and autonomous vehicles, as it provides information about the road layout and the position of the vehicle within the lane, which is crucial for navigation and safety. The algorithms typically use a combination of computer vision techniques, such as edge detection, color filtering, and Hough transforms, to identify and track the lane markings in a road scene.
+( Image credit: End-to-end Lane Detection )",https://paperswithcode.com/task/lane-detection
+107,Lip Reading,"Lip Reading is a task to infer the speech content in a video by using only the visual information, especially the lip movements. It has many crucial applications in practice, such as assisting audio-based speech recognition, biometric authentication and aiding hearing-impaired people.
+Source: Mutual Information Maximization for Effective Lip Reading",https://paperswithcode.com/task/lip-reading
+108,Moment Retrieval,"Moment retrieval can de defined as the task of ""localizing moments in a video given a user query"".
+Description from: QVHIGHLIGHTS: Detecting Moments and Highlights in Videos via Natural Language Queries
+Image credit: QVHIGHLIGHTS: Detecting Moments and Highlights in Videos via Natural Language Queries",https://paperswithcode.com/task/moment-retrieval
+109,Motion Segmentation,"Motion Segmentation is an essential task in many applications in Computer Vision and Robotics, such as surveillance, action recognition and scene understanding. The classic way to state the problem is the following: given a set of feature points that are tracked through a sequence of images, the goal is to cluster those trajectories according to the different motions they belong to. It is assumed that the scene contains multiple objects that are moving rigidly and independently in 3D-space.
+Source: Robust Motion Segmentation from Pairwise Matches",https://paperswithcode.com/task/motion-segmentation
+110,Novel View Synthesis,"Synthesize a target image with an arbitrary target camera pose from given source images and their camera poses.
+( Image credit: Multi-view to Novel view: Synthesizing novel views with Self-Learned Confidence )",https://paperswithcode.com/task/novel-view-synthesis
+111,Person Search,"Person Search is a task which aims at matching a specific person among a great number of whole scene images.
+Source: Re-ID Driven Localization Refinement for Person Search",https://paperswithcode.com/task/person-search
+112,Pose Tracking,"Pose Tracking is the task of estimating multi-person human poses in videos and assigning unique instance IDs for each keypoint across frames. Accurate estimation of human keypoint-trajectories is useful for human action recognition, human interaction understanding, motion capture and animation.
+Source: LightTrack: A Generic Framework for Online Top-Down Human Pose Tracking",https://paperswithcode.com/task/pose-tracking
+113,Real-Time Object Detection,"Real-Time Object Detection is a computer vision task that involves identifying and locating objects of interest in real-time video sequences with fast inference while maintaining a base level of accuracy.
+This is typically solved using algorithms that combine object detection and tracking techniques to accurately detect and track objects in real-time. They use a combination of feature extraction, object proposal generation, and classification to detect and localize objects of interest.
+( Image credit: CenterNet )",https://paperswithcode.com/task/real-time-object-detection
+114,Self-Supervised Action Recognition,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/self-supervised-action-recognition
+115,Temporal Action Proposal Generation,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/temporal-action-proposal-generation
+116,Video Description,"The goal of automatic Video Description is to tell a story about events happening in a video. While early Video Description methods produced captions for short clips that were manually segmented to contain a single event of interest, more recently dense video captioning has been proposed to both segment distinct events in time and describe them in a series of coherent sentences. This problem is a generalization of dense image region captioning and has many practical applications, such as generating textual summaries for the visually impaired, or detecting and describing important events in surveillance footage.
+Source: Joint Event Detection and Description in Continuous Video Streams",https://paperswithcode.com/task/video-description
+117,Visual Speech Recognition,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/visual-speech-recognition
+118,3D Absolute Human Pose Estimation,"This task aims to solve absolute (camera-centric not root-relative) 3D human pose estimation.
+( Image credit: RootNet )",https://paperswithcode.com/task/3d-absolute-human-pose-estimation
+119,Abnormal Event Detection In Video,"Abnormal Event Detection In Video is a challenging task in computer vision, as the definition of what an abnormal event looks like depends very much on the context. For instance, a car driving by on the street is regarded as a normal event, but if the car enters a pedestrian area, this is regarded as an abnormal event. A person running on a sports court (normal event) versus running outside from a bank (abnormal event) is another example. Although what is considered abnormal depends on the context, we can generally agree that abnormal events should be unexpected events that occur less often than familiar (normal) events
+Source: Unmasking the abnormal events in video
+Image: Ravanbakhsh et al",https://paperswithcode.com/task/abnormal-event-detection-in-video
+120,Autonomous Vehicles,"Autonomous vehicles is the task of making a vehicle that can guide itself without human conduction.
+Many of the state-of-the-art results can be found at more general task pages such as 3D Object Detection and Semantic Segmentation.
+( Image credit: GSNet: Joint Vehicle Pose and Shape Reconstruction with Geometrical and Scene-aware Supervision )",https://paperswithcode.com/task/autonomous-vehicles
+121,Camera shot boundary detection,"The objective of camera shot boundary detection is to find the transitions between the camera shots in a video and classify the type of camera transition. This task is introduced in SoccerNet-v2, where 3 types of transitions are considered (abrupt, logo, smooth).",https://paperswithcode.com/task/camera-shot-boundary-detection
+122,Classification,"Classification is the task of categorizing a set of data into predefined classes or groups. The aim of classification is to train a model to correctly predict the class or group of new, unseen data. The model is trained on a labeled dataset where each instance is assigned a class label. The learning algorithm then builds a mapping between the features of the data and the class labels. This mapping is then used to predict the class label of new, unseen data points. The quality of the prediction is usually evaluated using metrics such as accuracy, precision, and recall.",https://paperswithcode.com/task/classification-1
+123,Dialect Identification,Dialectal Arabic Identification,https://paperswithcode.com/task/dialect-identification
+124,Early Action Prediction,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/early-action-prediction
+125,Face Presentation Attack Detection,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/face-presentation-attack-detection
+126,Facial Action Unit Detection,"Facial action unit detection is the task of detecting action units from a video of a face - for example, lip tightening and cheek raising.
+( Image credit: Self-supervised Representation Learning from Videos for Facial Action Unit Detection )",https://paperswithcode.com/task/facial-action-unit-detection
+127,Facial Emotion Recognition,Emotion Recognition from facial images,https://paperswithcode.com/task/facial-emotion-recognition
+128,Few Shot Action Recognition,"Few-shot (FS) action recognition is a challenging com- puter vision problem, where the task is to classify an unlabelled query video into one of the action categories in the support set having limited samples per action class.",https://paperswithcode.com/task/few-shot-action-recognition
+129,Gait Recognition,( Image credit: GaitSet: Regarding Gait as a Set for Cross-View Gait Recognition ),https://paperswithcode.com/task/gait-recognition
+130,Human Behavior Forecasting,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/human-behavior-forecasting
+131,Human Interaction Recognition,"Human Interaction Recognition (HIR) is a field of study that involves the development of computer algorithms to detect and recognize human interactions in videos, images, or other multimedia content. The goal of HIR is to automatically identify and analyze the social interactions between people, their body language, and facial expressions.",https://paperswithcode.com/task/human-interaction-recognition
+132,Human Pose Forecasting,"Human pose forecasting is the task of detecting and predicting future human poses.
+( Image credit: EgoPose )",https://paperswithcode.com/task/human-pose-forecasting
+133,Image Inpainting,"Image Inpainting is a task of reconstructing missing regions in an image. It is an important problem in computer vision and an essential functionality in many imaging and graphics applications, e.g. object removal, image restoration, manipulation, re-targeting, compositing, and image-based rendering.
+Source: High-Resolution Image Inpainting with Iterative Confidence Feedback and Guided Upsampling
+Image source: High-Resolution Image Inpainting with Iterative Confidence Feedback and Guided Upsampling",https://paperswithcode.com/task/image-inpainting
+134,Medical Image Segmentation,"Medical Image Segmentation is a computer vision task that involves dividing an medical image into multiple segments, where each segment represents a different object or structure of interest in the image. The goal of medical image segmentation is to provide a precise and accurate representation of the objects of interest within the image, typically for the purpose of diagnosis, treatment planning, and quantitative analysis.
+( Image credit: IVD-Net )",https://paperswithcode.com/task/medical-image-segmentation
+135,Monocular Depth Estimation,"Monocular Depth Estimation is the task of estimating the depth value (distance relative to the camera) of each pixel given a single (monocular) RGB image. This challenging task is a key prerequisite for determining scene understanding for applications such as 3D scene reconstruction, autonomous driving, and AR. State-of-the-art methods usually fall into one of two categories: designing a complex network that is powerful enough to directly regress the depth map, or splitting the input into bins or windows to reduce computational complexity. The most popular benchmarks are the KITTI and NYUv2 datasets. Models are typically evaluated using RMSE or absolute relative error.
+Source: Defocus Deblurring Using Dual-Pixel Data",https://paperswithcode.com/task/monocular-depth-estimation
+136,Motion Forecasting,Motion forecasting is the task of predicting the location of a tracked object in the future,https://paperswithcode.com/task/motion-forecasting
+137,Multi-Label Classification,"Multi-Label Classification is the supervised learning problem where an instance may be associated with multiple labels. This is an extension of single-label classification (i.e., multi-class, or binary) where each instance is only associated with a single class label.
+Source: Deep Learning for Multi-label Classification",https://paperswithcode.com/task/multi-label-classification
+138,Multimodal Sentiment Analysis,"Multimodal sentiment analysis is the task of performing sentiment analysis with multiple data sources - e.g. a camera feed of someone's face and their recorded speech.
+( Image credit: ICON: Interactive Conversational Memory Network for Multimodal Emotion Detection )",https://paperswithcode.com/task/multimodal-sentiment-analysis
+139,Multiple Instance Learning,"Multiple Instance Learning is a type of weakly supervised learning algorithm where training data is arranged in bags, where each bag contains a set of instances
+X
+=
+{
+x
+1
+,
+x
+2
+,
+…
+,
+x
+M
+}
+, and there is one single label
+Y
+per bag,
+Y
+∈
+{
+0
+,
+1
+}
+in the case of a binary classification problem. It is assumed that individual labels
+y
+1
+,
+y
+2
+,
+…
+,
+y
+M
+exist for the instances within a bag, but they are unknown during training. In the standard Multiple Instance assumption, a bag is considered negative if all its instances are negative. On the other hand, a bag is positive, if at least one instance in the bag is positive.
+Source: Monte-Carlo Sampling applied to Multiple Instance Learning for Histological Image Classification",https://paperswithcode.com/task/multiple-instance-learning
+140,Natural Language Moment Retrieval,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/natural-language-moment-retrieval
+141,Panoptic Segmentation,"Panoptic Segmentation is a computer vision task that combines semantic segmentation and instance segmentation to provide a comprehensive understanding of the scene. The goal of panoptic segmentation is to segment the image into semantically meaningful parts or regions, while also detecting and distinguishing individual instances of objects within those regions.
+( Image credit: Detectron2 )",https://paperswithcode.com/task/panoptic-segmentation
+142,Pedestrian Detection,"Pedestrian detection is the task of detecting pedestrians from a camera.
+Further state-of-the-art results (e.g. on the KITTI dataset) can be found at 3D Object Detection.
+( Image credit: High-level Semantic Feature Detection: A New Perspective for Pedestrian Detection )",https://paperswithcode.com/task/pedestrian-detection
+143,Pose Prediction,Pose prediction is to predict future poses given a window of previous poses.,https://paperswithcode.com/task/pose-prediction
+144,Quantization,"Quantization is a promising technique to reduce the computation cost of neural network training, which can replace high-cost floating-point numbers (e.g., float32) with low-cost fixed-point numbers (e.g., int8/int16).
+Source: Adaptive Precision Training: Quantify Back Propagation in Neural Networks with Fixed-point Numbers",https://paperswithcode.com/task/quantization
+145,Real-Time Multi-Object Tracking,Online and Real-time Multi-Object Tracking would achieve the real-time speed over 30 frames per second with online approach.,https://paperswithcode.com/task/real-time-multi-object-tracking
+146,Referring Expression Segmentation,"The task aims at labeling the pixels of an image or video that represent an object instance referred by a linguistic expression. In particular, the referring expression (RE) must allow the identification of an individual object in a discourse or scene (the referent). REs unambiguously identify the target instance.",https://paperswithcode.com/task/referring-expression-segmentation
+147,Small Object Detection,"Small Object Detection is a computer vision task that involves detecting and localizing small objects in images or videos. This task is challenging due to the small size and low resolution of the objects, as well as other factors such as occlusion, background clutter, and variations in lighting conditions.
+( Image credit: Feature-Fused SSD )",https://paperswithcode.com/task/small-object-detection
+148,Speech Separation,"The task of extracting all overlapping speech sources in a given mixed speech signal refers to the Speech Separation. Speech Separation is a special scenario of source separation problem, where the focus is only on the overlapping speech signal sources and other interferences such as music or noise signals are not the main concern of the study.
+Source: A Unified Framework for Speech Separation
+Image credit: Speech Separation of A Target Speaker Based on Deep Neural Networks",https://paperswithcode.com/task/speech-separation
+149,Supervised Video Summarization,"Supervised video summarization rely on datasets with human-labeled ground-truth annotations (either in the form of video summaries, as in the case of the SumMe dataset, or in the form of frame-level importance scores, as in the case of the TVSum dataset), based on which they try to discover the underlying criterion for video frame/fragment selection and video summarization.
+Source: Video Summarization Using Deep Neural Networks: A Survey",https://paperswithcode.com/task/supervised-video-summarization
+150,Text to Video Retrieval,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/text-to-video-retrieval
+151,Text-to-Video Generation,This task refers to video generation based on a given sentence or sequence of words.,https://paperswithcode.com/task/text-to-video-generation
+152,Trajectory Forecasting,"Trajectory forecasting is a sequential prediction task, where a forecasting model predicts future trajectories of all moving agents (humans, vehicles, etc.) in a scene, based on their past trajectories and/or the scene context.
+(Illustrative figure from Social NCE: Contrastive Learning of Socially-aware Motion Representations)",https://paperswithcode.com/task/trajectory-forecasting
+153,Unconstrained Lip-synchronization,"Given a video of an arbitrary person, and an arbitrary driving speech, the task is to generate a lip-synced video that matches the given speech.
+This task requires the approach to not be constrained by identity, voice, or language.",https://paperswithcode.com/task/lip-sync
+154,Unsupervised Person Re-Identification,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/unsupervised-person-re-identification
+155,Unsupervised Video Summarization,"Unsupervised video summarization approaches overcome the need for ground-truth data (whose production requires time-demanding and laborious manual annotation procedures), based on learning mechanisms that require only an adequately large collection of original videos for their training. Specifically, the training is based on heuristic rules, like the sparsity, the representativeness, and the diversity of the utilized input features/characteristics.",https://paperswithcode.com/task/unsupervised-video-summarization
+156,Video Anomaly Detection,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/video-anomaly-detection
+157,Video Denoising,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/video-denoising
+158,Video Grounding,"Video grounding is the task of linking spoken language descriptions to specific video segments. In video grounding, the model is given a video and a natural language description, such as a sentence or a caption, and its goal is to identify the specific segment of the video that corresponds to the description. This can involve tasks such as localizing the objects or actions mentioned in the description within the video, or associating a specific time interval with the description.",https://paperswithcode.com/task/video-grounding
+159,Video Reconstruction,Source: Deep-SloMo,https://paperswithcode.com/task/video-reconstruction
+160,Video Salient Object Detection,"Video salient object detection (VSOD) is significantly essential for understanding the underlying mechanism behind HVS during free-viewing in general and instrumental to a wide range of real-world applications, e.g., video segmentation, video captioning, video compression, autonomous driving, robotic interaction, weakly supervised attention. Besides its academic value and practical significance, VSOD presents great difficulties due to the challenges carried by video data (diverse motion patterns, occlusions, blur, large object deformations, etc.) and the inherent complexity of human visual attention behavior (i.e., selective attention allocation, attention shift) during dynamic scenes. Online benchmark: http://dpfan.net/davsod.
+( Image credit: Shifting More Attention to Video Salient Object Detection, CVPR2019-Best Paper Finalist )",https://paperswithcode.com/task/video-salient-object-detection
+161,Video Semantic Segmentation,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/video-semantic-segmentation
+162,Video-Text Retrieval,Video-Text retrieval requires understanding of both video and language together. Therefore it's different to video retrieval task.,https://paperswithcode.com/task/video-text-retrieval
+163,Visual Keyword Spotting,Spot a given query keyword in a silent talking face video,https://paperswithcode.com/task/visual-keyword-spotting
+164,Weakly Supervised Action Localization,"In this task, the training data consists of videos with a list of activities in them without any temporal boundary annotations. However, while testing, given a video, the algorithm should recognize the activities in the video and also provide the start and end time.",https://paperswithcode.com/task/weakly-supervised-action-localization
+165,motion prediction,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/motion-prediction
+166,3D Human Reconstruction,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/3d-human-reconstruction
+167,3D Lane Detection,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/3d-lane-detection
+168,Accented Speech Recognition,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/accented-speech-recognition
+169,Accident Anticipation,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/accident-anticipation
+170,Action Localization,"Action Localization is finding the spatial and temporal co ordinates for an action in a video. An action localization model will identify which frame an action start and ends in video and return the x,y coordinates of an action. Further the co ordinates will change when the object performing action undergoes a displacement.",https://paperswithcode.com/task/action-localization
+171,Action Parsing,"Action parsing is the task of, given a video or still image, assigning each frame or image a label describing the action in that frame or image.",https://paperswithcode.com/task/action-parsing
+172,Action Spotting,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/action-spotting
+173,Action Unit Detection,"Action unit detection is the task of detecting action units from a video - for example, types of facial action units (lip tightening, cheek raising) from a video of a face.
+( Image credit: AU R-CNN )",https://paperswithcode.com/task/action-unit-detection
+174,Active Learning,,https://paperswithcode.com/methods/category/active-learning
+175,Active Speaker Localization,"Active Speaker Localization (ASL) is the process of spatially localizing an active speaker (talker) in an environment using either audio, vision or both.",https://paperswithcode.com/task/active-speaker-localization
+176,Activity Prediction,Predict human activities in videos,https://paperswithcode.com/task/activity-prediction
+177,Activity Recognition In Videos,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/activity-recognition-in-videos
+178,Atomic action recognition,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/atomic-action-recognition
+179,Audio-Visual Synchronization,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/audio-visual-synchronization
+180,Bayesian Inference,Bayesian Inference is a methodology that employs Bayes Rule to estimate parameters (and their full posterior).,https://paperswithcode.com/task/bayesian-inference
+181,Boundary Detection,"Boundary Detection is a vital part of extracting information encoded in images, allowing for the computation of quantities of interest including density, velocity, pressure, etc.
+Source: A Locally Adapting Technique for Boundary Detection using Image Segmentation",https://paperswithcode.com/task/boundary-detection
+182,Class-agnostic Object Detection,Class-agnostic object detection aims to localize objects in images without specifying their categories.,https://paperswithcode.com/task/class-agnostic-object-detection
+183,Copy Detection,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/copy-detection
+184,Denoising,"Denoising is a task in image processing and computer vision that aims to remove or reduce noise from an image. Noise can be introduced into an image due to various reasons, such as camera sensor limitations, lighting conditions, and compression artifacts. The goal of denoising is to recover the original image, which is considered to be noise-free, from a noisy observation.
+( Image credit: Beyond a Gaussian Denoiser )",https://paperswithcode.com/task/denoising
+185,Dialogue Act Classification,"Dialogue act classification is the task of classifying an utterance with respect to the function it serves in a dialogue, i.e. the act the speaker is performing. Dialogue acts are a type of speech acts (for Speech Act Theory, see Austin (1975) and Searle (1969)).",https://paperswithcode.com/task/dialogue-act-classification
+186,Domain Generalization,"The idea of Domain Generalization is to learn from one or multiple training domains, to extract a domain-agnostic model which can be applied to an unseen domain
+Source: Diagram Image Retrieval using Sketch-Based Deep Learning and Transfer Learning",https://paperswithcode.com/task/domain-generalization
+187,Driver Attention Monitoring,"Driver attention monitoring is the task of monitoring the attention of a driver.
+( Image credit: Predicting Driver Attention in Critical Situations )",https://paperswithcode.com/task/driver-attention-monitoring
+188,Egocentric Activity Recognition,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/egocentric-activity-recognition
+189,Event Detection,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/event-detection
+190,Event Segmentation,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/event-segmentation
+191,Face Alignment,"Face alignment is the task of identifying the geometric structure of faces in digital images, and attempting to obtain a canonical alignment of the face based on translation, scale, and rotation.
+( Image credit: 3DDFA_V2 )",https://paperswithcode.com/task/face-alignment
+192,Face Identification,Face identification is the task of matching a given face image to one in an existing database of faces. It is the second part of face recognition (the first part being detection). It is a one-to-many mapping: you have to find an unknown person in a database to find who that person is.,https://paperswithcode.com/task/face-identification
+193,Facial Landmark Detection,"Facial Landmark Detection is a computer vision task that involves detecting and localizing specific points or landmarks on a face, such as the eyes, nose, mouth, and chin. The goal is to accurately identify these landmarks in images or videos of faces in real-time and use them for various applications, such as face recognition, facial expression analysis, and head pose estimation.
+( Image credit: Style Aggregated Network for Facial Landmark Detection )",https://paperswithcode.com/task/facial-landmark-detection
+194,Few Shot Temporal Action Localization,Detect Action using few labeled samples,https://paperswithcode.com/task/few-shot-temporal-action-localization
+195,Few-Shot Learning,"Few-Shot Learning is an example of meta-learning, where a learner is trained on several related tasks, during the meta-training phase, so that it can generalize well to unseen (but related) tasks with just few examples, during the meta-testing phase. An effective approach to the Few-Shot Learning problem is to learn a common representation for various tasks and train task specific classifiers on top of this representation.
+Source: Penalty Method for Inversion-Free Deep Bilevel Optimization",https://paperswithcode.com/task/few-shot-learning
+196,Fine-Grained Action Detection,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/fine-grained-action-detection
+197,Gaze Estimation,"Gaze Estimation is a task to predict where a person is looking at given the person’s full face. The task contains two directions: 3-D gaze vector and 2-D gaze position estimation. 3-D gaze vector estimation is to predict the gaze vector, which is usually used in the automotive safety. 2-D gaze position estimation is to predict the horizontal and vertical coordinates on a 2-D screen, which allows utilizing gaze point to control a cursor for human-machine interaction.
+Source: A Generalized and Robust Method Towards Practical Gaze Estimation on Smart Phone",https://paperswithcode.com/task/gaze-estimation
+198,Generalized Zero Shot skeletal action recognition,Generalized Zero Shot Learning for 3d Skeletal Action Recognition,https://paperswithcode.com/task/generalized-zero-shot-skeletal-action
+199,Genre classification,"Genre classification is the process of grouping objects together based on defined similarities such as shape, pixel, location, or intensity.",https://paperswithcode.com/task/genre-classification
+200,Group Activity Recognition,"Group Activity Recognition is a subset of human activity recognition problem which focuses on the collective behavior of a group of people, resulted from the individual actions of the persons and their interactions. Collective activity recognition is a basic task for automatic human behavior analysis in many areas like surveillance or sports videos.
+Source: A Multi-Stream Convolutional Neural Network Framework for Group Activity Recognition",https://paperswithcode.com/task/group-activity-recognition
+201,Heart rate estimation,RR interval detection and R peak detection from QRS complex,https://paperswithcode.com/task/heart-rate-estimation
+202,Highlight Detection,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/highlight-detection
+203,Homography Estimation,"Homography estimation is a technique used in computer vision and image processing to find the relationship between two images of the same scene, but captured from different viewpoints. It is used to align images, correct for perspective distortions, or perform image stitching. In order to estimate the homography, a set of corresponding points between the two images must be found, and a mathematical model must be fit to these points. There are various algorithms and techniques that can be used to perform homography estimation, including direct methods, RANSAC, and machine learning-based approaches.",https://paperswithcode.com/task/homography-estimation
+204,Image Quality Assessment,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/image-quality-assessment
+205,Image Retrieval,"Image Retrieval is a computer vision task that involves searching for images in a large database that are similar to a given query image. The goal of image retrieval is to enable users to find images that match their interests or needs, based on visual similarity or other criteria.
+( Image credit: DELF )",https://paperswithcode.com/task/image-retrieval
+206,Image Super-Resolution,"Image Super-Resolution is a machine learning task where the goal is to increase the resolution of an image, often by a factor of 4x or more, while maintaining its content and details as much as possible. The end result is a high-resolution version of the original image. This task can be used for various applications such as improving image quality, enhancing visual detail, and increasing the accuracy of computer vision algorithms.",https://paperswithcode.com/task/image-super-resolution
+207,Interactive Segmentation,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/interactive-segmentation
+208,Lip to Speech Synthesis,"Given a silent video of a speaker, generate the corresponding speech that matches the lip movements.",https://paperswithcode.com/task/lip-to-speech-synthesis
+209,Metric Learning,"The goal of Metric Learning is to learn a representation function that maps objects into an embedded space. The distance in the embedded space should preserve the objects’ similarity — similar objects get close and dissimilar objects get far away. Various loss functions have been developed for Metric Learning. For example, the contrastive loss guides the objects from the same class to be mapped to the same point and those from different classes to be mapped to different points whose distances are larger than a margin. Triplet loss is also popular, which requires the distance between the anchor sample and the positive sample to be smaller than the distance between the anchor sample and the negative sample.
+Source: Road Network Metric Learning for Estimated Time of Arrival",https://paperswithcode.com/task/metric-learning
+210,Motion Estimation,"Motion Estimation is used to determine the block-wise or pixel-wise motion vectors between two frames.
+Source: MEMC-Net: Motion Estimation and Motion Compensation Driven Neural Network for Video Interpolation and Enhancement",https://paperswithcode.com/task/motion-estimation
+211,Multi-Hypotheses 3D Human Pose Estimation,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/multi-hypotheses-3d-human-pose-estimation
+212,Multi-Label Learning,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/multi-label-learning
+213,Multi-Object Tracking and Segmentation,"Multiple object tracking and segmentation requires detecting, tracking, and segmenting objects belonging to a set of given classes.
+(Image and definition credit: Prototypical Cross-Attention Networks for Multiple Object Tracking and Segmentation, NeurIPS 2021, Spotlight )",https://paperswithcode.com/task/multi-object-tracking-and-segmentation
+214,Multi-Person Pose Estimation,"Multi-person pose estimation is the task of estimating the pose of multiple people in one frame.
+( Image credit: Human Pose Estimation with TensorFlow )",https://paperswithcode.com/task/multi-person-pose-estimation
+215,Multi-future Trajectory Prediction,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/multi-future-trajectory-prediction
+216,Multi-object discovery,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/multi-object-discovery
+217,Multimodal Deep Learning,"Multimodal deep learning is a type of deep learning that combines information from multiple modalities, such as text, image, audio, and video, to make more accurate and comprehensive predictions. It involves training deep neural networks on data that includes multiple types of information and using the network to make predictions based on this combined data.
+One of the key challenges in multimodal deep learning is how to effectively combine information from multiple modalities. This can be done using a variety of techniques, such as fusing the features extracted from each modality, or using attention mechanisms to weight the contribution of each modality based on its importance for the task at hand.
+Multimodal deep learning has many applications, including image captioning, speech recognition, natural language processing, and autonomous vehicles. By combining information from multiple modalities, multimodal deep learning can improve the accuracy and robustness of models, enabling them to perform better in real-world scenarios where multiple types of information are present.",https://paperswithcode.com/task/multimodal-deep-learning
+218,Multimodal Emotion Recognition,"This is a leaderboard for multimodal emotion recognition on the IEMOCAP dataset. The modality abbreviations are A: Acoustic T: Text V: Visual
+Please include the modality in the bracket after the model name.
+All models must use standard five emotion categories and are evaluated in standard leave-one-session-out (LOSO). See the papers for references.",https://paperswithcode.com/task/multimodal-emotion-recognition
+219,Multiple Object Tracking with Transformer,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/multiple-object-tracking-with-transformer
+220,Multiple People Tracking,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/multiple-people-tracking
+221,Multiview Learning,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/multiview-learning
+222,Music Information Retrieval,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/music-information-retrieval
+223,Natural Language Queries,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/natural-language-queries
+224,Natural Language Visual Grounding,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/natural-language-visual-grounding
+225,Object Counting,"The goal of Object Counting task is to count the number of object instances in a single image or video sequence. It has many real-world applications such as traffic flow monitoring, crowdedness estimation, and product counting.
+Source: Learning to Count Objects with Few Exemplar Annotations",https://paperswithcode.com/task/object-counting
+226,One-Shot 3D Action Recognition,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/one-shot-3d-action-recognition
+227,Online Action Detection,Online action detection is the task of predicting the action as soon as it happens in a streaming video without access to video frames in the future.,https://paperswithcode.com/task/online-action-detection
+228,Open World Object Detection,"Open World Object Detection is a computer vision problem where a model is tasked to: 1) identify objects that have not been introduced to it as `unknown', without explicit supervision to do so, and 2) incrementally learn these identified unknown categories without forgetting previously learned classes, when the corresponding labels are progressively received.",https://paperswithcode.com/task/open-world-object-detection
+229,Partially Relevant Video Retrieval,"In the Partially Relevant Video Retrieval (PRVR) task, an untrimmed video is considered to be partially relevant w.r.t. a given textual query if it contains a moment relevant to the query. PRVR aims to retrieve such partially relevant videos from a large collection of untrimmed videos.",https://paperswithcode.com/task/partially-relevant-video-retrieval
+230,Person Identification,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/person-identification
+231,Pose Retrieval,Retrieval of similar human poses from images or videos,https://paperswithcode.com/task/pose-retrieval
+232,Real-Time Semantic Segmentation,"Semantic Segmentation is a computer vision task that involves assigning a semantic label to each pixel in an image. In Real-Time Semantic Segmentation, the goal is to perform this labeling quickly and accurately in real-time, allowing for the segmentation results to be used for tasks such as object recognition, scene understanding, and autonomous navigation.
+( Image credit: TorchSeg )",https://paperswithcode.com/task/real-time-semantic-segmentation
+233,Robot Navigation,"The fundamental objective of mobile Robot Navigation is to arrive at a goal position without collision. The mobile robot is supposed to be aware of obstacles and move freely in different working scenarios.
+Source: Learning to Navigate from Simulation via Spatial and Semantic Information Synthesis with Noise Model Embedding",https://paperswithcode.com/task/robot-navigation
+234,Robust Object Detection,"A Benchmark for the: Robustness of Object Detection Models to Image Corruptions and Distortions
+To allow fair comparison of robustness enhancing methods all models have to use a standard ResNet50 backbone because performance strongly scales with backbone capacity. If requested an unrestricted category can be added later.
+Benchmark Homepage: https://github.com/bethgelab/robust-detection-benchmark
+Metrics:
+mPC [AP]: Mean Performance under Corruption [measured in AP]
+rPC [%]: Relative Performance under Corruption [measured in %]
+Test sets: Coco: val 2017; Pascal VOC: test 2007; Cityscapes: val;
+( Image credit: Benchmarking Robustness in Object Detection )",https://paperswithcode.com/task/robust-object-detection
+235,Scene Change Detection,"Scene change detection (SCD) refers to the task of localizing changes and identifying change-categories given two scenes. A scene can be either an RGB (+D) image or a 3D reconstruction (point cloud). If the scene is an image, SCD is a form of pixel-level prediction because each pixel in the image is classified according to a category. On the other hand, if the scene is point cloud, SCD is a form of point-level prediction because each point in the cloud is classified according to a category.
+Some example benchmarks for this task are VL-CMU-CD, PCD, and CD2014. Recently, more complicated benchmarks such as ChangeSim, HDMap, and Mallscape are released.
+Models are usually evaluated with the Mean Intersection-Over-Union (Mean IoU), Pixel Accuracy, or F1 metrics.",https://paperswithcode.com/task/scene-change-detection
+236,Scene Text Recognition,See Scene Text Detection for leaderboards in this task.,https://paperswithcode.com/task/scene-text-recognition
+237,Self-supervised Video Retrieval,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/self-supervised-video-retrieval
+238,Semantic Object Interaction Classification,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/semantic-object-interaction-classification
+239,Semi-Supervised Action Detection,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/semi-supervised-action-detection
+240,Sentiment Analysis,"Sentiment Analysis is the task of classifying the polarity of a given text. For instance, a text-based tweet can be categorized into either ""positive"", ""negative"", or ""neutral"". Given the text and accompanying labels, a model can be trained to predict the correct sentiment.
+Sentiment Analysis techniques can be categorized into machine learning approaches, lexicon-based approaches, and even hybrid methods. Some subcategories of research in sentiment analysis include: multimodal sentiment analysis, aspect-based sentiment analysis, fine-grained opinion analysis, language specific sentiment analysis.
+More recently, deep learning techniques, such as RoBERTa and T5, are used to train high-performing sentiment classifiers that are evaluated using metrics like F1, recall, and precision. To evaluate sentiment analysis systems, benchmark datasets like SST, GLUE, and IMDB movie reviews are used.
+Further readings:
+Sentiment Analysis Based on Deep Learning: A Comparative Study",https://paperswithcode.com/task/sentiment-analysis
+241,Skills Assessment,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/skills-assessment
+242,Skills Evaluation,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/skills-evaluation
+243,Speaker Verification,"Speaker verification is the verifying the identity of a person from characteristics of the voice.
+( Image credit: Contrastive-Predictive-Coding-PyTorch )",https://paperswithcode.com/task/speaker-verification
+244,Speech Emotion Recognition,"Speech Emotion Recognition is a task of speech processing and computational paralinguistics that aims to recognize and categorize the emotions expressed in spoken language. The goal is to determine the emotional state of a speaker, such as happiness, anger, sadness, or frustration, from their speech patterns, such as prosody, pitch, and rhythm.
+For multimodal emotion recognition, please upload your result to Multimodal Emotion Recognition on IEMOCAP",https://paperswithcode.com/task/speech-emotion-recognition
+245,Speech Enhancement,Estimate clean speech from a noisy/distorted speech mixture.,https://paperswithcode.com/methods/category/speech-enhancement
+246,Steering Control,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/steering-control
+247,Stereo Matching,"Stereo Matching is one of the core technologies in computer vision, which recovers 3D structures of real world from 2D images. It has been widely used in areas such as autonomous driving, augmented reality and robotics navigation. Given a pair of rectified stereo images, the goal of Stereo Matching is to compute the disparity for each pixel in the reference image, where disparity is defined as the horizontal displacement between a pair of corresponding pixels in the left and right images.
+Source: Adaptive Unimodal Cost Volume Filtering for Deep Stereo Matching",https://paperswithcode.com/task/stereo-matching-1
+248,Surgical Gesture Recognition,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/surgical-gesture-recognition
+249,Surgical tool detection,Presence detection of various classes of surgical instruments in endoscopy videos.,https://paperswithcode.com/task/surgical-tool-detection
+250,Talking Face Generation,"Talking face generation aims to synthesize a sequence of face images that correspond to given speech semantics
+( Image credit: Talking Face Generation by Adversarially Disentangled Audio-Visual Representation )",https://paperswithcode.com/task/talking-face-generation
+251,Text Generation,"Text Generation is the task of generating text with the goal of appearing indistinguishable to human-written text. This task if more formally known as ""natural language generation"" in the literature.
+Text generation can be addressed with Markov processes or deep generative models like LSTMs. Recently, some of the most advanced methods for text generation include BART, GPT and other GAN-based approaches. Text generation systems are evaluated either through human ratings or automatic evaluation metrics like METEOR, ROUGE, and BLEU.
+Further readings:
+The survey: Text generation models in deep learning
+Modern Methods for Text Generation
+( Image credit: Adversarial Ranking for Language Generation )",https://paperswithcode.com/task/text-generation
+252,Text-to-video search,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/text-to-video-search
+253,Thermal Infrared Object Tracking,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/thermal-infrared-object-tracking
+254,Traffic Accident Detection,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/traffic-accident-detection
+255,Unsupervised 3D Human Pose Estimation,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/unsupervised-3d-human-pose-estimation
+256,Unsupervised Anomaly Detection,"The objective of Unsupervised Anomaly Detection is to detect previously unseen rare objects or events without any prior knowledge about these. The only information available is that the percentage of anomalies in the dataset is small, usually less than 1%. Since anomalies are rare and unknown to the user at training time, anomaly detection in most cases boils down to the problem of modelling the normal data distribution and defining a measurement in this space in order to classify samples as anomalous or normal. In high-dimensional data such as images, distances in the original space quickly lose descriptive power (curse of dimensionality) and a mapping to some more suitable space is required.
+Source: Unsupervised Learning of Anomaly Detection from Contaminated Image Data using Simultaneous Encoder Training",https://paperswithcode.com/task/unsupervised-anomaly-detection
+257,Unsupervised Human Pose Estimation,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/unsupervised-human-pose-estimation
+258,Unsupervised Skeleton Based Action Recognition,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/unsupervised-skeleton-based-action
+259,Vehicle Re-Identification,"Vehicle re-identification is the task of identifying the same vehicle across multiple cameras.
+( Image credit: A Two-Stream Siamese Neural Network for Vehicle Re-Identification by Using Non-Overlapping Cameras )",https://paperswithcode.com/task/vehicle-re-identification
+260,Video Alignment,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/video-alignment
+261,Video Compression,"Video Compression is a process of reducing the size of an image or video file by exploiting spatial and temporal redundancies within an image or video frame and across multiple video frames. The ultimate goal of a successful Video Compression system is to reduce data volume while retaining the perceptual quality of the decompressed data.
+Source: Adversarial Video Compression Guided by Soft Edge Detection",https://paperswithcode.com/task/video-compression
+262,Video Emotion Recognition,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/video-emotion-recognition
+263,Video Enhancement,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/video-enhancement
+264,Video Matting,Image credit: https://arxiv.org/pdf/2012.07810v1.pdf,https://paperswithcode.com/task/video-matting
+265,Video Polyp Segmentation,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/video-polyp-segmentation
+266,Video Restoration,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/video-restoration
+267,Video Synchronization,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/video-synchronization
+268,Video Visual Relation Detection,"Video Visual Relation Detection (VidVRD) aims to detect instances of visual relations of interest in a video, where a visual relation instance is represented by a relation triplet <subject, predicate, object> with the trajectories of the subject and object. As compared to still images, videos provide a more natural set of features for detecting visual relations, such as the dynamic relations like “A-follow-B” and “A-towards-B”, and temporally changing relations like “A-chase-B” followed by “A-hold-B”. Yet, VidVRD is technically more challenging than ImgVRD due to the difficulties in accurate object tracking and diverse relation appearances in the video domain.
+Source: ImageNet-VidVRD Video Visual Relation Dataset",https://paperswithcode.com/task/video-visual-relation-detection
+269,Video Visual Relation Tagging,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/video-visual-relation-tagging
+270,Video-Based Person Re-Identification,Video-based person re-identification (reID) aims to retrieve person videos with the same identity as a query person across multiple cameras,https://paperswithcode.com/task/video-based-person-re-identification
+271,Video-to-image Affordance Grounding,"Given a demonstration video V and a target image I, the goal of video-to-image affordance grounding predict an affordance heatmap over the target image according to the hand-interacted region in the video, accompanied by the affordance action (e.g., press, turn).",https://paperswithcode.com/task/video-to-image-affordance-grounding
+272,Visual Reasoning,Ability to understand actions and reasoning associated with any visual images,https://paperswithcode.com/task/visual-reasoning
+273,Weakly Supervised Action Segmentation (Transcript),Action Segmentation from weak (transcript) supervision.,https://paperswithcode.com/task/weakly-supervised-action-segmentation
+274,Weakly Supervised Object Detection,"Weakly Supervised Object Detection (WSOD) is the task of training object detectors with only image tag supervisions.
+( Image credit: Soft Proposal Networks for Weakly Supervised Object Localization )",https://paperswithcode.com/task/weakly-supervised-object-detection
+275,Weakly Supervised Temporal Action Localization,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/weakly-supervised-temporal-action-1
+276,Weakly-supervised 3D Human Pose Estimation,This task targets at 3D Human Pose Estimation with fewer 3D annotation.,https://paperswithcode.com/task/weakly-supervised-3d-human-pose-estimation
+277,Weather Forecasting,"Weather Forecasting is the prediction of future weather conditions such as precipitation, temperature, pressure and wind.
+Source: MetNet: A Neural Weather Model for Precipitation Forecasting",https://paperswithcode.com/task/weather-forecasting
+278,Zero Shot Skeletal Action Recognition,Zero-Shot Learning for 3D skeletal action recognition,https://paperswithcode.com/task/zero-shot-skeletal-action-recognition
+279,Zero-Shot Action Detection,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/zero-shot-action-detection
+280,Zero-Shot Object Detection,"Zero-shot object detection (ZSD) is the task of object detection where no visual training data is available for some of the target object classes.
+( Image credit: Zero-Shot Object Detection: Learning to Simultaneously Recognize and Localize Novel Concepts )",https://paperswithcode.com/task/zero-shot-object-detection
+281,audio-visual learning,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/audio-visual-learning
+282,object-detection,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/object-detection-1
+283,2D Semantic Segmentation task 1 (8 classes),This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/2d-semantic-segmentation-task-1-8-classes
+284,2D Semantic Segmentation task 3 (25 classes),This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/2d-semantic-segmentation-task-3-25-classes
+285,3D Anomaly Detection,3D-only Anomaly Detection,https://paperswithcode.com/task/3d-anomaly-detection
+286,3D Car Instance Understanding,"3D Car Instance Understanding is the task of estimating properties (e.g.translation, rotation and shape) of a moving or parked vehicle on the road.
+( Image credit: Occlusion-Net )",https://paperswithcode.com/task/3d-car-instance-understanding
+287,3D Classification,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/3d-classification
+288,3D Depth Estimation,Image: monodepth2,https://paperswithcode.com/task/3d-depth-estimation
+289,3D Feature Matching,Image: Choy et al,https://paperswithcode.com/task/3d-feature-matching
+290,3D Geometry Perception,Image: Zhao et al,https://paperswithcode.com/task/3d-geometry-perception
+291,3D Human Dynamics,Image: Zhang et al,https://paperswithcode.com/task/3d-human-dynamics
+292,3D Human Pose Tracking,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/3d-human-pose-tracking
+293,3D Instance Segmentation,Image: OccuSeg,https://paperswithcode.com/task/3d-instance-segmentation-1
+294,3D Object Classification,"3D Object Classification is the task of predicting the class of a 3D object point cloud. It is a voxel level prediction where each voxel is classified into a category. The popular benchmark for this task is the ModelNet dataset. The models for this task are usually evaluated with the Classification Accuracy metric.
+Image: Sedaghat et al",https://paperswithcode.com/task/3d-object-classification
+295,3D Object Detection From Stereo Images,"Estimating oriented 3D bounding boxes from Stereo Cameras only.
+Image: You et al",https://paperswithcode.com/task/3d-object-detection-from-stereo-images
+296,3D Object Recognition,"3D object recognition is the task of recognising objects from 3D data.
+Note that there are related tasks you can look at, such as 3D Object Detection which have more leaderboards.
+(Image credit: Look Further to Recognize Better)",https://paperswithcode.com/task/3d-object-recognition
+297,3D Object Reconstruction,Image: Choy et al,https://paperswithcode.com/task/3d-object-reconstruction
+298,3D Object Retrieval,Source: He et al,https://paperswithcode.com/task/3d-object-retrieval
+299,3D Point Cloud Matching,Image: Gojic et al,https://paperswithcode.com/task/3d-point-cloud-matching
+300,3D Point Cloud Reconstruction,Encoding and reconstruction of 3D point clouds.,https://paperswithcode.com/task/3d-point-cloud-reconstruction
+301,3D Scene Reconstruction,Creating 3D scene either using conventional SFM pipelines or latest deep learning approaches.,https://paperswithcode.com/task/3d-scene-reconstruction
+302,3D Shape Reconstruction,"Image credit: GSNet: Joint Vehicle Pose and Shape Reconstruction with Geometrical and Scene-aware Supervision , ECCV'20",https://paperswithcode.com/task/3d-shape-reconstruction
+303,3D Shape Representation,Image: MeshNet,https://paperswithcode.com/task/3d-shape-representation
+304,6D Pose Estimation,Image: Zeng et al,https://paperswithcode.com/task/6d-pose-estimation-1
+305,6D Pose Estimation using RGB,"6D Pose Estimation using RGB refers to the task of determining the six degree-of-freedom (6D) pose of an object in 3D space based on RGB images. This involves estimating the position and orientation of an object in a scene, and is a fundamental problem in computer vision and robotics. In this task, the goal is to estimate the 6D pose of an object given an RGB image of the object and the scene, which can be used for tasks such as robotic manipulation, augmented reality, and scene reconstruction.
+( Image credit: Segmentation-driven 6D Object Pose Estimation )",https://paperswithcode.com/task/6d-pose-estimation
+306,6D Pose Estimation using RGBD,Image: Zeng et al,https://paperswithcode.com/task/6d-pose-estimation-using-rgbd
+307,Abstractive Text Summarization,"Abstractive Text Summarization is the task of generating a short and concise summary that captures the salient ideas of the source text. The generated summaries potentially contain new phrases and sentences that may not appear in the source text.
+Source: Generative Adversarial Network for Abstractive Text Summarization
+Image credit: Abstractive Text Summarization using Sequence-to-sequence RNNs and Beyond",https://paperswithcode.com/task/abstractive-text-summarization
+308,Active Object Detection,Active Learning for Object Detection,https://paperswithcode.com/task/active-object-detection
+309,Activeness Detection,Determining activeness via images,https://paperswithcode.com/task/activeness-detection
+310,Aesthetics Quality Assessment,Automatic assessment of aesthetic-related subjective ratings.,https://paperswithcode.com/task/aesthetics-quality-assessment
+311,Age Estimation,"Age Estimation is the task of estimating the age of a person from an image some other kind of data.
+( Image credit: BridgeNet )",https://paperswithcode.com/task/age-estimation
+312,Amodal Instance Segmentation,"Different from traditional segmentation which only focuses on visible regions, amodal instance segmentation also predicts the occluded parts of object instances.
+Description Credit: Deep Occlusion-Aware Instance Segmentation with Overlapping BiLayers, CVPR'21",https://paperswithcode.com/task/amodal-instance-segmentation
+313,Amodal Panoptic Segmentation,The goal of this task is to simultaneously predict the pixel-wise semantic segmentation labels of the visible regions of stuff classes and the instance segmentation labels of both the visible and occluded regions of thing classes.,https://paperswithcode.com/task/amodal-panoptic-segmentation
+314,Animal Action Recognition,"Cross-species (intra-class, inter-class) action recognition",https://paperswithcode.com/task/animal-action-recognition
+315,Animal Pose Estimation,"Animal pose estimation is the task of identifying the pose of an animal.
+( Image credit: Using DeepLabCut for 3D markerless pose estimation across species and behaviors )",https://paperswithcode.com/task/animal-pose-estimation
+316,Anxiety Detection,Detect anxiety distress of human beings / animals,https://paperswithcode.com/task/anxiety-detection
+317,Arousal Estimation,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/arousal-estimation
+318,Atari Games,"The Atari 2600 Games task (and dataset) involves training an agent to achieve high game scores.
+( Image credit: Playing Atari with Deep Reinforcement Learning )",https://paperswithcode.com/task/atari-games
+319,Audio Emotion Recognition,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/audio-emotion-recognition
+320,Audio Generation,"Audio generation (synthesis) is the task of generating raw audio such as speech.
+( Image credit: MelNet )",https://paperswithcode.com/task/audio-generation
+321,Audio Source Separation,"Audio Source Separation is the process of separating a mixture (e.g. a pop band recording) into isolated sounds from individual sources (e.g. just the lead vocals).
+Source: Model selection for deep audio source separation via clustering analysis",https://paperswithcode.com/task/audio-source-separation
+322,Audio-Visual Active Speaker Detection,Determine if and when each visible person in the video is speaking.,https://paperswithcode.com/task/audio-visual-active-speaker-detection
+323,Audio-visual Question Answering,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/audio-visual-question-answering
+324,Automatic Speech Recognition (ASR),"Automatic Speech Recognition (ASR) involves converting spoken language into written text. It is designed to transcribe spoken words into text in real-time, allowing people to communicate with computers, mobile devices, and other technology using their voice. The goal of Automatic Speech Recognition is to accurately transcribe speech, taking into account variations in accent, pronunciation, and speaking style, as well as background noise and other factors that can affect speech quality.",https://paperswithcode.com/task/automatic-speech-recognition
+325,Behavioral Malware Detection,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/behavioral-malware-detection
+326,Binarization,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/binarization
+327,Blind Image Quality Assessment,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/blind-image-quality-assessment
+328,Boundary Captioning,"Provided with the timestamp of a boundary inside a video, the machine is required to generate sentences describing the status change at the boundary.",https://paperswithcode.com/task/boundary-captioning
+329,Boundary Grounding,"Provided with a description of a boundary inside a video, the machine is required to locate that boundary in the video.",https://paperswithcode.com/task/boundary-grounding
+330,Box-supervised Instance Segmentation,This task aims to achieve instance segmentation with weakly bounding box annotations.,https://paperswithcode.com/task/box-supervised-instance-segmentation
+331,Breast Cancer Detection,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/breast-cancer-detection
+332,Breast Tumour Classification,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/breast-tumour-classification
+333,Camera Auto-Calibration,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/camera-auto-calibration
+334,Camera shot segmentation,"Camera shot temporal segmentation consists in classifying each video frame according to the type of camera used to record said frame. This task is introduced with the SoccerNet-v2 dataset, where 13 camera classes are considered (main camera, behind the goal, corner camera, etc.).",https://paperswithcode.com/task/camera-shot-segmentation
+335,Change Detection,"Change Detection is a computer vision task that involves detecting changes in an image or video sequence over time. The goal is to identify areas in the image or video that have undergone changes, such as appearance changes, object disappearance or appearance, or even changes in the scene's background.
+Image credit: ""A TRANSFORMER-BASED SIAMESE NETWORK FOR CHANGE DETECTION""",https://paperswithcode.com/task/change-detection
+336,Clinical Concept Extraction,"Automatic extraction of clinical named entities such as clinical problems, treatments, tests and anatomical parts from clinical notes.
+( Source )",https://paperswithcode.com/task/clinical-concept-extraction
+337,Color Mismatch Correction,Color mismatch correction is the task of transferring color from one view of a stereopair to corresponding areas in another where the colors differ incorrectly.,https://paperswithcode.com/task/color-mismatch-correction
+338,Colorectal Gland Segmentation:,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/colorectal-gland-segmentation
+339,Colorectal Polyps Characterization,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/colorectal-polyps-characterization
+340,Colorization,"Colorization is a self-supervision approach that relies on colorization as the pretext task in order to learn image representations.
+Source:
+Colorful Image Colorization
+Read Paper
+See Code",https://paperswithcode.com/method/colorization
+341,Composite action recognition,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/composite-action-recognition
+342,Conditional Image Generation,"Conditional image generation is the task of generating new images from a dataset conditional on their class.
+( Image credit: PixelCNN++ )",https://paperswithcode.com/task/conditional-image-generation
+343,Continual Learning,"Continual Learning (also known as Incremental Learning, Life-long Learning) is a concept to learn a model for a large number of tasks sequentially without forgetting knowledge obtained from the preceding tasks, where the data in the old tasks are not available anymore during training new ones.
+If not mentioned, the benchmarks here are Task-CL, where task-id is provided on validation.
+Source:
+Continual Learning by Asymmetric Loss Approximation with Single-Side Overestimation
+Three scenarios for continual learning
+Lifelong Machine Learning
+Continual lifelong learning with neural networks: A review",https://paperswithcode.com/task/continual-learning
+344,Contrastive Learning,,https://paperswithcode.com/method/contrastive-learning
+345,Conversational Response Generation,"Given an input conversation, generate a natural-looking text reply to the last conversation element.
+Image credit: DIALOGPT : Large-Scale Generative Pre-training for Conversational Response Generation",https://paperswithcode.com/task/conversational-response-generation
+346,Cross-Modal Retrieval,"Cross-Modal Retrieval is used for implementing a retrieval task across different modalities. such as image-text, video-text, and audio-text Cross-Modal Retrieval. The main challenge of Cross-Modal Retrieval is the modality gap and the key solution of Cross-Modal Retrieval is to generate new representations from different modalities in the shared subspace, such that new generated features can be applied in the computation of distance metrics, such as cosine distance and Euclidean distance.
+Source: Deep Triplet Neural Networks with Cluster-CCA for Audio-Visual Cross-modal Retrieval",https://paperswithcode.com/task/cross-modal-retrieval
+347,Data Augmentation,"Data augmentation involves techniques used for increasing the amount of data, based on different modifications, to expand the amount of examples in the original dataset. Data augmentation not only helps to grow the dataset but it also increases the diversity of the dataset. When training machine learning models, data augmentation acts as a regularizer and helps to avoid overfitting.
+Data augmentation techniques have been found useful in domains like NLP and computer vision. In computer vision, transformations like cropping, flipping, and rotation are used. In NLP, data augmentation techniques can include swapping, deletion, random insertion, among others.
+Further readings:
+A Survey of Data Augmentation Approaches for NLP
+A survey on Image Data Augmentation for Deep Learning
+( Image credit: Albumentations )",https://paperswithcode.com/task/data-augmentation
+348,Deep Attention,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/deep-attention
+349,Depression Detection,"Depression Detection is the problem of identifying signs of depression in individuals. These signs might be identified in peoples’ speech, facial expressions and in the use of language.
+Source: Affective Conditioning on Hierarchical Attention Networks applied to Depression Detection from Transcribed Clinical Interviews",https://paperswithcode.com/task/depression-detection
+350,Dialog Act Classification,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/dialog-act-classification
+351,Dialogue Generation,"Dialogue generation is the task of ""understanding"" natural language inputs - within natural language processing in order to produce output. The systems are usually intended for conversing with humans, for instance back and forth dialogue with a conversation agent like a chatbot. Some example benchmarks for this task (see others such as Natural Language Understanding) include FusedChat and Ubuntu DIalogue Corpus (UDC). Models can be evaluated via metrics such as BLEU, ROUGE, and METEOR albeit with challenges in terms of weak correlation with human judgement, that may be addressed by new ones like UnSupervised and Reference-free (USR) and Metric for automatic Unreferenced dialog evaluation (MaUde).",https://paperswithcode.com/task/dialogue-generation
+352,Dimensionality Reduction,Dimensionality Reduction methods transform data from a high-dimensional space into a low-dimensional space so that the low-dimensional space retains the most important properties of the original data. Below you can find a continuously updating list of dimensionality reduction methods.,https://paperswithcode.com/methods/category/dimensionality-reduction
+353,Drivable Area Detection,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/drivable-area-detection
+354,Emotional Dialogue Acts,"Associating Emotions and Dialogue Acts to find unique relationships between them such as Accept/Agree dialogue acts often occur with the Joy emotion, Apology with Sadness, or Thanking with Joy. First introduced in the paper EDA: Enriching Emotional Dialogue Acts using an Ensemble of Neural Annotators, LREC 2020 (https://aclanthology.org/2020.lrec-1.78/).",https://paperswithcode.com/task/emotional-dialogue-acts
+355,English Conversational Speech Recognition,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/english-conversational-speech-recognition
+356,Face Clustering,Face Clustering in the videos,https://paperswithcode.com/task/face-clustering
+357,Face Generation,"Face generation is the task of generating (or interpolating) new faces from an existing dataset.
+The state-of-the-art results for this task are located in the Image Generation parent.
+( Image credit: Progressive Growing of GANs for Improved Quality, Stability, and Variation )",https://paperswithcode.com/task/face-generation
+358,Facial Expression Translation,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/facial-expression-translation
+359,Facial expression generation,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/facial-expression-generation
+360,Fact Checking,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/fact-checking
+361,Few-Shot Image Classification,"Few-Shot Image Classification is a computer vision task that involves training machine learning models to classify images into predefined categories using only a few labeled examples of each category (typically < 6 examples). The goal is to enable models to recognize and classify new images with minimal supervision and limited data, without having to train on large datasets. (typically < 6 examples)
+( Image credit: Learning Embedding Adaptation for Few-Shot Learning )",https://paperswithcode.com/task/few-shot-image-classification
+362,Few-Shot Object Detection,Few-Shot Object Detection is a computer vision task that involves detecting objects in images with limited training data. The goal is to train a model on a few examples of each object class and then use the model to detect objects in new images.,https://paperswithcode.com/task/few-shot-object-detection
+363,Fill Mask,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/fill-mask
+364,Fine-Grained Vehicle Classification,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/fine-grained-vehicle-classification
+365,Fine-Grained Visual Categorization,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/fine-grained-visual-categorization
+366,Fine-Grained Visual Recognition,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/fine-grained-visual-recognition
+367,Fine-grained Action Recognition,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/fine-grained-action-recognition
+368,Fire Detection,Detection of fire using multi-variate time series sensor data.,https://paperswithcode.com/task/fire-detection
+369,Future Hand Prediction,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/future-hand-prediction
+370,Future prediction,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/future-prediction
+371,Gait Identification,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/gait-identification
+372,Gaze Prediction,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/eye-tracking
+373,Gender Prediction,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/gender-prediction
+374,General Action Video Anomaly Detection,Detecting if an entire short clip of a any action features an anomalous motion - another action class not seen during training.,https://paperswithcode.com/task/general-action-video-anomaly-detection
+375,General Classification,Algorithms trying to solve the general task of classification.,https://paperswithcode.com/task/classification
+376,Generalizable Person Re-identification,Generalizable person re-identification refers to methods trained on a source dataset but directly evaluated on a target dataset without domain adaptation or transfer learning.,https://paperswithcode.com/task/generalizable-person-re-identification
+377,Generalized Zero-Shot Object Detection,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/generalized-zero-shot-object-detection
+378,Gesture Generation,"Generation of gestures, as a sequence of 3d poses",https://paperswithcode.com/task/gesture-generation
+379,Graph Matching,"Graph Matching is the problem of finding correspondences between two sets of vertices while preserving complex relational information among them. Since the graph structure has a strong capacity to represent objects and robustness to severe deformation and outliers, it is frequently adopted to formulate various correspondence problems in the field of computer vision. Theoretically, the Graph Matching problem can be solved by exhaustively searching the entire solution space. However, this approach is infeasible in practice because the solution space expands exponentially as the size of input data increases. For that reason, previous studies have attempted to solve the problem by using various approximation techniques.
+Source: Consistent Multiple Graph Matching with Multi-layer Random Walks Synchronization",https://paperswithcode.com/task/graph-matching
+380,Group Anomaly Detection,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/group-anomaly-detection
+381,HD semantic map learning,"The goal of task is to generate map elements in a vectorized form using data from onboard sensors, e.g., RGB cameras and/or LiDARs. These map elements include but are not limited to : Road boundaries, boundaries of roads that split roads and sidewalks.",https://paperswithcode.com/task/hd-semantic-map-learning
+382,HDR Reconstruction,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/hdr-reconstruction
+383,Hand Joint Reconstruction,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/hand-joint-reconstruction
+384,Hand Segmentation,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/hand-segmentation
+385,Hand-Gesture Recognition,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/hand-gesture-recognition-1
+386,Head Pose Estimation,"Estimating the head pose of a person is a crucial problem that has a large amount of applications such as aiding in gaze estimation, modeling attention, fitting 3D models to video and performing face alignment.
+( Image credit: FSA-Net: Learning Fine-Grained Structure Aggregation for Head Pose Estimation from a Single Image )",https://paperswithcode.com/task/head-pose-estimation
+387,Heart Rate Variability,Heart rate variability (HRV) is the physiological phenomenon of variation in the time interval between heartbeats. It is measured by the variation in the beat-to-beat interval.,https://paperswithcode.com/task/heart-rate-variability
+388,Home Activity Monitoring,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/home-activity-monitoring
+389,Human Activity Recognition,Classify various human activities,https://paperswithcode.com/task/human-activity-recognition
+390,Human Dynamics,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/human-dynamics
+391,Human Instance Segmentation,"Instance segmentation is the task of detecting and delineating each distinct object of interest appearing in an image.
+Image Credit: Deep Occlusion-Aware Instance Segmentation with Overlapping BiLayers",https://paperswithcode.com/task/human-instance-segmentation
+392,Human Part Segmentation,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/human-part-segmentation
+393,Human fMRI response prediction,"The task is: Given a) the set of videos of everyday events and b) the corresponding brain responses recorded while human participants viewed those videos, use computational models to predict brain responses for videos.",https://paperswithcode.com/task/human-fmri-response-prediction
+394,Human motion prediction,"Action prediction is a pre-fact video understanding task, which focuses on future states, in other words, it needs to reason about future states or infer action labels before the end of action execution.",https://paperswithcode.com/task/human-motion-prediction
+395,Human-Object-interaction motion tracking,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/human-object-interaction-motion-tracking
+396,Image Captioning,"Image Captioning is the task of describing the content of an image in words. This task lies at the intersection of computer vision and natural language processing. Most image captioning systems use an encoder-decoder framework, where an input image is encoded into an intermediate representation of the information in the image, and then decoded into a descriptive text sequence. The most popular benchmarks are nocaps and COCO, and models are typically evaluated according to a BLEU or CIDER metric.
+( Image credit: Reflective Decoding Network for Image Captioning, ICCV'19)",https://paperswithcode.com/task/image-captioning
+397,Image Deblurring,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/image-deblurring
+398,Image Dehazing,( Image credit: Densely Connected Pyramid Dehazing Network ),https://paperswithcode.com/task/image-dehazing
+399,Image Denoising,"Image Denoising is a computer vision task that involves removing noise from an image. Noise can be introduced into an image during acquisition or processing, and can reduce image quality and make it difficult to interpret. Image denoising techniques aim to restore an image to its original quality by reducing or removing the noise, while preserving the important features of the image.
+( Image credit: Wide Inference Network for Image Denoising via Learning Pixel-distribution Prior )",https://paperswithcode.com/task/image-denoising
+400,Image Generation from Scene Graphs,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/image-generation-from-scene-graphs
+401,Image Manipulation,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/image-manipulation
+402,Image Registration,"Image registration is the process of transforming different sets of data into one coordinate system. Data may be multiple photographs, data from different sensors, times, depths, or viewpoints. It is used in computer vision, medical imaging, and compiling and analyzing images and data from satellites. Registration is necessary in order to be able to compare or integrate the data obtained from these different measurements.
+Source: Image registration | Wikipedia
+( Image credit: Kornia )",https://paperswithcode.com/task/image-registration
+403,Image Relighting,Image relighting involves changing the illumination settings of an image.,https://paperswithcode.com/task/image-relighting
+404,Image Restoration,"Image Restoration is a family of inverse problems for obtaining a high quality image from a corrupted input image. Corruption may occur due to the image-capture process (e.g., noise, lens blur), post-processing (e.g., JPEG compression), or photography in non-ideal conditions (e.g., haze, motion blur).
+Source: Blind Image Restoration without Prior Knowledge",https://paperswithcode.com/task/image-restoration
+405,Image-level Supervised Instance Segmentation,Weakly-Supervised Instance Segmentation using Image-level Labels,https://paperswithcode.com/task/image-level-supervised-instance-segmentation
+406,Image-to-Text Retrieval,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/image-to-text-retrieval
+407,Imitation Learning,"Imitation Learning is a framework for learning a behavior policy from demonstrations. Usually, demonstrations are presented in the form of state-action trajectories, with each pair indicating the action to take at the state being visited. In order to learn the behavior policy, the demonstrated actions are usually utilized in two ways. The first, known as Behavior Cloning (BC), treats the action as the target label for each state, and then learns a generalized mapping from states to actions in a supervised manner. Another way, known as Inverse Reinforcement Learning (IRL), views the demonstrated actions as a sequence of decisions, and aims at finding a reward/cost function under which the demonstrated decisions are optimal.
+Finally, a newer methodology, Inverse Q-Learning aims at directly learning Q-functions from expert data, implicitly representing rewards, under which the optimal policy can be given as a Boltzmann distribution similar to soft Q-learning
+Source: Learning to Imitate",https://paperswithcode.com/task/imitation-learning
+408,Imputation,Substituting missing data with values according to some criteria.,https://paperswithcode.com/task/imputation
+409,Indoor Localization,Indoor localization is a fundamental problem in indoor location-based applications.,https://paperswithcode.com/task/indoor-localization
+410,Information Retrieval,"Information retrieval is the task of ranking a list of documents or search results in response to a query
+( Image credit: sudhanshumittal )",https://paperswithcode.com/task/information-retrieval
+411,Instrument Recognition,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/instrument-recognition
+412,Inverse-Tone-Mapping,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/inverse-tone-mapping-1
+413,Joint Demosaicing and Denoising,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/joint-demosaicing-and-denoising
+414,Keypoint Detection,"Keypoint Detection involves simultaneously detecting people and localizing their keypoints. Keypoints are the same thing as interest points. They are spatial locations, or points in the image that define what is interesting or what stand out in the image. They are invariant to image rotation, shrinkage, translation, distortion, and so on.
+( Image credit: PifPaf: Composite Fields for Human Pose Estimation; ""Learning to surf"" by fotologic, license: CC-BY-2.0 )",https://paperswithcode.com/task/keypoint-detection
+415,Kinematic Based Workflow Recognition,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/kinematic-based-workflow-recognition
+416,Knowledge Distillation,"A very simple way to improve the performance of almost any machine learning algorithm is to train many different models on the same data and then to average their predictions. Unfortunately, making predictions using a whole ensemble of models is cumbersome and may be too computationally expensive to allow deployment to a large number of users, especially if the individual models are large neural nets. Caruana and his collaborators have shown that it is possible to compress the knowledge in an ensemble into a single model which is much easier to deploy and we develop this approach further using a different compression technique. We achieve some surprising results on MNIST and we show that we can significantly improve the acoustic model of a heavily used commercial system by distilling the knowledge in an ensemble of models into a single model. We also introduce a new type of ensemble composed of one or more full models and many specialist models which learn to distinguish fine-grained classes that the full models confuse. Unlike a mixture of experts, these specialist models can be trained rapidly and in parallel. Source: Distilling the Knowledge in a Neural Network
+Source:
+Distilling the Knowledge in a Neural Network
+Read Paper
+See Code",https://paperswithcode.com/method/knowledge-distillation
+417,Language Modelling,"Language Modeling is the task of predicting the next word or character in a document. This technique can be used to train language models that can further be applied to a wide range of natural language tasks like text generation, text classification, and question answering.
+The common types of language modeling techniques involve:
+N-gram Language Models
+Neural Langauge Models
+A model's language modeling capability is measured using cross-entropy and perplexity. Some datasets to evaluate language modeling are WikiText-103, One Billion Word, Text8, C4, among others.
+One of the most recent popular benchmarks to evaluate language modeling capabilities is called SuperGLUE.
+Some popular and notable state-of-the-art language models, include:
+GPT-3
+Megatron-LM
+BERT
+Check below for all state-of-the-art models.
+Here are some additional readings to go deeper on the task:
+Language Modeling - Lena Voita
+( Image credit: Exploring the Limits of Language Modeling )",https://paperswithcode.com/task/language-modelling
+418,Layout-to-Image Generation,"Layout-to-image generation its the task to generate a scene based on the given layout. The layout describes the location of the objects to be included in the output image. In this section, you can find state-of-the-art leaderboards for Layout-to-image generation.",https://paperswithcode.com/task/layout-to-image-generation
+419,Lesion Detection,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/lesion-detection
+420,License Plate Detection,License Plate Recognition is an image-processing technology used to identify vehicles by their license plates. This technology is used in various security and traffic applications.,https://paperswithcode.com/task/license-plate-detection
+421,License Plate Recognition,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/license-plate-recognition
+422,Lip password classification,A classification task that predicts whether the designated user is uttering the designated password.,https://paperswithcode.com/task/lip-password-classification
+423,Localization In Video Forgery,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/localization-in-video-forgery
+424,Logical Reasoning Question Answering,"Introduced by ReClor (ICLR 2020), logical reasoning is to evaluate the logical reasoning ability of models for question answering.",https://paperswithcode.com/task/logical-reasoning-question-ansering
+425,Long Term Action Anticipation,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/long-term-action-anticipation
+426,Long-tail Learning,"Long-tailed learning, one of the most challenging problems in visual recognition, aims to train well-performing models from a large number of images that follow a long-tailed class distribution.",https://paperswithcode.com/task/long-tail-learning
+427,Low resource - Speech Emotion Recognition,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/low-resource-speech-emotion-recognition
+428,Low-Light Image Enhancement,"Low-Light Image Enhancement is a computer vision task that involves improving the quality of images captured under low-light conditions. The goal of low-light image enhancement is to make images brighter, clearer, and more visually appealing, without introducing too much noise or distortion.",https://paperswithcode.com/task/low-light-image-enhancement
+429,MULTI-VIEW LEARNING,"Multi-View Learning is a machine learning framework where data are represented by multiple distinct feature groups, and each feature group is referred to as a particular view.
+Source: Dissimilarity-based representation for radiomics applications",https://paperswithcode.com/task/multi-view-learning
+430,Markerless Motion Capture,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/markerless-motion-capture
+431,Medical Diagnosis,"Medical Diagnosis is the process of identifying the disease a patient is affected by, based on the assessment of specific risk factors, signs, symptoms and results of exams.
+Source: A probabilistic network for the diagnosis of acute cardiopulmonary diseases",https://paperswithcode.com/task/medical-diagnosis
+432,Medical Image Registration,"Image registration, also known as image fusion or image matching, is the process of aligning two or more images based on image appearances. Medical Image Registration seeks to find an optimal spatial transformation that best aligns the underlying anatomical structures. Medical Image Registration is used in many clinical applications such as image guidance, motion tracking, segmentation, dose accumulation, image reconstruction and so on. Medical Image Registration is a broad topic which can be grouped from various perspectives. From input image point of view, registration methods can be divided into unimodal, multimodal, interpatient, intra-patient (e.g. same- or different-day) registration. From deformation model point of view, registration methods can be divided in to rigid, affine and deformable methods. From region of interest (ROI) perspective, registration methods can be grouped according to anatomical sites such as brain, lung registration and so on. From image pair dimension perspective, registration methods can be divided into 3D to 3D, 3D to 2D and 2D to 2D/3D.
+Source: Deep Learning in Medical Image Registration: A Review",https://paperswithcode.com/task/medical-image-registration
+433,Medical Object Detection,"Medical object detection is the task of identifying medical-based objects within an image.
+( Image credit: Liver Lesion Detection from Weakly-labeled Multi-phase CT Volumes with a Grouped Single Shot MultiBox Detector )",https://paperswithcode.com/task/medical-object-detection
+434,Metaheuristic Optimization,"In computer science and mathematical optimization, a metaheuristic is a higher-level procedure or heuristic designed to find, generate, or select a heuristic (partial search algorithm) that may provide a sufficiently good solution to an optimization problem. For some examples, you can visit https://aliasgharheidari.com/Publications.html",https://paperswithcode.com/task/metaheuristic-optimization
+435,Micro-Expression Spotting,"Facial Micro-Expression Spotting is a challenging task in identifying onset, apex and/or offset over a short or long micro-expression sequence.",https://paperswithcode.com/task/micro-expression-spotting
+436,Misinformation,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/misinformation
+437,Mistake Detection,"Mistakes are natural occurrences in many tasks and an opportunity for an AR assistant to provide help. Identifying such mistakes requires modelling procedural knowledge and retaining long-range sequence information. In its simplest form Mistake Detection aims to classify each coarse action segment into one of the three classes: {“correct”, “mistake”, “correction”}.",https://paperswithcode.com/task/mistake-detection
+438,Moment Queries,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/moment-queries
+439,Monocular 3D Human Pose Estimation,This task targets at 3D human pose estimation with a single RGB camera.,https://paperswithcode.com/task/monocular-3d-human-pose-estimation
+440,Monocular 3D Object Detection,Monocular 3D Object Detection is the task to draw 3D bounding box around objects in a single 2D RGB image. It is localization task but without any extra information like depth or other sensors or multiple-images.,https://paperswithcode.com/task/monocular-3d-object-detection
+441,Monocular Cross-View Road Scene Parsing(Road),This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/monocular-cross-view-road-scene-parsing-road
+442,Monocular Cross-View Road Scene Parsing(Vehicle),This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/monocular-cross-view-road-scene-parsing
+443,Motion Disentanglement,"A self-supervised learning method to disentangle irregular (anomalous) motion from regular motion in unlabeled videos.
+Source:
+Domain Knowledge-Informed Self-Supervised Representations for Workout Form Assessment
+Read Paper
+See Code",https://paperswithcode.com/method/motion-disentanglement
+444,Motion Synthesis,Image source: Multi-View Motion Synthesis via Applying Rotated Dual-Pixel Blur Kernels,https://paperswithcode.com/task/motion-synthesis
+445,Moving Object Detection,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/moving-object-detection
+446,Multi Future Trajectory Prediction,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/multi-future-trajectory-prediction-1
+447,Multi-Frame Super-Resolution,"When multiple images of the same view are taken from slightly different positions, perhaps also at different times, then they collectively contain more information than any single image on its own. Multi-Frame Super-Resolution fuses these low-res inputs into a composite high-res image that can reveal some of the original detail that cannot be recovered from any low-res image alone.
+( Credit: HighRes-net )",https://paperswithcode.com/task/multi-frame-super-resolution
+448,Multi-Instance Retrieval,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/multi-instance-retrieval
+449,Multi-Label Image Classification,The Multi-Label Image Classification focuses on predicting labels for images in a multi-class classification problem where each image may belong to more than one class.,https://paperswithcode.com/task/multi-label-image-classification
+450,Multi-Person Pose Estimation and Tracking,"Joint multi-person pose estimation and tracking following the PoseTrack benchmark. https://posetrack.net/
+( Image credit: PoseTrack )",https://paperswithcode.com/task/multi-person-pose-estimation-and-tracking
+451,Multi-agent Reinforcement Learning,"The target of Multi-agent Reinforcement Learning is to solve complex problems by integrating multiple agents that focus on different sub-tasks. In general, there are two types of multi-agent systems: independent and cooperative systems.
+Source: Show, Describe and Conclude: On Exploiting the Structure Information of Chest X-Ray Reports",https://paperswithcode.com/task/multi-agent-reinforcement-learning
+452,Multi-modal Classification,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/multi-modal-classification
+453,Multi-task Audio Source Seperation,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/multi-task-audio-source-seperation
+454,Multimodal Abstractive Text Summarization,Abstractive text summarization by utilizing information from multiple modalities.,https://paperswithcode.com/task/multimodal-abstractive-text-summarization
+455,Multimodal Association,"Multimodal association refers to the process of associating multiple modalities or types of data in time series analysis. In time series analysis, multiple modalities or types of data can be collected, such as sensor data, images, audio, and text. Multimodal association aims to integrate these different types of data to improve the understanding and prediction of the time series.
+For example, in a smart home application, sensor data from temperature, humidity, and motion sensors can be combined with images from cameras to monitor the activities of residents. By analyzing the multimodal data together, the system can detect anomalies or patterns that may not be visible in individual modalities alone.
+Multimodal association can be achieved using various techniques, including deep learning models, statistical models, and graph-based models. These models can be trained on the multimodal data to learn the associations and dependencies between the different types of data.",https://paperswithcode.com/task/multimodal-association
+456,Multimodal Forgery Detection,Multimodal Forgery Detection task is a deep forgery detection method which uses both video and audio.,https://paperswithcode.com/task/multimodal-forgery-detection
+457,Multimodal GIF Dialog,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/multimodal-gif-dialog
+458,Multiple Object Track and Segmentation,"Multiple object tracking and segmentation requires detecting, tracking, and segmenting objects belonging to a set of given classes.
+(Image and definition credit: Prototypical Cross-Attention Networks for Multiple Object Tracking and Segmentation, NeurIPS 2021, Spotlight )",https://paperswithcode.com/task/multiple-object-track-and-segmentation
+459,Multiview Detection,Incorporating multiple camera views for detection in heavily occluded scenarios.,https://paperswithcode.com/task/multiview-detection
+460,Multiview Gait Recognition,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/multiview-gait-recognition
+461,Music Classification,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/music-classification
+462,Music Emotion Recognition,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/music-emotion-recognition
+463,Music Generation,"Music Generation is the task of generating music or music-like sounds from a model or algorithm. The goal is to produce a sequence of notes or sound events that are similar to existing music in some way, such as having the same style, genre, or mood.",https://paperswithcode.com/task/music-generation
+464,Natural Language Inference,"Natural language inference (NLI) is the task of determining whether a ""hypothesis"" is true (entailment), false (contradiction), or undetermined (neutral) given a ""premise"".
+Example:
+Premise Label Hypothesis
+A man inspects the uniform of a figure in some East Asian country. contradiction The man is sleeping.
+An older and younger man smiling. neutral Two men are smiling and laughing at the cats playing on the floor.
+A soccer game with multiple males playing. entailment Some men are playing a sport.
+Approaches used for NLI include earlier symbolic and statistical approaches to more recent deep learning approaches. Benchmark datasets used for NLI include SNLI, MultiNLI, SciTail, among others. You can get hands-on practice on the SNLI task by following this d2l.ai chapter.
+Further readings:
+Recent Advances in Natural Language Inference: A Survey of Benchmarks, Resources, and Approaches",https://paperswithcode.com/task/natural-language-inference
+465,Natural Language Understanding,"Natural Language Understanding is an important field of Natural Language Processing which contains various tasks such as text classification, natural language inference and story comprehension. Applications enabled by natural language understanding range from question answering to automated reasoning.
+Source: Find a Reasonable Ending for Stories: Does Logic Relation Help the Story Cloze Test?",https://paperswithcode.com/task/natural-language-understanding
+466,No-Reference Image Quality Assessment,An Image Quality Assessment approach where no reference image information is available to the model.,https://paperswithcode.com/task/no-reference-image-quality-assessment
+467,Object Categorization,"Object categorization identifies which label, from a given set, best corresponds to an image region defined by an input image and bounding box.",https://paperswithcode.com/task/object-categorization
+468,Object Detection In Indoor Scenes,"Object detection in indoor scenes is the task of performing object detection within an indoor environment.
+( Image credit: Faster Bounding Box Annotation for Object Detection in Indoor Scenes )",https://paperswithcode.com/task/object-detection-in-indoor-scenes
+469,Object Discovery,"Object Discovery is the task of identifying previously unseen objects.
+Source: Unsupervised Object Discovery and Segmentation of RGBD-images",https://paperswithcode.com/task/object-discovery
+470,Object Proposal Generation,"Object proposal generation is a preprocessing technique that has been widely used in current object detection pipelines to guide the search of objects and avoid exhaustive sliding window search across images.
+( Image credit: Multiscale Combinatorial Grouping for Image Segmentation and Object Proposal Generation )",https://paperswithcode.com/task/object-proposal-generation
+471,Object State Change Classification,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/object-state-change-classification
+472,Occluded 3D Object Symmetry Detection,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/occluded-3d-object-symmetry-detection
+473,Offline RL,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/offline-rl
+474,One-Shot Instance Segmentation,( Image credit: Siamese Mask R-CNN ),https://paperswithcode.com/task/one-shot-instance-segmentation
+475,One-Shot Object Detection,( Image credit: Siamese Mask R-CNN ),https://paperswithcode.com/task/one-shot-object-detection
+476,One-shot visual object segmentation,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/one-shot-visual-object-segmentation
+477,Open Set Action Recognition,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/open-set-action-recognition
+478,Open Vocabulary Object Detection,Open-vocabulary detection (OVD) aims to generalize beyond the limited number of base classes labeled during the training phase. The goal is to detect novel classes defined by an unbounded (open) vocabulary at inference.,https://paperswithcode.com/task/open-vocabulary-object-detection
+479,Open-Domain Dialog,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/open-domain-dialog
+480,Organ Detection,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/organ-detection
+481,Paraphrase Generation,"Paraphrase Generation involves transforming a natural language sentence to a new sentence, that has the same semantic meaning but a different syntactic or lexical surface form.",https://paperswithcode.com/task/paraphrase-generation
+482,Partial Label Learning,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/partial-label-learning
+483,Partial Point Cloud Matching,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/partial-point-cloud-matching
+484,Partial Video Copy Detection,The PVCD goal is identifying and locating if one or more segments of a long testing video have been copied (transformed) from the reference videos dataset.,https://paperswithcode.com/task/partial-video-copy-detection
+485,Pedestrian Trajectory Prediction,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/pedestrian-trajectory-prediction
+486,Person Recognition,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/person-recognition
+487,Personality Recognition in Conversation,"Given a speaker's conversation with others, it is required to recognize the speaker's personality traits through the conversation record, which includes two scenarios, (1)
+1
+−
+1
+conversations: the robot recognizes the personality traits of the speaker through the conversation between them (e.g., psychological counseling), (2)
+1
+−
+N
+conversations : the robot listens to the speaker's conversations with other
+N
+people and then recognizes the speaker's personality traits (e.g., group chatbot, home service robot). Since
+1
+−
+N
+includes the case of
+1
+−
+1
+, we only discusses PRC in
+1
+−
+N
+conversations. The task of PRC in
+1
+−
+N
+conversations can be formulated as:
+$Per_i = argmax_{Per'i}P(Per'_i | C{i,j}, \cdots, C_{i,N})$
+where
+P
+e
+r
+i
+=
+[
+N
+e
+u
+,
+E
+x
+t
+,
+O
+p
+e
+,
+A
+g
+r
+,
+C
+o
+n
+]
+is a 5-dimensional vector representing Neuroticism, Extraversion, Openness, Agreeableness, and Conscientiousness.
+C
+i
+,
+j
+is the conversations between
+S
+p
+e
+a
+k
+e
+r
+i
+and
+S
+p
+e
+a
+k
+e
+r
+j
+(
+1
+≤
+j
+≤
+N
+).",https://paperswithcode.com/task/personality-recognition-in-conversation
+488,Personality Trait Recognition,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/personality-trait-recognition
+489,Personalized and Emotional Conversation,"Personalized and Emotional Conversation (PEC) is defined as follows: Given the personalized information (
+P
+R
+1
+and
+P
+R
+2
+) of two speakers, their conversation context
+C
+, the emotion
+E
+K
+and DA
+D
+K
+of the response to be generated, and the personalized information
+P
+K
+of the responder, the goal is to generate an anthropomorphic response
+Y
+.
+Y
+=
+a
+r
+g
+m
+a
+x
+Y
+′
+P
+(
+Y
+′
+|
+C
+,
+E
+K
+,
+D
+K
+,
+P
+K
+)
+Particularly, context
+C
+=
+(
+U
+1
+,
+E
+1
+,
+D
+1
+,
+P
+1
+)
+,
+⋯
+,
+(
+U
+K
+−
+1
+,
+E
+K
+−
+1
+,
+D
+K
+−
+1
+,
+P
+K
+−
+1
+)
+contains multi-turn conversation content (i.e., utterance
+U
+i
+), emotion
+E
+i
+of the associated utterance, DA
+D
+i
+of the associated utterance, and personalized information
+P
+i
+of the associated speaker.",https://paperswithcode.com/task/personalized-and-emotional-conversation
+490,Persuasion Strategies,Prediction of Persuasion Strategy in Advertisements,https://paperswithcode.com/task/persuasion-strategies
+491,Photoplethysmography (PPG) heart rate estimation,Estimating heart rate from the photoplethysmogram (PPG) signal,https://paperswithcode.com/task/photoplethysmography-ppg-heart-rate
+492,Point Cloud Registration,"Point Cloud Registration is a fundamental problem in 3D computer vision and photogrammetry. Given several sets of points in different coordinate systems, the aim of registration is to find the transformation that best aligns all of them into a common coordinate system. Point Cloud Registration plays a significant role in many vision applications such as 3D model reconstruction, cultural heritage management, landslide monitoring and solar energy analysis.
+Source: Iterative Global Similarity Points : A robust coarse-to-fine integration solution for pairwise 3D point cloud registration",https://paperswithcode.com/task/point-cloud-registration
+493,Point-Supervised Instance Segmentation,Weakly-Supervised Instance Segmentation using Point Labels,https://paperswithcode.com/task/point-supervised-instance-segmentation
+494,Portrait Segmentation,This task has no description! Would you like to contribute one?,https://paperswithcode.com/task/portrait-segmentation
+495,Pose Contrastive Learning,"Please enter a description about the method here
+Source:
+Domain Knowledge-Informed Self-Supervised Representations for Workout Form Assessment
+Read Paper
+See Code",https://paperswithcode.com/method/pose-contrastive-learning
+496,Privacy Preserving Deep Learning,"The goal of privacy-preserving (deep) learning is to train a model while preserving privacy of the training dataset. Typically, it is understood that the trained model should be privacy-preserving (e.g., due to the training algorithm being differentially private).",https://paperswithcode.com/task/privacy-preserving-deep-learning
+497,drone-based object tracking,drone-based object tracking,https://paperswithcode.com/task/drone-based-object-tracking
+498,eXtreme-Video-Frame-Interpolation,"Type of Video Frame Interpolation (VFI) that interpolates an intermediate frame on X4K1000FPS dataset containing 4K videos of 1000 fps with the extreme motion. The dataset has a wide variety of textures, extremely large motions, zoomings and occlusions, which have never been seen in the previous VFI benchmark datasets.",https://paperswithcode.com/task/extreme-video-frame-interpolation
