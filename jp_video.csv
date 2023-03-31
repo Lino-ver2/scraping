@@ -1,0 +1,499 @@
+idx,タスク,概要,url
+0,Action Recognition(アクション認識),アクション認識は、ビデオや画像の人間の行動を認識することを含むコンピュータービジョンタスクです。,https://paperswithcode.com/task/action-recognition-in-videos
+1,Temporal Action Localization(一時的なアクションローカリゼーション),一時的なアクションローカリゼーションは、ビデオストリームのアクティビティと出力の開始および終了タイムスタンプを検出することを目的としています。,https://paperswithcode.com/task/action-recognition
+2,Object Detection(オブジェクトの検出),オブジェクトの検出は、目標が画像またはビデオで関心のあるオブジェクトを検出して見つけることであるコンピュータービジョンタスクです。,https://paperswithcode.com/task/object-detection
+3,Object Tracking(オブジェクト追跡),オブジェクトトラッキングは、オブジェクト検出の初期セットを取得し、初期検出のそれぞれに一意のIDを作成し、ビデオ内のフレームを動き回ってID割り当てを維持しながら各オブジェクトを追跡するタスクです。,https://paperswithcode.com/task/object-tracking
+4,Video Understanding(ビデオ理解),ビデオ理解の重要なタスクは、ビデオに表示されるさまざまなアクションまたはイベントを（空間と時間で）認識してローカライズすることです。,https://paperswithcode.com/task/video-understanding
+5,Pose Estimation(推定のポーズ),ポーズ推定は、人またはオブジェクトの位置と方向を検出することを目標とするコンピュータービジョンタスクです。,https://paperswithcode.com/task/pose-estimation
+6,Video Question Answering(ビデオ質問の回答),ビデオ質問応答（VideoQA）は、指定されたビデオに従って自然言語の質問に答えることを目指しています。,https://paperswithcode.com/task/video-question-answering
+7,Video Retrieval(ビデオ検索),ビデオ取得の目的は次のとおりです。テキストクエリと候補ビデオのプールを与えられた場合、テキストクエリに対応するビデオを選択します。,https://paperswithcode.com/task/video-retrieval
+8,Multi-Object Tracking(マルチオブジェクト追跡),マルチオブジェクトトラッキングは、ビデオシーケンス内で複数のオブジェクトの検出と追跡を伴うコンピュータービジョンのタスクです。,https://paperswithcode.com/task/multi-object-tracking
+9,Video Captioning(ビデオキャプション),ビデオキャプションは、ビデオのアクションとイベントをテキストを効率的に取得するのに役立つ可能性のあるビデオのアクションとイベントを理解することにより、ビデオを自動キャプションするタスクです。,https://paperswithcode.com/task/video-captioning
+10,Action Classification(アクション分類),画像ソース：Kinetics Human Action Video Dataset,https://paperswithcode.com/task/action-classification
+11,Action Detection(アクション検出),このタスクには説明がありません！,https://paperswithcode.com/task/action-detection
+12,Semantic Segmentation(セマンティックセグメンテーション),セマンティックセグメンテーションは、画像内の各ピクセルをクラスまたはオブジェクトに分類することを目標とするコンピュータービジョンタスクです。,https://paperswithcode.com/task/semantic-segmentation
+13,Question Answering(質問に答える),質問の回答は、質問に答えるタスク（通常は読解質問の質問）ですが、提供されたコンテキストに基づいて回答できない質問が提示された場合に棄権します。,https://paperswithcode.com/task/question-answering
+14,Visual Question Answering (VQA)(視覚的な質問応答（VQA）),視覚的な質問応答（VQA）は、画像に関する質問への回答を含むコンピュータービジョンのタスクです。,https://paperswithcode.com/task/visual-question-answering
+15,Action Recognition In Videos(ビデオでのアクション認識),ビデオのアクション認識は、ビデオシーケンスで実行される人間のアクションを特定して分類することであるコンピュータービジョンとパターン認識のタスクです。,https://paperswithcode.com/task/action-recognition-in-videos-2
+16,Activity Recognition(アクティビティ認識),人間の活動認識は、ビデオ入力を与えられた人間によって実行されたイベントを特定する問題です。,https://paperswithcode.com/task/activity-recognition
+17,Video Prediction(ビデオ予測),ビデオ予測は、過去のビデオフレームが与えられた将来のフレームを予測するタスクです。,https://paperswithcode.com/task/video-prediction
+18,Visual Object Tracking(視覚的なオブジェクト追跡),視覚オブジェクト追跡は、コンピュータービジョン、画像理解、パターン認識における重要な研究トピックです。,https://paperswithcode.com/task/visual-object-tracking
+19,Skeleton Based Action Recognition(スケルトンベースのアクション認識),スケルトンベースのアクション認識は、Microsoft Kinect、Intel RealSense、ウェアラブルデバイスなどのセンサーからキャプチャされた一連の3D骨格ジョイントデータから人間のアクションを認識することを含むコンピュータービジョンタスクです。,https://paperswithcode.com/task/skeleton-based-action-recognition
+20,Speech Recognition(音声認識),ナンがあります,https://paperswithcode.com/methods/category/speech-recognition
+21,Video Classification(ビデオ分類),ビデオ分類は、フレームを考慮してビデオに関連するラベルを作成するタスクです。,https://paperswithcode.com/task/video-classification
+22,Video Object Segmentation(ビデオオブジェクトセグメンテーション),ビデオオブジェクトのセグメンテーションは、ビデオの背景領域から前景オブジェクトを分離することを目的としたバイナリラベリングの問題です。,https://paperswithcode.com/task/video-object-segmentation
+23,Visual Tracking(視覚追跡),視覚追跡は、ロボットサービス、スマートサーベイランスシステム、自律運転、人間のコンピューターの相互作用など、さまざまな現実世界のアプリケーションを備えたコンピュータービジョンの分野における重要な積極的に研究された問題です。,https://paperswithcode.com/task/visual-tracking
+24,DeepFake Detection(ディープフェイク検出),DeepFake検出は、ディープラーニングテクニックを使用して生成された偽のビデオまたは画像を検出するタスクです。,https://paperswithcode.com/task/deepfake-detection
+25,Person Re-Identification(人の再識別),人の再識別とは、ビデオまたは画像シーケンスのさまざまなカメラや場所で人の身元を一致させることを目標とするコンピュータービジョンタスクです。,https://paperswithcode.com/task/person-re-identification
+26,Facial Expression Recognition (FER)(表情表現認識（FER）),表情表現認識（FER）は、人間の顔に描かれた感情的な表現を特定して分類することを目的としたコンピュータービジョンタスクです。,https://paperswithcode.com/task/facial-expression-recognition
+27,3D Human Pose Estimation(3Dヒューマンポーズ推定),3Dヒューマンポーズ推定は、2D画像またはビデオからの体調と骨の3D位置と方向を推定することを含むコンピュータービジョンタスクです。,https://paperswithcode.com/task/3d-human-pose-estimation
+28,Action Segmentation(アクションセグメンテーション),アクションセグメンテーションは、高レベルのビデオ理解における困難な問題です。,https://paperswithcode.com/task/action-segmentation
+29,Sign Language Recognition(手話の認識),手話の認識とは、手話のジェスチャーを書かれた言語または音声言語に自動的に認識して翻訳することを含む、コンピュータービジョンと自然言語処理タスクです。,https://paperswithcode.com/task/sign-language-recognition
+30,Trajectory Prediction(軌跡予測),軌道予測は、車、バス、歩行者、人力車、動物などのさまざまな道路材の短期（1〜3秒）および長期（3〜5秒）の空間座標を予測する問題です。,https://paperswithcode.com/task/trajectory-prediction
+31,Autonomous Driving(自律運転),自律運転は、人間の伝導なしで車両を運転するタスクです。,https://paperswithcode.com/task/autonomous-driving
+32,Human-Object Interaction Detection(ヒトとオブジェクトの相互作用検出),ヒトとオブジェクトの相互作用（HOI）検出は、イメージの「相互作用のセット」を識別するタスクです。,https://paperswithcode.com/task/human-object-interaction-detection
+33,Video Summarization(ビデオの要約),ビデオの要約は、最も有益で重要な部分を選択することにより、ビデオコンテンツを要約する短い概要を生成することを目的としています。,https://paperswithcode.com/task/video-summarization
+34,Zero-Shot Learning(ゼロショット学習),Zero-Shot Learning（ZSL）は、トレーニング中に見られなかったクラスを検出するモデルの能力です。,https://paperswithcode.com/task/zero-shot-learning
+35,Activity Detection(アクティビティ検出),拡張ビデオでのアクティビティの検出。,https://paperswithcode.com/task/activity-detection
+36,Anomaly Detection(異常検出),異常検出は、データセット内の異常なパターンまたは予期しないパターンを識別するバイナリ分類であり、データの大部分から大幅に逸脱します。,https://paperswithcode.com/task/anomaly-detection
+37,Instance Segmentation(インスタンスセグメンテーション),インスタンスセグメンテーションは、各オブジェクトの境界を検出したり、各オブジェクトに一意のラベルを割り当てるなど、画像内の個々のオブジェクトを識別および分離することを含むコンピュータービジョンタスクです。,https://paperswithcode.com/task/instance-segmentation
+38,Multiple Object Tracking(複数のオブジェクトトラッキング),複数のオブジェクトトラッキングは、ビデオ内の複数のオブジェクトを自動的に識別し、それらを高い精度で軌跡のセットとして表現する問題です。,https://paperswithcode.com/task/multiple-object-tracking
+39,Optical Flow Estimation(光フロー推定),光フロー推定は、画像またはビデオシーケンスでオブジェクトの動きを計算することを含むコンピュータービジョンタスクです。,https://paperswithcode.com/task/optical-flow-estimation
+40,Video Generation(ビデオ生成),（さまざまなビデオ生成タスク。GIFクレジット：Magvit）,https://paperswithcode.com/task/video-generation
+41,Video Segmentation(ビデオセグメンテーション),このタスクには説明がありません！,https://paperswithcode.com/task/video-segmentation
+42,3D Action Recognition(3Dアクション認識),画像：Rahmani et al,https://paperswithcode.com/task/3d-human-action-recognition
+43,Ad-hoc video search(アドホックビデオ検索),アドホック検索タスクは、2016年から2018年までの3年サイクルを終了し、エンドユーザー検索ユースケースをモデル化する目標で終了しました。,https://paperswithcode.com/task/ad-hoc-video-search
+44,Audio Classification(オーディオ分類),オーディオ分類は、オーディオ信号の識別とタグ付けをさまざまなクラスまたはカテゴリに識別してタグ付けする機械学習タスクです。,https://paperswithcode.com/task/audio-classification
+45,Depth Estimation(深度推定),深さの推定は、カメラに対する各ピクセルの距離を測定するタスクです。,https://paperswithcode.com/task/depth-estimation
+46,Face Anti-Spoofing(顔を引き起こします),顔のスプーフィングは、写真、ビデオ、マスク、または認可された人の顔の別の代替品を使用して、誤った顔の検証を防ぐタスクです。,https://paperswithcode.com/task/face-anti-spoofing
+47,Face Recognition(顔認識),顔認識は、既存の顔のデータベースに対して写真またはビデオ画像で顔を肯定的に識別するタスクです。,https://paperswithcode.com/task/face-recognition
+48,Multi-Task Learning(マルチタスク学習),マルチタスク学習は、1つまたはすべてのタスクのパフォーマンスを最大化しながら、複数の異なるタスクを同時に学習することを目的としています。,https://paperswithcode.com/task/multi-task-learning
+49,Self-Supervised Learning(自己教師の学習),自己教師の学習とは、自己教師の方法で表現を学習する方法のカテゴリーを指します（つまり、ラベルなし）。,https://paperswithcode.com/methods/category/self-supervised-learning
+50,Semi-Supervised Video Object Segmentation(半教師のビデオオブジェクトセグメンテーション),半監視されたシナリオは、ユーザーがビデオシーケンスの最初のフレームに関心のあるオブジェクトの完全なマスクを入力することを想定しています。,https://paperswithcode.com/task/semi-supervised-video-object-segmentation
+51,Sign Language Translation(手話の翻訳),手話を含むビデオを考えると、タスクは（書かれた）話し言葉への翻訳を予測することです。,https://paperswithcode.com/task/sign-language-translation
+52,Unsupervised Video Object Segmentation(監視されていないビデオオブジェクトセグメンテーション),監視されていないシナリオは、ユーザーがアルゴリズムと対話してセグメンテーションマスクを取得しないことを前提としています。,https://paperswithcode.com/task/unsupervised-video-object-segmentation
+53,Video Object Detection(ビデオオブジェクトの検出),ビデオオブジェクトの検出は、画像ではなくビデオからオブジェクトを検出するタスクです。,https://paperswithcode.com/task/video-object-detection
+54,Video Object Tracking(ビデオオブジェクトトラッキング),ビデオオブジェクト検出は、空間情報と時間的情報の両方を使用して、ビデオのターゲットを検出することを目的としています。,https://paperswithcode.com/task/video-object-tracking
+55,Video Quality Assessment(ビデオ品質評価),このタスクには説明がありません！,https://paperswithcode.com/task/video-quality-assessment
+56,3D Object Detection(3Dオブジェクト検出),3Dオブジェクトの検出は、コンピュータービジョンのタスクであり、目標は、その形状、場所、および向きに基づいて3D環境のオブジェクトを識別して見つけることです。,https://paperswithcode.com/task/3d-object-detection
+57,3D Pose Estimation(3Dポーズ推定),画像クレジット：GSNET：幾何学的およびシーン認識監督によるジョイントビークルのポーズと形状の再構築、ECCV'20,https://paperswithcode.com/task/3d-pose-estimation
+58,Action Quality Assessment(アクション品質評価),評価,https://paperswithcode.com/task/action-quality-assessment
+59,Emotion Recognition(感情認識),感情認識は、効果的な人間コンピューターの相互作用を可能にする研究の重要な分野です。,https://paperswithcode.com/task/emotion-recognition
+60,Face Detection(顔検出),フェイス検出は、デジタル画像やビデオ内の人間の顔を自動的に識別して見つけることを伴うコンピュータービジョンタスクです。,https://paperswithcode.com/task/face-detection
+61,Face Swapping(顔交換),フェイススワッピングとは、身体と環境の文脈の残りを維持しながら、画像間またはビデオで顔を交換するタスクを指します。,https://paperswithcode.com/task/face-swapping
+62,Hand Gesture Recognition(ハンドジェスチャー認識),このタスクには説明がありません！,https://paperswithcode.com/task/hand-gesture-recognition
+63,Hand Pose Estimation(ハンドポーズの推定),ハンドポーズの推定は、ビデオフレームの画像またはセットから手の関節を見つけるタスクです。,https://paperswithcode.com/task/hand-pose-estimation
+64,Lipreading(読唇術),リップリーディングは、音が存在しない場合にスピーカーの唇の動きを見ることにより、音声を抽出するプロセスです。,https://paperswithcode.com/task/lipreading
+65,Multimodal Activity Recognition(マルチモーダルアクティビティ認識),このタスクには説明がありません！,https://paperswithcode.com/task/multimodal-activity-recognition
+66,Scene Understanding(シーンの理解),シーンの理解は、シーンを理解するものです。,https://paperswithcode.com/task/scene-understanding
+67,Video Instance Segmentation(ビデオインスタンスセグメンテーション),ビデオインスタンスのセグメンテーションの目標は、ビデオのインスタンスの同時検出、セグメンテーション、追跡です。,https://paperswithcode.com/task/video-instance-segmentation
+68,Zero-Shot Video Retrieval(ゼロショットビデオ検索),このタスクには説明がありません！,https://paperswithcode.com/task/zero-shot-video-retrieval
+69,2D Semantic Segmentation(2Dセマンティックセグメンテーション),このタスクには説明がありません！,https://paperswithcode.com/task/2d-semantic-segmentation
+70,2D object detection(2Dオブジェクト検出),このタスクには説明がありません！,https://paperswithcode.com/task/2d-object-detection
+71,3D Reconstruction(3D再構成),ナンがあります,https://paperswithcode.com/methods/category/3d-reconstruction
+72,Decision Making(意思決定),意思決定は、異なるソースから、およびさまざまなレベルの確実性で（異なるレベルの抽象化の）データを分析し、他のデータソースよりも多くのデータソースを比較検討することで情報をマージし、可能な限りすべてを探索することによって結論に到達する複雑なタスクです。,https://paperswithcode.com/task/decision-making
+73,Dense Video Captioning(密なビデオキャプション),ほとんどの自然なビデオには、多数のイベントが含まれています。,https://paperswithcode.com/task/dense-video-captioning
+74,Face Verification(顔の検証),顔の検証は、2つの顔の画像が同じ人に属しているかどうかを判断することを含む、コンピュータービジョンの機械学習タスクです。,https://paperswithcode.com/task/face-verification
+75,Human action generation(人間のアクションジェネレーション),Yan et al。,https://paperswithcode.com/task/human-action-generation
+76,Object Localization(オブジェクトのローカリゼーション),オブジェクトのローカリゼーションは、通常、インスタンスを中心としたしっかりとトリミングされた境界ボックスを指定することにより、画像内の特定のオブジェクトカテゴリのインスタンスを見つけるタスクです。,https://paperswithcode.com/task/object-localization
+77,Object Recognition(オブジェクト認識),オブジェクト認識は、画像やビデオのオブジェクトの分類を検出するためのコンピュータービジョン技術です。,https://paperswithcode.com/task/object-recognition
+78,Online Multi-Object Tracking(オンラインマルチオブジェクトトラッキング),オンラインマルチオブジェクトトラッキングの目標は、オンラインビデオストリーム内の複数のオブジェクトの時空間的軌跡（つまり、ビデオがフレームごとに提供される）を推定することです。これは、多数のリアルタイムアプリケーションの基本的な問題です。,https://paperswithcode.com/task/online-multi-object-tracking
+79,Spatio-Temporal Action Localization(時空間的アクションローカリゼーション),このタスクには説明がありません！,https://paperswithcode.com/task/spatio-temporal-action-localization
+80,Speaker Recognition(スピーカーの認識),スピーカーの認識とは、スピーチセグメントを与えられた人の身元を特定または確認するプロセスです。,https://paperswithcode.com/task/speaker-recognition
+81,Unsupervised Domain Adaptation(監視されていないドメインの適応),監視されていないドメインの適応は、ソースドメインから学んだ知識を、多くの注釈付きトレーニングの例を使用して、標的ドメインのみをターゲットにしていないデータのみを導入するための学習フレームワークです。,https://paperswithcode.com/task/unsupervised-domain-adaptation
+82,Video Frame Interpolation(ビデオフレーム補間),ナンがあります,https://paperswithcode.com/methods/category/video-frame-interpolation
+83,Video Inpainting(ビデオインペインティング),ビデオインペインティングの目標は、特定のビデオシーケンスの欠落している領域を、空間的および時間的にコヒーレントの両方の内容を記入することです。,https://paperswithcode.com/task/video-inpainting
+84,Video Recognition(ビデオ認識),ビデオ認識とは、視覚ソースから受信したデータ、特にビデオを取得、処理、分析するプロセスです。,https://paperswithcode.com/task/video-recognition
+85,Video Super-Resolution(ビデオ超解像度),ビデオスーパー解像度は、ビデオシーケンスの解像度を増やすことを目的としたコンピュータービジョンタスクです。通常は、通常は低解像度から高解像度になります。,https://paperswithcode.com/task/video-super-resolution
+86,Zero-Shot Action Recognition(ゼロショットアクション認識),このタスクには説明がありません！,https://paperswithcode.com/task/zero-shot-action-recognition
+87,2D Human Pose Estimation(2Dヒューマンポーズ推定),人間のポーズ推定とは何ですか？,https://paperswithcode.com/task/2d-human-pose-estimation
+88,3D Hand Pose Estimation(3Dハンドポーズ推定),画像：Zimmerman et l,https://paperswithcode.com/task/3d-hand-pose-estimation
+89,3D Object Tracking(3Dオブジェクト追跡),このタスクには説明がありません！,https://paperswithcode.com/task/3d-object-tracking
+90,Action Anticipation(アクションの期待),次のアクションの予想は、1、...、tフレームを観察し、T_A秒のギャップ後に発生するアクションを予測することとして定義されます。,https://paperswithcode.com/task/action-anticipation
+91,Action Triplet Recognition(アクショントリプレット認識),対象動詞とオブジェクトの三重項としてアクションを認識します。,https://paperswithcode.com/task/action-triplet-recognition
+92,Action Understanding(アクション理解),このタスクには説明がありません！,https://paperswithcode.com/task/action-understanding
+93,Anomaly Detection In Surveillance Videos(監視ビデオでの異常検出),このタスクには説明がありません！,https://paperswithcode.com/task/anomaly-detection-in-surveillance-videos
+94,Audio-Visual Speech Recognition(音声視聴覚音声認識),視聴覚音声認識は、ペアのオーディオとビジュアルストリームをテキストに転写するタスクです。,https://paperswithcode.com/task/audio-visual-speech-recognition
+95,Crowd Counting(群衆の数),群衆のカウントは、イメージの人々を数えるタスクです。,https://paperswithcode.com/task/crowd-counting
+96,Deblurring(デブラー),DeBluringは、画像やビデオからぼやけたアーティファクトを削除して、元のシャープなコンテンツを復元するコンピュータービジョンタスクです。,https://paperswithcode.com/task/deblurring
+97,Disentanglement(解体),これは、主要な問題の基礎構造をその表現のばらばらの部分に解き放つ（または分離する）ことにより、データ効率的な方法で一連のタスクを解決するためのアプローチです。,https://paperswithcode.com/task/disentanglement
+98,Domain Adaptation(ドメインの適応),ナンがあります,https://paperswithcode.com/methods/category/domain-adaptation
+99,Emotion Classification(感情分類),感情分類、または感情分類は、感情を認識して対応するカテゴリに分類するタスクです。,https://paperswithcode.com/task/emotion-classification
+100,Emotion Recognition in Conversation(会話の感情認識),会話の転写と各構成要素の発話の話者情報を考えると、ERCタスクは、いくつかの事前に定義された感情から各発話の感情を特定することを目的としています。,https://paperswithcode.com/task/emotion-recognition-in-conversation
+101,Gesture Recognition(ジェスチャー認識),ジェスチャー認識は、手話の自動認識、人間とロボットの相互作用、またはビデオゲームを制御する新しい方法などのアプリケーションを使用した積極的な研究分野です。,https://paperswithcode.com/task/gesture-recognition
+102,Human Detection(人間の検出),このタスクには説明がありません！,https://paperswithcode.com/task/human-detection
+103,Image Classification(画像分類),画像分類は、画像全体を全体として理解しようとする基本的なタスクです。,https://paperswithcode.com/task/image-classification
+104,Image Generation(画像生成),画像生成（合成）は、既存のデータセットから新しい画像を生成するタスクです。,https://paperswithcode.com/task/image-generation
+105,Interactive Video Object Segmentation(インタラクティブなビデオオブジェクトセグメンテーション),インタラクティブなシナリオでは、ユーザーが、この場合は、詐欺師の形式で、興味のあるオブジェクトをセグメント化するために、アルゴリズムに反復的な改良入力を提供することを想定しています。,https://paperswithcode.com/task/interactive-video-object-segmentation
+106,Lane Detection(レーン検出),レーン検出は、道路シーンのビデオまたは画像で車線を駆動する境界を識別することを伴うコンピュータービジョンタスクです。,https://paperswithcode.com/task/lane-detection
+107,Lip Reading(リップリーディング),リップリーディングは、視覚情報、特に唇の動きのみを使用して、ビデオの音声コンテンツを推測するタスクです。,https://paperswithcode.com/task/lip-reading
+108,Moment Retrieval(モーメント検索),モーメント検索は、「ユーザーのクエリが与えられたビデオにモーメントをローカライズする」というタスクとして定義される可能性があります。,https://paperswithcode.com/task/moment-retrieval
+109,Motion Segmentation(モーションセグメンテーション),モーションセグメンテーションは、監視、アクション認識、シーンの理解など、コンピュータービジョンやロボット工学の多くのアプリケーションで重要なタスクです。,https://paperswithcode.com/task/motion-segmentation
+110,Novel View Synthesis(新規ビュー統合),指定されたソース画像とそのカメラポーズから任意のターゲットカメラのポーズでターゲット画像を合成します。,https://paperswithcode.com/task/novel-view-synthesis
+111,Person Search(人の検索),人の検索は、多くのシーン画像の中で特定の人を一致させることを目的とするタスクです。,https://paperswithcode.com/task/person-search
+112,Pose Tracking(ポーズトラッキング),ポーズトラッキングは、ビデオでマルチパーソンの人間のポーズを推定し、各キーポイントにフレーム間で一意のインスタンスIDを割り当てるタスクです。,https://paperswithcode.com/task/pose-tracking
+113,Real-Time Object Detection(リアルタイムオブジェクトの検出),リアルタイムオブジェクトの検出は、基本レベルの精度を維持しながら、高速推論を備えたリアルタイムビデオシーケンスで関心のあるオブジェクトを識別して特定することを伴うコンピュータービジョンタスクです。,https://paperswithcode.com/task/real-time-object-detection
+114,Self-Supervised Action Recognition(自己教師のアクション認識),このタスクには説明がありません！,https://paperswithcode.com/task/self-supervised-action-recognition
+115,Temporal Action Proposal Generation(一時的な行動提案生成),このタスクには説明がありません！,https://paperswithcode.com/task/temporal-action-proposal-generation
+116,Video Description(ビデオの説明),自動ビデオの説明の目標は、ビデオで起こっているイベントについてのストーリーを伝えることです。,https://paperswithcode.com/task/video-description
+117,Visual Speech Recognition(視覚的な音声認識),このタスクには説明がありません！,https://paperswithcode.com/task/visual-speech-recognition
+118,3D Absolute Human Pose Estimation(3D絶対人間のポーズ推定),このタスクは、絶対（カメラ中心の根相対的ではない）3Dヒトポーズ推定を解決することを目的としています。,https://paperswithcode.com/task/3d-absolute-human-pose-estimation
+119,Abnormal Event Detection In Video(ビデオでの異常なイベント検出),ビデオでの異常なイベントの検出は、異常なイベントがどのように見えるかの定義はコンテキストに大きく依存するため、コンピュータービジョンの挑戦的なタスクです。,https://paperswithcode.com/task/abnormal-event-detection-in-video
+120,Autonomous Vehicles(自動運転車),自動運転車は、人間の伝導なしで自分自身を導くことができる車両を作るタスクです。,https://paperswithcode.com/task/autonomous-vehicles
+121,Camera shot boundary detection(カメラショットの境界検出),カメラショットの境界検出の目的は、ビデオ内のカメラショット間の遷移を見つけ、カメラの遷移の種類を分類することです。,https://paperswithcode.com/task/camera-shot-boundary-detection
+122,Classification(分類),分類は、データのセットを事前定義されたクラスまたはグループに分類するタスクです。,https://paperswithcode.com/task/classification-1
+123,Dialect Identification(方言の識別),方言アラビア語の識別,https://paperswithcode.com/task/dialect-identification
+124,Early Action Prediction(早期アクション予測),このタスクには説明がありません！,https://paperswithcode.com/task/early-action-prediction
+125,Face Presentation Attack Detection(フェイスプレゼンテーション攻撃の検出),このタスクには説明がありません！,https://paperswithcode.com/task/face-presentation-attack-detection
+126,Facial Action Unit Detection(フェイシャルアクションユニットの検出),フェイシャルアクションユニットの検出は、顔のビデオからアクションユニットを検出するタスクです。たとえば、唇の引き締めや頬の飼育です。,https://paperswithcode.com/task/facial-action-unit-detection
+127,Facial Emotion Recognition(顔の感情認識),顔の画像からの感情認識,https://paperswithcode.com/task/facial-emotion-recognition
+128,Few Shot Action Recognition(ショットアクション認識はほとんどありません),少数のショット（FS）アクション認識は、挑戦的なコンピュータービジョンの問題であり、タスクは、アクションクラスごとにサンプルが制限されているサポートセットのアクションカテゴリの1つに分類されていないクエリビデオを分類することです。,https://paperswithcode.com/task/few-shot-action-recognition
+129,Gait Recognition(歩行認識),（画像クレジット：Gaitset：Gaitをクロスビューゲート認識のセットと見なしてください）,https://paperswithcode.com/task/gait-recognition
+130,Human Behavior Forecasting(人間の行動予測),このタスクには説明がありません！,https://paperswithcode.com/task/human-behavior-forecasting
+131,Human Interaction Recognition(人間の相互作用認識),人間の相互作用認識（HIR）は、ビデオ、画像、またはその他のマルチメディアコンテンツでの人間の相互作用を検出および認識するためのコンピューターアルゴリズムの開発を含む研究分野です。,https://paperswithcode.com/task/human-interaction-recognition
+132,Human Pose Forecasting(人間のポーズ予測),人間のポーズ予測は、将来の人間のポーズを検出して予測するタスクです。,https://paperswithcode.com/task/human-pose-forecasting
+133,Image Inpainting(画像の入力),画像の開始は、画像内の欠落している領域を再構築するタスクです。,https://paperswithcode.com/task/image-inpainting
+134,Medical Image Segmentation(医療画像セグメンテーション),医療画像セグメンテーションは、医療画像を複数のセグメントに分割することを含むコンピュータービジョンタスクであり、各セグメントは画像の関心のある異なるオブジェクトまたは構造を表します。,https://paperswithcode.com/task/medical-image-segmentation
+135,Monocular Depth Estimation(単眼深度推定),単眼深度推定は、単一の（単眼の）RGB画像を与えられた各ピクセルの深さ値（カメラに対する距離）を推定するタスクです。,https://paperswithcode.com/task/monocular-depth-estimation
+136,Motion Forecasting(モーション予測),モーション予測は、将来追跡されたオブジェクトの位置を予測するタスクです,https://paperswithcode.com/task/motion-forecasting
+137,Multi-Label Classification(マルチラベル分類),マルチラベル分類は、インスタンスが複数のラベルに関連付けられる可能性のある監視された学習問題です。,https://paperswithcode.com/task/multi-label-classification
+138,Multimodal Sentiment Analysis(マルチモーダル感情分析),マルチモーダル感情分析は、複数のデータソースを使用して感情分析を実行するタスクです。,https://paperswithcode.com/task/multimodal-sentiment-analysis
+139,Multiple Instance Learning(複数のインスタンス学習),複数のインスタンス学習は、トレーニングデータがバッグに配置され、各バッグに一連のインスタンスが含まれる弱く監視されている学習アルゴリズムの一種です。,https://paperswithcode.com/task/multiple-instance-learning
+140,Natural Language Moment Retrieval(自然言語モーメントの検索),このタスクには説明がありません！,https://paperswithcode.com/task/natural-language-moment-retrieval
+141,Panoptic Segmentation(パノプティックセグメンテーション),パノプティックセグメンテーションは、セマンティックセグメンテーションとインスタンスセグメンテーションを組み合わせて、シーンの包括的な理解を提供するコンピュータービジョンタスクです。,https://paperswithcode.com/task/panoptic-segmentation
+142,Pedestrian Detection(歩行者の検出),歩行者の検出は、カメラから歩行者を検出するタスクです。,https://paperswithcode.com/task/pedestrian-detection
+143,Pose Prediction(予測のポーズ),ポーズ予測は、以前のポーズのウィンドウを考慮して、将来のポーズを予測することです。,https://paperswithcode.com/task/pose-prediction
+144,Quantization(量子化),量子化は、ニューラルネットワークトレーニングの計算コストを削減するための有望な手法であり、高コストの浮動小数点数（たとえば、FLOAT32）を低コストの固定点数（例：INT8に置き換えることができます,https://paperswithcode.com/task/quantization
+145,Real-Time Multi-Object Tracking(リアルタイムマルチオブジェクトトラッキング),オンラインアプローチでは、オンラインおよびリアルタイムのマルチオブジェクトトラッキングは、1秒あたり30フレームを超えるリアルタイム速度を達成します。,https://paperswithcode.com/task/real-time-multi-object-tracking
+146,Referring Expression Segmentation(参照式セグメンテーション),タスクの目的は、言語式で言及されているオブジェクトインスタンスを表す画像またはビデオのピクセルにラベルを付けることを目的としています。,https://paperswithcode.com/task/referring-expression-segmentation
+147,Small Object Detection(小さなオブジェクトの検出),小さなオブジェクトの検出は、画像やビデオで小さなオブジェクトを検出およびローカライズすることを伴うコンピュータービジョンタスクです。,https://paperswithcode.com/task/small-object-detection
+148,Speech Separation(音声分離),特定の混合音声信号ですべての重複する音声源を抽出するタスクは、音声分離を指します。,https://paperswithcode.com/task/speech-separation
+149,Supervised Video Summarization(監視されたビデオ要約),監視されたビデオの要約は、人間標識の根本的な注釈を持つデータセットに依存しています（Summeデータセットの場合のようにビデオ要約の形式、またはTVSumの場合のようにフレームレベルの重要なスコアの形で依存しています,https://paperswithcode.com/task/supervised-video-summarization
+150,Text to Video Retrieval(ビデオ検索からテキスト),このタスクには説明がありません！,https://paperswithcode.com/task/text-to-video-retrieval
+151,Text-to-Video Generation(テキストからビデオへの生成),このタスクとは、特定の文または一連の単語に基づいたビデオ生成を指します。,https://paperswithcode.com/task/text-to-video-generation
+152,Trajectory Forecasting(軌跡予測),軌道予測は、過去の軌跡と過去の軌跡に基づいて、シーン内のすべての移動剤（人間、車両など）の将来の軌跡を予測モデルを予測する順次予測タスクです。,https://paperswithcode.com/task/trajectory-forecasting
+153,Unconstrained Lip-synchronization(制約のない唇同期),arbitrary意的な人のビデオとarbitrary意的な運転スピーチを考えると、タスクは、指定されたスピーチに一致する唇のシンクスビデオを生成することです。,https://paperswithcode.com/task/lip-sync
+154,Unsupervised Person Re-Identification(監視されていない人の再識別),このタスクには説明がありません！,https://paperswithcode.com/task/unsupervised-person-re-identification
+155,Unsupervised Video Summarization(監視されていないビデオ要約),監視されていないビデオ要約アプローチは、トレーニングに適切に大きなオリジナルビデオのコレクションのみを必要とする学習メカニズムに基づいて、根拠の真実データ（その制作には時間を奪われたマニュアル注釈手順が必要です）の必要性を克服します。,https://paperswithcode.com/task/unsupervised-video-summarization
+156,Video Anomaly Detection(ビデオ異常検出),このタスクには説明がありません！,https://paperswithcode.com/task/video-anomaly-detection
+157,Video Denoising(ビデオ除去),このタスクには説明がありません！,https://paperswithcode.com/task/video-denoising
+158,Video Grounding(ビデオ接地),ビデオ接地は、話し言葉の説明を特定のビデオセグメントにリンクするタスクです。,https://paperswithcode.com/task/video-grounding
+159,Video Reconstruction(ビデオの再構築),出典：Deep-Slomo,https://paperswithcode.com/task/video-reconstruction
+160,Video Salient Object Detection(ビデオ顕著なオブジェクトの検出),ビデオ顕著なオブジェクト検出（VSOD）は、一般的なフリービューリング中にHVSの背後にある基礎となるメカニズムを理解し、例えばビデオセグメンテーション、ビデオキャプション、ビデオ圧縮、自動運転、ロボット,https://paperswithcode.com/task/video-salient-object-detection
+161,Video Semantic Segmentation(ビデオセマンティックセグメンテーション),このタスクには説明がありません！,https://paperswithcode.com/task/video-semantic-segmentation
+162,Video-Text Retrieval(ビデオテキスト取得),ビデオテキスト検索には、ビデオと言語の両方を一緒に理解する必要があります。,https://paperswithcode.com/task/video-text-retrieval
+163,Visual Keyword Spotting(ビジュアルキーワードスポッティング),サイレントトーキングフェイスビデオで特定のクエリキーワードを見つける,https://paperswithcode.com/task/visual-keyword-spotting
+164,Weakly Supervised Action Localization(弱く監視されたアクションローカリゼーション),このタスクでは、トレーニングデータは、時間的な境界注釈なしでアクティビティのリストを含むビデオで構成されています。,https://paperswithcode.com/task/weakly-supervised-action-localization
+165,motion prediction(モーション予測),このタスクには説明がありません！,https://paperswithcode.com/task/motion-prediction
+166,3D Human Reconstruction(3D人間の再建),このタスクには説明がありません！,https://paperswithcode.com/task/3d-human-reconstruction
+167,3D Lane Detection(3Dレーン検出),このタスクには説明がありません！,https://paperswithcode.com/task/3d-lane-detection
+168,Accented Speech Recognition(アクセントされた音声認識),このタスクには説明がありません！,https://paperswithcode.com/task/accented-speech-recognition
+169,Accident Anticipation(事故の予想),このタスクには説明がありません！,https://paperswithcode.com/task/accident-anticipation
+170,Action Localization(アクションローカリゼーション),アクションローカリゼーションとは、ビデオでのアクションの空間的および時間的なコーニネートを見つけることです。,https://paperswithcode.com/task/action-localization
+171,Action Parsing(アクション解析),アクション解析は、ビデオまたは静止画像を与えられたタスクであり、各フレームまたは画像をそのフレームまたは画像のアクションを説明するラベルを割り当てます。,https://paperswithcode.com/task/action-parsing
+172,Action Spotting(アクションスポッティング),このタスクには説明がありません！,https://paperswithcode.com/task/action-spotting
+173,Action Unit Detection(アクションユニットの検出),アクションユニットの検出は、ビデオからアクションユニットを検出するタスクです。たとえば、顔のビデオからの顔のアクションユニット（唇の引き締め、頬の上昇）の種類です。,https://paperswithcode.com/task/action-unit-detection
+174,Active Learning(能動的学習),ナンがあります,https://paperswithcode.com/methods/category/active-learning
+175,Active Speaker Localization(アクティブなスピーカーのローカリゼーション),アクティブスピーカーのローカリゼーション（ASL）は、オーディオ、ビジョン、またはその両方を使用して、環境でアクティブスピーカー（トーカー）を空間的にローカライズするプロセスです。,https://paperswithcode.com/task/active-speaker-localization
+176,Activity Prediction(アクティビティ予測),ビデオで人間の活動を予測します,https://paperswithcode.com/task/activity-prediction
+177,Activity Recognition In Videos(ビデオでのアクティビティ認識),このタスクには説明がありません！,https://paperswithcode.com/task/activity-recognition-in-videos
+178,Atomic action recognition(原子作用認識),このタスクには説明がありません！,https://paperswithcode.com/task/atomic-action-recognition
+179,Audio-Visual Synchronization(視聴覚同期),このタスクには説明がありません！,https://paperswithcode.com/task/audio-visual-synchronization
+180,Bayesian Inference(ベイジアン推論),ベイジアン推論は、ベイズルールを使用してパラメーター（およびその完全な後方）を推定する方法論です。,https://paperswithcode.com/task/bayesian-inference
+181,Boundary Detection(境界検出),境界検出は、画像にエンコードされた情報を抽出する重要な部分であり、密度、速度、圧力などを含む関心の量の計算を可能にします。,https://paperswithcode.com/task/boundary-detection
+182,Class-agnostic Object Detection(クラスに依存しないオブジェクト検出),クラスに依存しないオブジェクト検出は、カテゴリを指定せずに画像内のオブジェクトをローカライズすることを目的としています。,https://paperswithcode.com/task/class-agnostic-object-detection
+183,Copy Detection(コピー検出),このタスクには説明がありません！,https://paperswithcode.com/task/copy-detection
+184,Denoising(除去),除去は、画像処理とコンピュータービジョンのタスクであり、画像からノイズを削除または削減することを目的としています。,https://paperswithcode.com/task/denoising
+185,Dialogue Act Classification(対話法の分類),対話法の分類は、対話で提供する機能、つまりスピーカーが実行している行為に関して発話を分類するタスクです。,https://paperswithcode.com/task/dialogue-act-classification
+186,Domain Generalization(ドメイン一般化),ドメイン一般化のアイデアは、1つまたは複数のトレーニングドメインから学習し、目に見えないドメインに適用できるドメインに存在するモデルを抽出することです。,https://paperswithcode.com/task/domain-generalization
+187,Driver Attention Monitoring(ドライバーの注意監視),ドライバーの注意監視は、ドライバーの注意を監視するタスクです。,https://paperswithcode.com/task/driver-attention-monitoring
+188,Egocentric Activity Recognition(エゴセントリックアクティビティ認識),このタスクには説明がありません！,https://paperswithcode.com/task/egocentric-activity-recognition
+189,Event Detection(イベント検出),このタスクには説明がありません！,https://paperswithcode.com/task/event-detection
+190,Event Segmentation(イベントセグメンテーション),このタスクには説明がありません！,https://paperswithcode.com/task/event-segmentation
+191,Face Alignment(顔のアライメント),顔のアライメントは、デジタル画像の面の幾何学的構造を識別し、翻訳、スケール、および回転に基づいて顔の標準的なアライメントを取得しようとするタスクです。,https://paperswithcode.com/task/face-alignment
+192,Face Identification(顔の識別),顔の識別は、特定のフェイス画像を既存の顔のデータベースの顔画像と一致させるタスクです。,https://paperswithcode.com/task/face-identification
+193,Facial Landmark Detection(顔のランドマーク検出),フェイシャルランドマークの検出は、目、鼻、口、あごなどの顔の特定のポイントまたはランドマークを検出およびローカライズすることを含むコンピュータービジョンタスクです。,https://paperswithcode.com/task/facial-landmark-detection
+194,Few Shot Temporal Action Localization(一時的なアクションローカリゼーションをショットするものはほとんどありません),少数のラベル付きサンプルを使用してアクションを検出します,https://paperswithcode.com/task/few-shot-temporal-action-localization
+195,Few-Shot Learning(少数のショット学習),少数のショット学習は、メタトレーニング段階でいくつかの関連するタスクで学習者がトレーニングされているメタラーニングの例であり、メタ中に、わずかな例で目に見えない（ただし関連）タスクによく一般化できるようにします。,https://paperswithcode.com/task/few-shot-learning
+196,Fine-Grained Action Detection(細粒のアクション検出),このタスクには説明がありません！,https://paperswithcode.com/task/fine-grained-action-detection
+197,Gaze Estimation(視線の推定),視線の推定は、人の顔を与えられた人がどこを見ているかを予測するタスクです。,https://paperswithcode.com/task/gaze-estimation
+198,Generalized Zero Shot skeletal action recognition(一般化されたゼロショット骨格アクション認識),3D骨格アクション認識のための一般化されたゼロショット学習,https://paperswithcode.com/task/generalized-zero-shot-skeletal-action
+199,Genre classification(ジャンル分類),ジャンル分類は、形状、ピクセル、場所、強度などの定義された類似性に基づいて、オブジェクトをグループ化するプロセスです。,https://paperswithcode.com/task/genre-classification
+200,Group Activity Recognition(グループアクティビティ認識),グループアクティビティ認識は、人のグループの集団的行動に焦点を当てた人間の活動認識問題のサブセットであり、人の個々の行動とその相互作用に起因します。,https://paperswithcode.com/task/group-activity-recognition
+201,Heart rate estimation(心拍数の推定),QRS複合体からのRR間隔検出とRピーク検出,https://paperswithcode.com/task/heart-rate-estimation
+202,Highlight Detection(ハイライト検出),このタスクには説明がありません！,https://paperswithcode.com/task/highlight-detection
+203,Homography Estimation(ホモグラフィーの推定),ホモグラフィーの推定は、同じシーンの2つの画像間の関係を見つけるためにコンピュータービジョンと画像処理で使用される手法ですが、異なる視点からキャプチャされます。,https://paperswithcode.com/task/homography-estimation
+204,Image Quality Assessment(画質評価),このタスクには説明がありません！,https://paperswithcode.com/task/image-quality-assessment
+205,Image Retrieval(画像検索),画像検索は、特定のクエリ画像に似た大規模なデータベース内の画像を検索することを含むコンピュータービジョンタスクです。,https://paperswithcode.com/task/image-retrieval
+206,Image Super-Resolution(画像超解像度),画像の超解像度は、多くの場合、コンテンツと詳細を可能な限り維持しながら、多くの場合4倍以上の画像の解像度を増やすことを目標とする機械学習タスクです。,https://paperswithcode.com/task/image-super-resolution
+207,Interactive Segmentation(インタラクティブなセグメンテーション),このタスクには説明がありません！,https://paperswithcode.com/task/interactive-segmentation
+208,Lip to Speech Synthesis(音声合成から唇),スピーカーの静かなビデオを与えられた場合、唇の動きに合った対応するスピーチを生成します。,https://paperswithcode.com/task/lip-to-speech-synthesis
+209,Metric Learning(メトリック学習),メトリック学習の目標は、オブジェクトを埋め込み空間にマッピングする表現関数を学習することです。,https://paperswithcode.com/task/metric-learning
+210,Motion Estimation(モーション推定),モーション推定は、2つのフレーム間のブロックごとまたはピクセルごとのモーションベクトルを決定するために使用されます。,https://paperswithcode.com/task/motion-estimation
+211,Multi-Hypotheses 3D Human Pose Estimation(マルチハポス3Dヒューマンポーズ推定),このタスクには説明がありません！,https://paperswithcode.com/task/multi-hypotheses-3d-human-pose-estimation
+212,Multi-Label Learning(マルチラベル学習),このタスクには説明がありません！,https://paperswithcode.com/task/multi-label-learning
+213,Multi-Object Tracking and Segmentation(マルチオブジェクトの追跡とセグメンテーション),複数のオブジェクトの追跡とセグメンテーションには、特定のクラスのセットに属するオブジェクトを検出、追跡、およびセグメント化する必要があります。,https://paperswithcode.com/task/multi-object-tracking-and-segmentation
+214,Multi-Person Pose Estimation(マルチパーソンポーズ推定),マルチパーソンのポーズ推定は、1つのフレームで複数の人々のポーズを推定するタスクです。,https://paperswithcode.com/task/multi-person-pose-estimation
+215,Multi-future Trajectory Prediction(マルチフューチャー軌道予測),このタスクには説明がありません！,https://paperswithcode.com/task/multi-future-trajectory-prediction
+216,Multi-object discovery(マルチオブジェクトの発見),このタスクには説明がありません！,https://paperswithcode.com/task/multi-object-discovery
+217,Multimodal Deep Learning(マルチモーダルディープラーニング),マルチモーダルディープラーニングは、テキスト、画像、オーディオ、ビデオなどの複数のモダリティからの情報を組み合わせて、より正確で包括的な予測を行う一種のディープラーニングです。,https://paperswithcode.com/task/multimodal-deep-learning
+218,Multimodal Emotion Recognition(マルチモーダル感情認識),これは、IEMOCAPデータセットでマルチモーダル感情認識のリーダーボードです。,https://paperswithcode.com/task/multimodal-emotion-recognition
+219,Multiple Object Tracking with Transformer(トランスを使用した複数のオブジェクトトラッキング),このタスクには説明がありません！,https://paperswithcode.com/task/multiple-object-tracking-with-transformer
+220,Multiple People Tracking(複数の人が追跡します),このタスクには説明がありません！,https://paperswithcode.com/task/multiple-people-tracking
+221,Multiview Learning(マルチビュー学習),このタスクには説明がありません！,https://paperswithcode.com/task/multiview-learning
+222,Music Information Retrieval(音楽情報検索),このタスクには説明がありません！,https://paperswithcode.com/task/music-information-retrieval
+223,Natural Language Queries(自然言語クエリ),このタスクには説明がありません！,https://paperswithcode.com/task/natural-language-queries
+224,Natural Language Visual Grounding(自然言語の視覚的接地),このタスクには説明がありません！,https://paperswithcode.com/task/natural-language-visual-grounding
+225,Object Counting(オブジェクトカウント),オブジェクトカウントタスクの目標は、単一の画像またはビデオシーケンスでオブジェクトインスタンスの数をカウントすることです。,https://paperswithcode.com/task/object-counting
+226,One-Shot 3D Action Recognition(ワンショット3Dアクション認識),このタスクには説明がありません！,https://paperswithcode.com/task/one-shot-3d-action-recognition
+227,Online Action Detection(オンラインアクション検出),オンラインアクション検出は、将来ビデオフレームにアクセスすることなく、ストリーミングビデオで発生するとすぐにアクションを予測するタスクです。,https://paperswithcode.com/task/online-action-detection
+228,Open World Object Detection(世界のオブジェクトの検出を開きます),オープンワールドオブジェクトの検出は、モデルに次のような任務を課されるコンピュータービジョンの問題です。1）「不明」として導入されていないオブジェクトを特定することなく、2）忘れずにこれらの特定された未知のカテゴリを段階的に学習する,https://paperswithcode.com/task/open-world-object-detection
+229,Partially Relevant Video Retrieval(部分的に関連するビデオ検索),部分的に関連するビデオ検索（PRVR）タスクでは、トリミングされていないビデオが部分的に関連するW.R.T.,https://paperswithcode.com/task/partially-relevant-video-retrieval
+230,Person Identification(人の識別),このタスクには説明がありません！,https://paperswithcode.com/task/person-identification
+231,Pose Retrieval(ポーズ検索),画像やビデオから同様の人間のポーズの検索,https://paperswithcode.com/task/pose-retrieval
+232,Real-Time Semantic Segmentation(リアルタイムセマンティックセグメンテーション),セマンティックセグメンテーションは、画像内の各ピクセルにセマンティックラベルを割り当てることを含むコンピュータービジョンタスクです。,https://paperswithcode.com/task/real-time-semantic-segmentation
+233,Robot Navigation(ロボットナビゲーション),モバイルロボットナビゲーションの基本的な目的は、衝突せずにゴールポジションに到達することです。,https://paperswithcode.com/task/robot-navigation
+234,Robust Object Detection(堅牢なオブジェクト検出),のベンチマーク：オブジェクト検出モデルの堅牢性腐敗と歪みを画像化する,https://paperswithcode.com/task/robust-object-detection
+235,Scene Change Detection(シーンの変更検出),シーン変更検出（SCD）とは、2つのシーンが与えられた変更をローカル化し、変更カテゴリを識別するタスクを指します。,https://paperswithcode.com/task/scene-change-detection
+236,Scene Text Recognition(シーンテキスト認識),このタスクのリーダーボードのシーンテキスト検出を参照してください。,https://paperswithcode.com/task/scene-text-recognition
+237,Self-supervised Video Retrieval(自己教師のビデオ検索),このタスクには説明がありません！,https://paperswithcode.com/task/self-supervised-video-retrieval
+238,Semantic Object Interaction Classification(セマンティックオブジェクトインタラクション分類),このタスクには説明がありません！,https://paperswithcode.com/task/semantic-object-interaction-classification
+239,Semi-Supervised Action Detection(半教師のアクション検出),このタスクには説明がありません！,https://paperswithcode.com/task/semi-supervised-action-detection
+240,Sentiment Analysis(感情分析),感情分析は、特定のテキストの極性を分類するタスクです。,https://paperswithcode.com/task/sentiment-analysis
+241,Skills Assessment(スキル評価),このタスクには説明がありません！,https://paperswithcode.com/task/skills-assessment
+242,Skills Evaluation(スキル評価),このタスクには説明がありません！,https://paperswithcode.com/task/skills-evaluation
+243,Speaker Verification(スピーカーの検証),スピーカーの検証とは、声の特徴から人の身元を検証することです。,https://paperswithcode.com/task/speaker-verification
+244,Speech Emotion Recognition(音声感情認識),音声感情認識は、音声処理と計算麻痺のタスクであり、話された言語で表現された感情を認識して分類することを目的としています。,https://paperswithcode.com/task/speech-emotion-recognition
+245,Speech Enhancement(音声強調),ノイズからのきれいなスピーチを見積もってください,https://paperswithcode.com/methods/category/speech-enhancement
+246,Steering Control(ステアリングコントロール),このタスクには説明がありません！,https://paperswithcode.com/task/steering-control
+247,Stereo Matching(ステレオマッチング),ステレオマッチングは、2D画像から実世界の3D構造を回復するコンピュータービジョンのコアテクノロジーの1つです。,https://paperswithcode.com/task/stereo-matching-1
+248,Surgical Gesture Recognition(外科的ジェスチャー認識),このタスクには説明がありません！,https://paperswithcode.com/task/surgical-gesture-recognition
+249,Surgical tool detection(外科的ツール検出),内視鏡検査ビデオでのさまざまなクラスの手術器具の存在検出。,https://paperswithcode.com/task/surgical-tool-detection
+250,Talking Face Generation(顔の生成を話す),トーキングフェイスジェネレーションは、与えられた音声セマンティクスに対応する一連のフェイス画像を合成することを目指しています,https://paperswithcode.com/task/talking-face-generation
+251,Text Generation(テキスト生成),テキスト生成は、人間が作成したテキストと見分けがつかないように見えることを目指して、テキストを生成するタスクです。,https://paperswithcode.com/task/text-generation
+252,Text-to-video search(テキストからビデオへの検索),このタスクには説明がありません！,https://paperswithcode.com/task/text-to-video-search
+253,Thermal Infrared Object Tracking(熱赤外物質追跡),このタスクには説明がありません！,https://paperswithcode.com/task/thermal-infrared-object-tracking
+254,Traffic Accident Detection(交通事故の検出),このタスクには説明がありません！,https://paperswithcode.com/task/traffic-accident-detection
+255,Unsupervised 3D Human Pose Estimation(監視されていない3D人間のポーズ推定),このタスクには説明がありません！,https://paperswithcode.com/task/unsupervised-3d-human-pose-estimation
+257,Unsupervised Human Pose Estimation(監視されていない人間のポーズ推定),このタスクには説明がありません！,https://paperswithcode.com/task/unsupervised-human-pose-estimation
+258,Unsupervised Skeleton Based Action Recognition(監視されていないスケルトンベースのアクション認識),このタスクには説明がありません！,https://paperswithcode.com/task/unsupervised-skeleton-based-action
+259,Vehicle Re-Identification(車両の再識別),車両の再識別は、複数のカメラで同じ車両を識別するタスクです。,https://paperswithcode.com/task/vehicle-re-identification
+260,Video Alignment(ビデオアライメント),このタスクには説明がありません！,https://paperswithcode.com/task/video-alignment
+261,Video Compression(ビデオ圧縮),ビデオ圧縮は、画像またはビデオフレーム内および複数のビデオフレームにわたって空間的および時間的冗長性を活用することにより、画像またはビデオファイルのサイズを縮小するプロセスです。,https://paperswithcode.com/task/video-compression
+262,Video Emotion Recognition(ビデオ感情認識),このタスクには説明がありません！,https://paperswithcode.com/task/video-emotion-recognition
+263,Video Enhancement(ビデオ強化),このタスクには説明がありません！,https://paperswithcode.com/task/video-enhancement
+264,Video Matting(ビデオマット),画像クレジット：https：,https://paperswithcode.com/task/video-matting
+265,Video Polyp Segmentation(ビデオポリープセグメンテーション),このタスクには説明がありません！,https://paperswithcode.com/task/video-polyp-segmentation
+266,Video Restoration(ビデオの修復),このタスクには説明がありません！,https://paperswithcode.com/task/video-restoration
+267,Video Synchronization(ビデオ同期),このタスクには説明がありません！,https://paperswithcode.com/task/video-synchronization
+268,Video Visual Relation Detection(ビデオ視覚関係の検出),Video Visual Relation Detection（VIDVRD）は、視覚関係のインスタンスが、被写体とオブジェクトの軌跡を使用して、視覚関係のインスタンスが関係のトリプレット<サブジェクト、述語、オブジェクト>で表されるビデオでの視覚的関係のインスタンスを検出することを目的としています。,https://paperswithcode.com/task/video-visual-relation-detection
+269,Video Visual Relation Tagging(ビデオ視覚関係のタグ付け),このタスクには説明がありません！,https://paperswithcode.com/task/video-visual-relation-tagging
+270,Video-Based Person Re-Identification(ビデオベースの人の再識別),ビデオベースの人の再識別（Reid）は、複数のカメラのクエリ担当者と同じアイデンティティで人ビデオを取得することを目指しています,https://paperswithcode.com/task/video-based-person-re-identification
+271,Video-to-image Affordance Grounding(ビデオから画像へのアフォーダンスの接地),デモのビデオVとターゲット画像Iを考えると、ビデオから画像へのアフォーダンスの接地の目標は、ビデオの手で脱出した領域に従ってターゲット画像のアフォーダンスヒートマップを予測し、アフォーダンスアクションを伴います（例：Press、Press、Press、,https://paperswithcode.com/task/video-to-image-affordance-grounding
+272,Visual Reasoning(視覚的な推論),視覚画像に関連する行動と推論を理解する能力,https://paperswithcode.com/task/visual-reasoning
+273,Weakly Supervised Action Segmentation (Transcript)(弱く監視されたアクションセグメンテーション（トランスクリプト）),弱い（トランスクリプト）監督からのアクションセグメンテーション。,https://paperswithcode.com/task/weakly-supervised-action-segmentation
+274,Weakly Supervised Object Detection(監視されたオブジェクトの検出),弱く監視されたオブジェクト検出（WSOD）は、画像タグの監視のみを備えたオブジェクト検出器をトレーニングするタスクです。,https://paperswithcode.com/task/weakly-supervised-object-detection
+275,Weakly Supervised Temporal Action Localization(弱く監視された時間的行動のローカリゼーション),このタスクには説明がありません！,https://paperswithcode.com/task/weakly-supervised-temporal-action-1
+276,Weakly-supervised 3D Human Pose Estimation(弱く監視された3Dヒトポーズ推定),このタスクは、3Dアノテーションが少なく、3Dヒューマンポーズ推定をターゲットにします。,https://paperswithcode.com/task/weakly-supervised-3d-human-pose-estimation
+277,Weather Forecasting(天気予報),気象予測は、降水、温度、圧力、風などの将来の気象条件の予測です。,https://paperswithcode.com/task/weather-forecasting
+278,Zero Shot Skeletal Action Recognition(ゼロショットの骨格アクション認識),3D骨格アクション認識のゼロショット学習,https://paperswithcode.com/task/zero-shot-skeletal-action-recognition
+279,Zero-Shot Action Detection(ゼロショットアクション検出),このタスクには説明がありません！,https://paperswithcode.com/task/zero-shot-action-detection
+280,Zero-Shot Object Detection(ゼロショットオブジェクト検出),ゼロショットオブジェクト検出（ZSD）は、ターゲットオブジェクトクラスの一部で視覚的なトレーニングデータが利用できないオブジェクト検出のタスクです。,https://paperswithcode.com/task/zero-shot-object-detection
+281,audio-visual learning(視聴覚学習),このタスクには説明がありません！,https://paperswithcode.com/task/audio-visual-learning
+282,object-detection(オブジェクト検出),このタスクには説明がありません！,https://paperswithcode.com/task/object-detection-1
+283,2D Semantic Segmentation task 1 (8 classes)(2Dセマンティックセグメンテーションタスク1（8クラス）),このタスクには説明がありません！,https://paperswithcode.com/task/2d-semantic-segmentation-task-1-8-classes
+284,2D Semantic Segmentation task 3 (25 classes)(2Dセマンティックセグメンテーションタスク3（25クラス）),このタスクには説明がありません！,https://paperswithcode.com/task/2d-semantic-segmentation-task-3-25-classes
+285,3D Anomaly Detection(3D異常検出),3Dのみの異常検出,https://paperswithcode.com/task/3d-anomaly-detection
+286,3D Car Instance Understanding(3Dカーインスタンスの理解),3Dカーインスタンスの理解とは、道路上の移動または駐車車両の特性（翻訳、回転、形状など）を推定するタスクです。,https://paperswithcode.com/task/3d-car-instance-understanding
+287,3D Classification(3D分類),このタスクには説明がありません！,https://paperswithcode.com/task/3d-classification
+288,3D Depth Estimation(3D深度推定),画像：Monodepth2,https://paperswithcode.com/task/3d-depth-estimation
+289,3D Feature Matching(3D機能マッチング),画像：Choy et al,https://paperswithcode.com/task/3d-feature-matching
+290,3D Geometry Perception(3Dジオメトリの知覚),画像：Zhao et al,https://paperswithcode.com/task/3d-geometry-perception
+291,3D Human Dynamics(3Dヒューマンダイナミクス),画像：Zhang et al,https://paperswithcode.com/task/3d-human-dynamics
+292,3D Human Pose Tracking(3Dヒューマンポーズ追跡),このタスクには説明がありません！,https://paperswithcode.com/task/3d-human-pose-tracking
+293,3D Instance Segmentation(3Dインスタンスセグメンテーション),画像：Occuseg,https://paperswithcode.com/task/3d-instance-segmentation-1
+294,3D Object Classification(3Dオブジェクト分類),3Dオブジェクト分類は、3Dオブジェクトポイントクラウドのクラスを予測するタスクです。,https://paperswithcode.com/task/3d-object-classification
+295,3D Object Detection From Stereo Images(ステレオ画像からの3Dオブジェクトの検出),ステレオカメラからのみ配向3D境界ボックスを推定します。,https://paperswithcode.com/task/3d-object-detection-from-stereo-images
+296,3D Object Recognition(3Dオブジェクト認識),3Dオブジェクト認識は、3Dデータからオブジェクトを認識するタスクです。,https://paperswithcode.com/task/3d-object-recognition
+297,3D Object Reconstruction(3Dオブジェクトの再構成),画像：Choy et al,https://paperswithcode.com/task/3d-object-reconstruction
+298,3D Object Retrieval(3Dオブジェクト検索),出典：彼等,https://paperswithcode.com/task/3d-object-retrieval
+299,3D Point Cloud Matching(3Dポイントクラウドマッチング),画像：Gojic et al,https://paperswithcode.com/task/3d-point-cloud-matching
+300,3D Point Cloud Reconstruction(3Dポイントクラウドの再構築),3Dポイント雲のエンコードと再構築。,https://paperswithcode.com/task/3d-point-cloud-reconstruction
+301,3D Scene Reconstruction(3Dシーンの再構築),従来のSFMパイプラインまたは最新のディープラーニングアプローチを使用して3Dシーンを作成します。,https://paperswithcode.com/task/3d-scene-reconstruction
+302,3D Shape Reconstruction(3D形状の再構築),画像クレジット：GSNET：幾何学的およびシーン認識監督によるジョイントビークルのポーズと形状の再構築、ECCV'20,https://paperswithcode.com/task/3d-shape-reconstruction
+303,3D Shape Representation(3D形状表現),画像：Meshnet,https://paperswithcode.com/task/3d-shape-representation
+304,6D Pose Estimation(6Dポーズ推定),画像：Zeng et al,https://paperswithcode.com/task/6d-pose-estimation-1
+305,6D Pose Estimation using RGB(RGBを使用した6Dポーズ推定),RGBを使用した6Dポーズ推定とは、RGB画像に基づいて3Dスペースの6つの宇宙（6D）ポーズを決定するタスクを指します。,https://paperswithcode.com/task/6d-pose-estimation
+306,6D Pose Estimation using RGBD(RGBDを使用した6Dポーズ推定),画像：Zeng et al,https://paperswithcode.com/task/6d-pose-estimation-using-rgbd
+307,Abstractive Text Summarization(抽象的なテキストの要約),抽象的なテキストの要約は、ソーステキストの顕著なアイデアをキャプチャする短く簡潔な要約を生成するタスクです。,https://paperswithcode.com/task/abstractive-text-summarization
+308,Active Object Detection(アクティブオブジェクト検出),オブジェクト検出のためのアクティブ学習,https://paperswithcode.com/task/active-object-detection
+309,Activeness Detection(アクティブネス検出),画像を介して活性化を決定します,https://paperswithcode.com/task/activeness-detection
+310,Aesthetics Quality Assessment(美学の品質評価),美的関連の主観的評価の自動評価。,https://paperswithcode.com/task/aesthetics-quality-assessment
+311,Age Estimation(年齢の推定),年齢の推定は、画像から人の年齢を他の種類のデータから推定するタスクです。,https://paperswithcode.com/task/age-estimation
+312,Amodal Instance Segmentation(アモーダルインスタンスセグメンテーション),可視領域のみに焦点を当てた従来のセグメンテーションとは異なり、Amodalインスタンスセグメンテーションは、オブジェクトインスタンスの閉塞部分も予測します。,https://paperswithcode.com/task/amodal-instance-segmentation
+313,Amodal Panoptic Segmentation(アモダルパノプティックセグメンテーション),このタスクの目標は、スタッフクラスの可視領域のピクセルごとのセマンティックセグメンテーションラベルと、目に見える領域とオクルドクラスの両方のインスタンスセグメンテーションラベルを同時に予測することです。,https://paperswithcode.com/task/amodal-panoptic-segmentation
+314,Animal Action Recognition(動物の行動認識),クロス種（クラス内、クラス間）アクション認識,https://paperswithcode.com/task/animal-action-recognition
+315,Animal Pose Estimation(動物のポーズ推定),動物のポーズ推定は、動物のポーズを特定するタスクです。,https://paperswithcode.com/task/animal-pose-estimation
+316,Anxiety Detection(不安検出),人間の不安苦痛を検出します,https://paperswithcode.com/task/anxiety-detection
+317,Arousal Estimation(覚醒推定),このタスクには説明がありません！,https://paperswithcode.com/task/arousal-estimation
+318,Atari Games(アタリゲーム),Atari 2600 Gamesタスク（およびデータセット）には、高いゲームスコアを達成するためにエージェントをトレーニングすることが含まれます。,https://paperswithcode.com/task/atari-games
+319,Audio Emotion Recognition(オーディオ感情認識),このタスクには説明がありません！,https://paperswithcode.com/task/audio-emotion-recognition
+320,Audio Generation(オーディオ生成),オーディオ生成（合成）は、音声などの生のオーディオを生成するタスクです。,https://paperswithcode.com/task/audio-generation
+321,Audio Source Separation(オーディオソース分離),オーディオソースの分離とは、混合物（ポップバンドの録音など）を個々のソース（たとえば、リードボーカルのみ）から孤立したサウンドに分離するプロセスです。,https://paperswithcode.com/task/audio-source-separation
+322,Audio-Visual Active Speaker Detection(視聴覚アクティブスピーカー検出),ビデオ内のそれぞれの目に見える人が話しているかどうかを決定します。,https://paperswithcode.com/task/audio-visual-active-speaker-detection
+323,Audio-visual Question Answering(オーディオ視聴覚的な質問応答),このタスクには説明がありません！,https://paperswithcode.com/task/audio-visual-question-answering
+324,Automatic Speech Recognition (ASR)(自動音声認識（ASR）),自動音声認識（ASR）には、話し言葉を書かれたテキストに変換することが含まれます。,https://paperswithcode.com/task/automatic-speech-recognition
+325,Behavioral Malware Detection(行動マルウェア検出),このタスクには説明がありません！,https://paperswithcode.com/task/behavioral-malware-detection
+326,Binarization(バイナリゼーション),このタスクには説明がありません！,https://paperswithcode.com/task/binarization
+327,Blind Image Quality Assessment(盲目の画像品質評価),このタスクには説明がありません！,https://paperswithcode.com/task/blind-image-quality-assessment
+328,Boundary Captioning(境界キャプション),ビデオ内の境界のタイムスタンプが付属しているため、マシンは、境界でのステータスの変更を説明する文を生成するために必要です。,https://paperswithcode.com/task/boundary-captioning
+329,Boundary Grounding(境界接地),ビデオ内の境界の説明が付属しているため、マシンはビデオ内のその境界を見つけるために必要です。,https://paperswithcode.com/task/boundary-grounding
+330,Box-supervised Instance Segmentation(ボックススーパービズされたインスタンスセグメンテーション),このタスクは、弱く境界のあるボックスアノテーションでインスタンスセグメンテーションを実現することを目的としています。,https://paperswithcode.com/task/box-supervised-instance-segmentation
+331,Breast Cancer Detection(乳がんの検出),このタスクには説明がありません！,https://paperswithcode.com/task/breast-cancer-detection
+332,Breast Tumour Classification(乳房腫瘍分類),このタスクには説明がありません！,https://paperswithcode.com/task/breast-tumour-classification
+333,Camera Auto-Calibration(カメラの自動キャリブレーション),このタスクには説明がありません！,https://paperswithcode.com/task/camera-auto-calibration
+334,Camera shot segmentation(カメラショットセグメンテーション),カメラショットの一時的なセグメンテーションは、上記のフレームを記録するために使用されるカメラの種類に従って、各ビデオフレームを分類することにあります。,https://paperswithcode.com/task/camera-shot-segmentation
+335,Change Detection(検出を変更します),変更検出は、時間の経過とともに画像またはビデオシーケンスの変更を検出することを伴うコンピュータービジョンタスクです。,https://paperswithcode.com/task/change-detection
+336,Clinical Concept Extraction(臨床概念抽出),臨床的問題、治療、検査、臨床ノートからの解剖学的部分などの臨床指定されたエンティティの自動抽出。,https://paperswithcode.com/task/clinical-concept-extraction
+337,Color Mismatch Correction(カラーミスマッチ補正),色の不一致の補正は、色が誤って異なる別の領域のある領域のあるビューから対応する領域に色を転送するタスクです。,https://paperswithcode.com/task/color-mismatch-correction
+338,Colorectal Gland Segmentation:(結腸直腸腺セグメンテーション：),このタスクには説明がありません！,https://paperswithcode.com/task/colorectal-gland-segmentation
+339,Colorectal Polyps Characterization(結腸直腸ポリープの特性評価),このタスクには説明がありません！,https://paperswithcode.com/task/colorectal-polyps-characterization
+340,Colorization(着色),色付けは、画像表現を学ぶために口実として色付けに依存する自己監視アプローチです。,https://paperswithcode.com/method/colorization
+341,Composite action recognition(複合アクション認識),このタスクには説明がありません！,https://paperswithcode.com/task/composite-action-recognition
+342,Conditional Image Generation(条件付き画像生成),条件付き画像生成は、クラスを条件とするデータセットから新しい画像を生成するタスクです。,https://paperswithcode.com/task/conditional-image-generation
+343,Continual Learning(継続的な学習),継続的な学習（増分学習、生涯学習とも呼ばれます）は、前のタスクから得られた知識を忘れずに、多数のタスクのモデルを順番に学習するための概念です。,https://paperswithcode.com/task/continual-learning
+344,Contrastive Learning(対照学習),ナンがあります,https://paperswithcode.com/method/contrastive-learning
+345,Conversational Response Generation(会話の応答生成),入力の会話が与えられた場合、最後の会話要素への自然な見た目のテキスト返信を生成します。,https://paperswithcode.com/task/conversational-response-generation
+346,Cross-Modal Retrieval(クロスモーダル検索),クロスモーダル検索は、さまざまなモダリティにわたって検索タスクを実装するために使用されます。,https://paperswithcode.com/task/cross-modal-retrieval
+347,Data Augmentation(データ増強),データ増強には、さまざまな変更に基づいてデータの量を増やすために使用される手法が含まれ、元のデータセットの例の量を拡大します。,https://paperswithcode.com/task/data-augmentation
+348,Deep Attention(深い注意),このタスクには説明がありません！,https://paperswithcode.com/task/deep-attention
+349,Depression Detection(うつ病の検出),うつ病の検出は、個人のうつ病の兆候を特定する問題です。,https://paperswithcode.com/task/depression-detection
+350,Dialog Act Classification(ダイアログ法の分類),このタスクには説明がありません！,https://paperswithcode.com/task/dialog-act-classification
+351,Dialogue Generation(対話の生成),対話の生成は、自然言語の入力を「理解」するタスクです。これは、生産量を生成するための自然言語処理内です。,https://paperswithcode.com/task/dialogue-generation
+352,Dimensionality Reduction(次元削減),次元削減方法は、データを高次元空間から低次元空間に変換し、低次元空間が元のデータの最も重要な特性を保持するようにします。,https://paperswithcode.com/methods/category/dimensionality-reduction
+353,Drivable Area Detection(運転可能なエリア検出),このタスクには説明がありません！,https://paperswithcode.com/task/drivable-area-detection
+354,Emotional Dialogue Acts(感情的な対話が行われます),感情と対話を関連付けることは、受け入れるなどのそれらの間のユニークな関係を見つけるために行います,https://paperswithcode.com/task/emotional-dialogue-acts
+355,English Conversational Speech Recognition(英語の会話の音声認識),このタスクには説明がありません！,https://paperswithcode.com/task/english-conversational-speech-recognition
+356,Face Clustering(フェイスクラスタリング),ビデオでの顔のクラスタリング,https://paperswithcode.com/task/face-clustering
+357,Face Generation(顔の生成),顔の生成は、既存のデータセットから新しい顔を生成（または補間）するタスクです。,https://paperswithcode.com/task/face-generation
+358,Facial Expression Translation(表情表現の翻訳),このタスクには説明がありません！,https://paperswithcode.com/task/facial-expression-translation
+359,Facial expression generation(表情の生成),このタスクには説明がありません！,https://paperswithcode.com/task/facial-expression-generation
+360,Fact Checking(事実チェック),このタスクには説明がありません！,https://paperswithcode.com/task/fact-checking
+361,Few-Shot Image Classification(少数のショット画像分類),少数のショット画像分類は、各カテゴリのいくつかのラベル付けされた例のみを使用して、画像を事前定義されたカテゴリに分類するための機械学習モデルをトレーニングすることを含むコンピュータービジョンタスクです（通常は6つの例）。,https://paperswithcode.com/task/few-shot-image-classification
+362,Few-Shot Object Detection(少ないショットオブジェクト検出),少ないショットオブジェクト検出は、限られたトレーニングデータを持つ画像のオブジェクトを検出することを含むコンピュータービジョンタスクです。,https://paperswithcode.com/task/few-shot-object-detection
+363,Fill Mask(塗りつぶしマスク),このタスクには説明がありません！,https://paperswithcode.com/task/fill-mask
+364,Fine-Grained Vehicle Classification(細粒の車両分類),このタスクには説明がありません！,https://paperswithcode.com/task/fine-grained-vehicle-classification
+365,Fine-Grained Visual Categorization(細粒の視覚分類),このタスクには説明がありません！,https://paperswithcode.com/task/fine-grained-visual-categorization
+366,Fine-Grained Visual Recognition(細粒の視覚認識),このタスクには説明がありません！,https://paperswithcode.com/task/fine-grained-visual-recognition
+367,Fine-grained Action Recognition(細粒のアクション認識),このタスクには説明がありません！,https://paperswithcode.com/task/fine-grained-action-recognition
+368,Fire Detection(火災検出),多変量時系列センサーデータを使用した火災の検出。,https://paperswithcode.com/task/fire-detection
+369,Future Hand Prediction(将来の手の予測),このタスクには説明がありません！,https://paperswithcode.com/task/future-hand-prediction
+370,Future prediction(将来の予測),このタスクには説明がありません！,https://paperswithcode.com/task/future-prediction
+371,Gait Identification(歩行識別),このタスクには説明がありません！,https://paperswithcode.com/task/gait-identification
+372,Gaze Prediction(視線の予測),このタスクには説明がありません！,https://paperswithcode.com/task/eye-tracking
+373,Gender Prediction(性別予測),このタスクには説明がありません！,https://paperswithcode.com/task/gender-prediction
+374,General Action Video Anomaly Detection(一般的なアクションビデオ異常検出),任意のアクションの短いクリップ全体が異常な動きを特徴としているかどうかを検出します - トレーニング中に見られない別のアクションクラス。,https://paperswithcode.com/task/general-action-video-anomaly-detection
+375,General Classification(一般的分類),分類の一般的なタスクを解決しようとするアルゴリズム。,https://paperswithcode.com/task/classification
+376,Generalizable Person Re-identification(一般化可能な人の再識別),一般化可能な人の再識別とは、ソースデータセットでトレーニングされた方法を指しますが、ドメインの適応または転送学習なしでターゲットデータセットで直接評価されます。,https://paperswithcode.com/task/generalizable-person-re-identification
+377,Generalized Zero-Shot Object Detection(一般化されたゼロショットオブジェクト検出),このタスクには説明がありません！,https://paperswithcode.com/task/generalized-zero-shot-object-detection
+378,Gesture Generation(ジェスチャー生成),3Dポーズのシーケンスとしてのジェスチャーの生成,https://paperswithcode.com/task/gesture-generation
+379,Graph Matching(グラフマッチング),グラフマッチングは、複雑なリレーショナル情報を保存しながら、2つの頂点間で対応を見つける問題です。,https://paperswithcode.com/task/graph-matching
+380,Group Anomaly Detection(グループの異常検出),このタスクには説明がありません！,https://paperswithcode.com/task/group-anomaly-detection
+381,HD semantic map learning(HDセマンティックマップ学習),タスクの目標は、オンボードセンサー、たとえばRGBカメラからのデータを使用して、ベクトル化されたフォームでマップ要素を生成することです。,https://paperswithcode.com/task/hd-semantic-map-learning
+382,HDR Reconstruction(HDR再構成),このタスクには説明がありません！,https://paperswithcode.com/task/hdr-reconstruction
+383,Hand Joint Reconstruction(ハンドジョイント再構成),このタスクには説明がありません！,https://paperswithcode.com/task/hand-joint-reconstruction
+384,Hand Segmentation(ハンドセグメンテーション),このタスクには説明がありません！,https://paperswithcode.com/task/hand-segmentation
+385,Hand-Gesture Recognition(手のゼロの認識),このタスクには説明がありません！,https://paperswithcode.com/task/hand-gesture-recognition-1
+386,Head Pose Estimation(ヘッドポーズの推定),人のヘッドポーズを推定することは、視線の推定を支援する、注意のモデリング、3Dモデルの適合、ビデオへの適合、顔のアライメントの実行など、大量のアプリケーションを備えた重要な問題です。,https://paperswithcode.com/task/head-pose-estimation
+387,Heart Rate Variability(心拍数の変動),心拍数変動（HRV）は、心拍間の時間間隔の変動の生理学的現象です。,https://paperswithcode.com/task/heart-rate-variability
+388,Home Activity Monitoring(ホームアクティビティ監視),このタスクには説明がありません！,https://paperswithcode.com/task/home-activity-monitoring
+389,Human Activity Recognition(人間の活動認識),さまざまな人間の活動を分類します,https://paperswithcode.com/task/human-activity-recognition
+390,Human Dynamics(人間のダイナミクス),このタスクには説明がありません！,https://paperswithcode.com/task/human-dynamics
+391,Human Instance Segmentation(人間のインスタンスセグメンテーション),インスタンスセグメンテーションは、画像に表示される各関心のあるオブジェクトを検出および描写するタスクです。,https://paperswithcode.com/task/human-instance-segmentation
+392,Human Part Segmentation(人間の部分セグメンテーション),このタスクには説明がありません！,https://paperswithcode.com/task/human-part-segmentation
+393,Human fMRI response prediction(ヒトfMRI応答予測),タスクは次のとおりです。a）日常のイベントのビデオセットとb）対応する脳反応は、人間の参加者がそれらのビデオを見ている間に記録されている間、計算モデルを使用してビデオの脳反応を予測します。,https://paperswithcode.com/task/human-fmri-response-prediction
+394,Human motion prediction(人間のモーション予測),アクション予測は、事前のビデオ理解タスクであり、将来の状態に焦点を当てています。つまり、将来の状態について推論するか、アクション実行の終了前にアクションラベルを推測する必要があります。,https://paperswithcode.com/task/human-motion-prediction
+395,Human-Object-interaction motion tracking(ヒトオブジェクトと相互作用のモーショントラッキング),このタスクには説明がありません！,https://paperswithcode.com/task/human-object-interaction-motion-tracking
+396,Image Captioning(画像キャプション),画像キャプションは、言葉で画像の内容を記述するタスクです。,https://paperswithcode.com/task/image-captioning
+397,Image Deblurring(画像デブリング),このタスクには説明がありません！,https://paperswithcode.com/task/image-deblurring
+398,Image Dehazing(画像の脱線),（画像クレジット：密に接続されたピラミッド脱hazingネットワーク）,https://paperswithcode.com/task/image-dehazing
+399,Image Denoising(画像除去),画像除去は、画像からノイズを削除することを伴うコンピュータービジョンタスクです。,https://paperswithcode.com/task/image-denoising
+400,Image Generation from Scene Graphs(シーングラフからの画像生成),このタスクには説明がありません！,https://paperswithcode.com/task/image-generation-from-scene-graphs
+401,Image Manipulation(画像操作),このタスクには説明がありません！,https://paperswithcode.com/task/image-manipulation
+402,Image Registration(画像登録),画像登録は、さまざまなデータセットを1つの座標系に変換するプロセスです。,https://paperswithcode.com/task/image-registration
+403,Image Relighting(画像の再視力),画像の再視力には、画像の照明設定を変更することが含まれます。,https://paperswithcode.com/task/image-relighting
+404,Image Restoration(画像の復元),画像修復は、破損した入力画像から高品質の画像を取得するための逆の問題のファミリーです。,https://paperswithcode.com/task/image-restoration
+405,Image-level Supervised Instance Segmentation(画像レベルの教師付きインスタンスセグメンテーション),画像レベルのラベルを使用した、弱く監視されたインスタンスセグメンテーション,https://paperswithcode.com/task/image-level-supervised-instance-segmentation
+406,Image-to-Text Retrieval(画像からテキストへの検索),このタスクには説明がありません！,https://paperswithcode.com/task/image-to-text-retrieval
+407,Imitation Learning(模倣学習),模倣学習は、デモンストレーションから行動ポリシーを学習するためのフレームワークです。,https://paperswithcode.com/task/imitation-learning
+408,Imputation(帰属),一部の基準に従って欠落データを値で置き換える。,https://paperswithcode.com/task/imputation
+409,Indoor Localization(屋内ローカリゼーション),屋内のローカリゼーションは、屋内のロケーションベースのアプリケーションの根本的な問題です。,https://paperswithcode.com/task/indoor-localization
+410,Information Retrieval(情報検索),情報検索は、クエリに応じてドキュメントまたは検索結果のリストをランキングするタスクです,https://paperswithcode.com/task/information-retrieval
+411,Instrument Recognition(機器認識),このタスクには説明がありません！,https://paperswithcode.com/task/instrument-recognition
+412,Inverse-Tone-Mapping(逆トーンマッピング),このタスクには説明がありません！,https://paperswithcode.com/task/inverse-tone-mapping-1
+413,Joint Demosaicing and Denoising(関節のデモ除去と除去),このタスクには説明がありません！,https://paperswithcode.com/task/joint-demosaicing-and-denoising
+414,Keypoint Detection(キーポイント検出),キーポイント検出には、同時に人を検出し、キーポイントをローカライズすることが含まれます。,https://paperswithcode.com/task/keypoint-detection
+415,Kinematic Based Workflow Recognition(運動ベースのワークフロー認識),このタスクには説明がありません！,https://paperswithcode.com/task/kinematic-based-workflow-recognition
+416,Knowledge Distillation(知識の蒸留),ほぼすべての機械学習アルゴリズムのパフォーマンスを改善する非常に簡単な方法は、同じデータで多くの異なるモデルをトレーニングし、その予測を平均化することです。,https://paperswithcode.com/method/knowledge-distillation
+417,Language Modelling(言語モデリング),言語モデリングは、ドキュメント内の次の単語または文字を予測するタスクです。,https://paperswithcode.com/task/language-modelling
+418,Layout-to-Image Generation(レイアウトから画像の生成),レイアウトから画像への生成指定されたレイアウトに基づいてシーンを生成するタスク。,https://paperswithcode.com/task/layout-to-image-generation
+419,Lesion Detection(病変検出),このタスクには説明がありません！,https://paperswithcode.com/task/lesion-detection
+420,License Plate Detection(ナンバープレートの検出),ナンバープレート認識は、ナンバープレートで車両を識別するために使用される画像処理テクノロジーです。,https://paperswithcode.com/task/license-plate-detection
+421,License Plate Recognition(ナンバープレートの認識),このタスクには説明がありません！,https://paperswithcode.com/task/license-plate-recognition
+422,Lip password classification(リップパスワード分類),指定されたユーザーが指定されたパスワードを発しているかどうかを予測する分類タスク。,https://paperswithcode.com/task/lip-password-classification
+423,Localization In Video Forgery(ビデオ偽造のローカリゼーション),このタスクには説明がありません！,https://paperswithcode.com/task/localization-in-video-forgery
+424,Logical Reasoning Question Answering(論理的な推論質問応答),Reclor（ICLR 2020）によって導入された論理的推論は、質問に答えるためのモデルの論理的推論能力を評価することです。,https://paperswithcode.com/task/logical-reasoning-question-ansering
+425,Long Term Action Anticipation(長期的な行動の予想),このタスクには説明がありません！,https://paperswithcode.com/task/long-term-action-anticipation
+426,Long-tail Learning(ロングテール学習),視覚的認識で最も困難な問題の1つであるロングテールの学習は、長期にわたるクラスの分布に続く多数の画像から、パフォーマンスの良いモデルを訓練することを目指しています。,https://paperswithcode.com/task/long-tail-learning
+427,Low resource - Speech Emotion Recognition(低リソース - 音声感情認識),このタスクには説明がありません！,https://paperswithcode.com/task/low-resource-speech-emotion-recognition
+428,Low-Light Image Enhancement(低光画像の強化),低光画像の強化は、低照度条件下でキャプチャされた画像の品質を改善することを伴うコンピュータービジョンタスクです。,https://paperswithcode.com/task/low-light-image-enhancement
+429,MULTI-VIEW LEARNING(マルチビュー学習),マルチビュー学習は、データが複数の異なる機能グループで表される機械学習フレームワークであり、各機能グループは特定のビューと呼ばれます。,https://paperswithcode.com/task/multi-view-learning
+430,Markerless Motion Capture(マーカーレスモーションキャプチャ),このタスクには説明がありません！,https://paperswithcode.com/task/markerless-motion-capture
+431,Medical Diagnosis(医療診断),医学的診断は、特定の危険因子、兆候、症状、および試験結果の評価に基づいて、患者が影響を受ける疾患を特定するプロセスです。,https://paperswithcode.com/task/medical-diagnosis
+432,Medical Image Registration(医療画像登録),画像登録は、画像の融合または画像マッチングとも呼ばれ、画像の外観に基づいて2つ以上の画像を調整するプロセスです。,https://paperswithcode.com/task/medical-image-registration
+433,Medical Object Detection(医療物体の検出),医療オブジェクトの検出は、画像内の医療ベースのオブジェクトを識別するタスクです。,https://paperswithcode.com/task/medical-object-detection
+434,Metaheuristic Optimization(メタヒューリスティックな最適化),コンピューターサイエンスと数学的最適化では、メタヒューリスティックは、最適化問題に対して十分に良い解決策を提供する可能性のあるヒューリスティック（部分検索アルゴリズム）を見つけ、生成、または選択するように設計された高レベルの手順またはヒューリスティックです。,https://paperswithcode.com/task/metaheuristic-optimization
+435,Micro-Expression Spotting(マイクロエクスプレッションスポッティング),顔の微小表現スポッティングは、発症、頂点、および,https://paperswithcode.com/task/micro-expression-spotting
+436,Misinformation(誤報),このタスクには説明がありません！,https://paperswithcode.com/task/misinformation
+437,Mistake Detection(間違いの検出),多くのタスクでの間違いは自然な発生であり、ARアシスタントが助けを提供する機会です。,https://paperswithcode.com/task/mistake-detection
+438,Moment Queries(モーメントクエリ),このタスクには説明がありません！,https://paperswithcode.com/task/moment-queries
+439,Monocular 3D Human Pose Estimation(単眼3Dヒトポーズ推定),このタスクは、単一のRGBカメラを使用した3Dヒューマンポーズ推定をターゲットにします。,https://paperswithcode.com/task/monocular-3d-human-pose-estimation
+440,Monocular 3D Object Detection(単眼3Dオブジェクト検出),単眼3Dオブジェクト検出は、単一の2D RGB画像でオブジェクトの周りに3D境界ボックスを描画するタスクです。,https://paperswithcode.com/task/monocular-3d-object-detection
+441,Monocular Cross-View Road Scene Parsing(Road)(単眼のクロスビューロードシーンの解析（道路）),このタスクには説明がありません！,https://paperswithcode.com/task/monocular-cross-view-road-scene-parsing-road
+442,Monocular Cross-View Road Scene Parsing(Vehicle)(単眼のクロスビューロードシーンの解析（車両）),このタスクには説明がありません！,https://paperswithcode.com/task/monocular-cross-view-road-scene-parsing
+443,Motion Disentanglement(モーション解体),非標識ビデオでの通常の動きから不規則な（異常な）動きを解くための自己監視学習方法。,https://paperswithcode.com/method/motion-disentanglement
+444,Motion Synthesis(モーション合成),画像ソース：回転したデュアルピクセルのぼかしカーネルを適用することによるマルチビューモーション合成,https://paperswithcode.com/task/motion-synthesis
+445,Moving Object Detection(移動オブジェクトの検出),このタスクには説明がありません！,https://paperswithcode.com/task/moving-object-detection
+446,Multi Future Trajectory Prediction(多将来の軌跡予測),このタスクには説明がありません！,https://paperswithcode.com/task/multi-future-trajectory-prediction-1
+447,Multi-Frame Super-Resolution(マルチフレームスーパー解像度),同じビューの複数の画像が、おそらく異なる時期にも、わずかに異なる位置から取られている場合、それらはそれ自体の単一の画像よりも多くの情報を集合的に含んでいます。,https://paperswithcode.com/task/multi-frame-super-resolution
+448,Multi-Instance Retrieval(マルチインストの検索),このタスクには説明がありません！,https://paperswithcode.com/task/multi-instance-retrieval
+449,Multi-Label Image Classification(マルチラベル画像分類),マルチラベル画像分類は、各画像が複数のクラスに属する可能性のあるマルチクラス分類問題の画像のラベルの予測に焦点を当てています。,https://paperswithcode.com/task/multi-label-image-classification
+450,Multi-Person Pose Estimation and Tracking(マルチパーソンのポーズ推定と追跡),共同マルチパーソンは、Posetrackベンチマークに続いて、推定と追跡をもたらします。,https://paperswithcode.com/task/multi-person-pose-estimation-and-tracking
+451,Multi-agent Reinforcement Learning(マルチエージェント強化学習),マルチエージェント強化学習の目標は、異なるサブタスクに焦点を当てた複数のエージェントを統合することにより、複雑な問題を解決することです。,https://paperswithcode.com/task/multi-agent-reinforcement-learning
+452,Multi-modal Classification(マルチモーダル分類),このタスクには説明がありません！,https://paperswithcode.com/task/multi-modal-classification
+453,Multi-task Audio Source Seperation(マルチタスクオーディオソースの分離),このタスクには説明がありません！,https://paperswithcode.com/task/multi-task-audio-source-seperation
+454,Multimodal Abstractive Text Summarization(マルチモーダルの抽象的なテキストの要約),複数のモダリティからの情報を利用することによる抽象的なテキストの要約。,https://paperswithcode.com/task/multimodal-abstractive-text-summarization
+455,Multimodal Association(マルチモーダル協会),マルチモーダル協会は、時系列分析で複数のモダリティまたはタイプのデータを関連付けるプロセスを指します。,https://paperswithcode.com/task/multimodal-association
+456,Multimodal Forgery Detection(マルチモーダル偽造検出),マルチモーダル偽造検出タスクは、ビデオとオーディオの両方を使用する深い偽造検出方法です。,https://paperswithcode.com/task/multimodal-forgery-detection
+457,Multimodal GIF Dialog(マルチモーダルGIFダイアログ),このタスクには説明がありません！,https://paperswithcode.com/task/multimodal-gif-dialog
+458,Multiple Object Track and Segmentation(複数のオブジェクトトラックとセグメンテーション),複数のオブジェクトの追跡とセグメンテーションには、特定のクラスのセットに属するオブジェクトを検出、追跡、およびセグメント化する必要があります。,https://paperswithcode.com/task/multiple-object-track-and-segmentation
+459,Multiview Detection(マルチビュー検出),大量に閉塞されたシナリオで検出するために複数のカメラビューを組み込む。,https://paperswithcode.com/task/multiview-detection
+460,Multiview Gait Recognition(マルチビュー歩行認識),このタスクには説明がありません！,https://paperswithcode.com/task/multiview-gait-recognition
+461,Music Classification(音楽分類),このタスクには説明がありません！,https://paperswithcode.com/task/music-classification
+462,Music Emotion Recognition(音楽感情認識),このタスクには説明がありません！,https://paperswithcode.com/task/music-emotion-recognition
+463,Music Generation(音楽世代),音楽生成は、モデルやアルゴリズムから音楽や音楽のような音を生成するタスクです。,https://paperswithcode.com/task/music-generation
+464,Natural Language Inference(自然言語の推論),自然言語推論（NLI）は、「仮説」が真実（誤った）、偽（矛盾）、または「前提」を与えられた未定（中立）かどうかを判断するタスクです。,https://paperswithcode.com/task/natural-language-inference
+465,Natural Language Understanding(自然言語の理解),自然言語理解は、テキスト分類、自然言語の推論、ストーリーの理解などのさまざまなタスクを含む自然言語処理の重要な分野です。,https://paperswithcode.com/task/natural-language-understanding
+466,No-Reference Image Quality Assessment(参照なしの画質評価),モデルが参照画像情報が利用できない画像品質評価アプローチ。,https://paperswithcode.com/task/no-reference-image-quality-assessment
+467,Object Categorization(オブジェクト分類),オブジェクトの分類は、特定のセットから、入力画像と境界ボックスで定義された画像領域に最もよく対応するラベルを識別します。,https://paperswithcode.com/task/object-categorization
+468,Object Detection In Indoor Scenes(屋内シーンでのオブジェクト検出),屋内シーンでのオブジェクト検出は、屋内環境内でオブジェクト検出を実行するタスクです。,https://paperswithcode.com/task/object-detection-in-indoor-scenes
+469,Object Discovery(オブジェクトの発見),オブジェクトの発見は、以前に見えないオブジェクトを識別するタスクです。,https://paperswithcode.com/task/object-discovery
+470,Object Proposal Generation(オブジェクト提案生成),オブジェクトプロポーザル生成は、オブジェクトの検索をガイドし、画像間の徹底的なスライディングウィンドウ検索を避けるために、現在のオブジェクト検出パイプラインで広く使用されている前処理手法です。,https://paperswithcode.com/task/object-proposal-generation
+471,Object State Change Classification(オブジェクト状態の変更分類),このタスクには説明がありません！,https://paperswithcode.com/task/object-state-change-classification
+472,Occluded 3D Object Symmetry Detection(閉塞された3Dオブジェクト対称検出),このタスクには説明がありません！,https://paperswithcode.com/task/occluded-3d-object-symmetry-detection
+473,Offline RL(オフラインRL),このタスクには説明がありません！,https://paperswithcode.com/task/offline-rl
+474,One-Shot Instance Segmentation(ワンショットインスタンスセグメンテーション),（画像クレジット：シャムマスクR-CNN）,https://paperswithcode.com/task/one-shot-instance-segmentation
+475,One-Shot Object Detection(ワンショットオブジェクトの検出),（画像クレジット：シャムマスクR-CNN）,https://paperswithcode.com/task/one-shot-object-detection
+476,One-shot visual object segmentation(ワンショットビジュアルオブジェクトセグメンテーション),このタスクには説明がありません！,https://paperswithcode.com/task/one-shot-visual-object-segmentation
+477,Open Set Action Recognition(オープンセットアクション認識),このタスクには説明がありません！,https://paperswithcode.com/task/open-set-action-recognition
+478,Open Vocabulary Object Detection(開く語彙オブジェクト検出),オープンボキャブラリー検出（OVD）は、トレーニング段階でラベル付けされた限られた数の基本クラスを超えて一般化することを目的としています。,https://paperswithcode.com/task/open-vocabulary-object-detection
+479,Open-Domain Dialog(オープンドメインダイアログ),このタスクには説明がありません！,https://paperswithcode.com/task/open-domain-dialog
+480,Organ Detection(臓器検出),このタスクには説明がありません！,https://paperswithcode.com/task/organ-detection
+481,Paraphrase Generation(言い換えの生成),言い換えの生成には、自然言語文を新しい文に変換することが含まれます。これは、同じ意味の意味ですが、異なる構文または語彙表面形式です。,https://paperswithcode.com/task/paraphrase-generation
+482,Partial Label Learning(部分ラベル学習),このタスクには説明がありません！,https://paperswithcode.com/task/partial-label-learning
+483,Partial Point Cloud Matching(部分ポイントクラウドマッチング),このタスクには説明がありません！,https://paperswithcode.com/task/partial-point-cloud-matching
+484,Partial Video Copy Detection(部分的なビデオコピー検出),PVCDの目標は、長いテストビデオの1つ以上のセグメントがリファレンスビデオデータセットからコピー（変換）されているかどうかを識別および検索することです。,https://paperswithcode.com/task/partial-video-copy-detection
+485,Pedestrian Trajectory Prediction(歩行者の軌跡予測),このタスクには説明がありません！,https://paperswithcode.com/task/pedestrian-trajectory-prediction
+486,Person Recognition(人の認識),このタスクには説明がありません！,https://paperswithcode.com/task/person-recognition
+487,Personality Recognition in Conversation(会話における人格認識),スピーカーの他の人との会話を考えると、会話記録を通じてスピーカーの性格特性を認識する必要があります。これには、2つのシナリオが含まれます（1）,https://paperswithcode.com/task/personality-recognition-in-conversation
+488,Personality Trait Recognition(人格特性認識),このタスクには説明がありません！,https://paperswithcode.com/task/personality-trait-recognition
+489,Personalized and Emotional Conversation(パーソナライズされた感情的な会話),パーソナライズされた感情的な会話（PEC）は、次のように定義されます。,https://paperswithcode.com/task/personalized-and-emotional-conversation
+490,Persuasion Strategies(説得戦略),広告における説得戦略の予測,https://paperswithcode.com/task/persuasion-strategies
+491,Photoplethysmography (PPG) heart rate estimation(フォトプレチスモグラフィ（PPG）心拍数の推定),フォトトプレチュートモグラム（PPG）信号からの心拍数の推定,https://paperswithcode.com/task/photoplethysmography-ppg-heart-rate
+492,Point Cloud Registration(ポイントクラウド登録),ポイントクラウド登録は、3Dコンピュータービジョンと写真測量の根本的な問題です。,https://paperswithcode.com/task/point-cloud-registration
+493,Point-Supervised Instance Segmentation(ポイントスパイブ化されたインスタンスセグメンテーション),ポイントラベルを使用した弱く監視されたインスタンスセグメンテーション,https://paperswithcode.com/task/point-supervised-instance-segmentation
+494,Portrait Segmentation(ポートレートセグメンテーション),このタスクには説明がありません！,https://paperswithcode.com/task/portrait-segmentation
+495,Pose Contrastive Learning(対照的な学習をもたらします),ここにメソッドについて説明してください,https://paperswithcode.com/method/pose-contrastive-learning
+496,Privacy Preserving Deep Learning(深い学習を維持するプライバシー),プライバシープレゼント（深い）学習の目標は、トレーニングデータセットのプライバシーを維持しながらモデルをトレーニングすることです。,https://paperswithcode.com/task/privacy-preserving-deep-learning
+497,drone-based object tracking(ドローンベースのオブジェクト追跡),ドローンベースのオブジェクト追跡,https://paperswithcode.com/task/drone-based-object-tracking
+498,eXtreme-Video-Frame-Interpolation(極端なビデオフレーム挿入),極端な動きを伴う1000 fpsの4Kビデオを含むx4k1000fpsデータセットの中間フレームを補間するビデオフレーム補間（VFI）。,https://paperswithcode.com/task/extreme-video-frame-interpolation
